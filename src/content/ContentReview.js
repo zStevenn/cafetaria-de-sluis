@@ -6,26 +6,28 @@ const data = [
 	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
 ];
 
-function DisplayCustomerReview(props) {
-	const customerData = props.customerData;
-	const customerCards = customerData.map((customer) => (
-		<div className="content__review_card">
-			<h3>{customer.orderName}</h3>
-			<p>{customer.orderStars}</p>
-			<p>{customer.orderDescription}</p>
+function DisplayCustomerReview() {
+	return (
+		<div className="content__review__card">
+			<h3>Name:Steven</h3>
+			<p>Stars:5</p>
+			<p>Descr:Amazing!</p>
+			<p>Date: 6-11-2022</p>
 		</div>
-	));
-	return { customerCards };
+	);
 }
 
 function ContentReview() {
 	return (
 		<div className="content__review">
-			<div className="content__review_header">
-				<h2>Review</h2>
+			<div className="content__review__header">
+				<h2>Reviews</h2>
 			</div>
-			<div className="content__review_order">
-				<DisplayCustomerReview customerData={data} />
+			<div className="content__review__order">
+				<DisplayCustomerReview />
+        <DisplayCustomerReview />
+        <DisplayCustomerReview />
+        <DisplayCustomerReview />
 			</div>
 		</div>
 	);
