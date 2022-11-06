@@ -1,9 +1,9 @@
 import "./App.css";
 
-// Import header component
+// Import components
 import Header from "./header/Header";
-// Import content order component
 import ContentOrder from "./content/ContentOrder";
+import ContentReview from "./content/ContentReview";
 
 function App() {
 	return (
@@ -11,6 +11,7 @@ function App() {
 			<Header />
 			<div className="content__wrapper">
 				<ContentOrder />
+        <ContentReview />
 			</div>
 		</div>
 	);
