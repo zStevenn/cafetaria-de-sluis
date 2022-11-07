@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./header/Header";
 import ContentOrder from "./content/ContentOrder";
 import ContentReview from "./content/ContentReview";
+import Article from "./content/Article";
 
 function App() {
 	return (
@@ -11,7 +12,8 @@ function App() {
 			<Header />
 			<div className="content__wrapper">
 				<ContentOrder />
-        <ContentReview />
+				<ContentReview />
+				<Article />
 			</div>
 		</div>
 	);
