@@ -1,10 +1,10 @@
 import "./ContentReview.css";
 
-const data = [
-	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
-	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
-	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
-];
+// const data = [
+// 	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
+// 	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
+// 	{ orderName: "Steven", orderStars: "5", orderDescription: "Amazing!" },
+// ];
 
 function DisplayCustomerReview() {
 	return (

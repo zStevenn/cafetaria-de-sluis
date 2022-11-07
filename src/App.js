@@ -12,7 +12,7 @@ function App() {
 			<Header />
 			<div className="content__wrapper">
 				<ContentOrder />
-        			<ContentReview />
+				<ContentReview />
 				<Article />
 			</div>
 		</div>
