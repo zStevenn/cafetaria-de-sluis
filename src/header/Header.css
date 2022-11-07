@@ -18,7 +18,7 @@
 }
 
 /* Hamburger toggle */
-.header .header__menu > .header__menu__toggle {
+.header .header__menu > .header__menu-toggle {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -28,7 +28,7 @@
   padding-top: 10px;
 }
 
-.header .header__menu__item {
+.header .header__menu-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +49,7 @@
   box-shadow: 0 2px 0px 1px rgba(0,0,0,0.75);
 }
 
-.header .header__menu__item > ul {
+.header .header__menu-item > ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -60,22 +60,22 @@
   margin-bottom: 16px;
 }
 
-.header .header__menu__item > ul > li > a {
+.header .header__menu-item > ul > li > a {
   color: #000;
   text-decoration: none;
   padding: 8px 16px;
 }
 
-.header .header__menu__item > ul > li:focus,
-.header .header__menu__item > ul > li:hover {
+.header .header__menu-item > ul > li:focus,
+.header .header__menu-item > ul > li:hover {
   text-decoration: underline;
 }
 
 /* Display menu items when hamburger menu is pressed */
-.header .header__menu > .header__menu__item {
+.header .header__menu > .header__menu-item {
   display: none;
 }
 
-.header .header__menu.open > .header__menu__item {
+.header .header__menu.open > .header__menu-item {
   display: flex;
 }
