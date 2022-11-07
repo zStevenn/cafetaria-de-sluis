@@ -12,9 +12,9 @@ function App() {
 			<Header />
 			<div className="content__wrapper">
 				<ContentOrder />
-        <ContentReview />
-		<Footer />
+				<ContentReview />
 			</div>
+			<Footer />
 		</div>
 	);
 }

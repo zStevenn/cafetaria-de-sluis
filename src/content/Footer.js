@@ -1,6 +1,5 @@
 import "./Footer.css";
 import React, { Component } from "react";
-import React, { useState } from "react";
 
 class Footer extends Component {
   constructor(props) {
@@ -79,7 +78,7 @@ class Footer extends Component {
         </div>
         <div className="footer__lower">
           <div className="footer__copyright">
-            &copy; Copyright
+            &copy; Copyright Cafetaria de sluis 2022
           </div>
         </div>
       </footer>
