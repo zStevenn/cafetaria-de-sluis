@@ -1,0 +1,110 @@
+.footer {
+  --color-header-bg: rgb(177, 94, 94);
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--color-header-bg);
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.75);
+}
+
+.footer .footer__upper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5px;
+}
+
+.footer .footer__upper .footer__title {
+  border-bottom: 1px solid black;
+  font-weight: 500;
+}
+
+.footer .footer__upper .footer__title:hover,
+.footer .footer__upper .footer__title:active {
+  border-bottom: 2px solid black;
+  font-weight: 600;
+}
+
+.footer .footer__list {
+  display: none;
+  list-style-type: none;
+  padding: .2em;
+  margin: 16px 0;
+  border: 1px solid black;
+}
+
+.footer .footer__lower {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2.2vh;
+}
+
+.footer .footer__copyright {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+/* Css when footer title is triggered to open */
+.footer *.open .footer__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer__opening-hours .footer__list .footer__item,
+.footer .footer__links .footer__list .footer__item,
+.footer .footer__socials .footer__list .footer__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 481px) {
+
+}
+
+/* iPad optimization */
+@media screen and (min-width: 769px) {
+
+}
+
+/* Desktop optimization */
+@media screen and (min-width: 1025px) {
+  .footer .footer__upper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 16px;
+  }
+
+  .footer .footer__upper > * {
+    margin: 15px;
+  }
+
+  .footer .footer__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .footer__upper .footer__title {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

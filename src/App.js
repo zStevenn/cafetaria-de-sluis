@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./header/Header";
 import ContentOrder from "./content/ContentOrder";
 import ContentReview from "./content/ContentReview";
+import Footer from "./content/Footer";
 import Article from "./content/Article";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<ContentReview />
 				<Article />
 			</div>
+			<Footer />
 		</div>
 	);
 }
