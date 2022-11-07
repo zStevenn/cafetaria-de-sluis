@@ -4,7 +4,7 @@ function ContentProduct(props) {
   return (
     <div className="article__card">
       <h3 className="article__title">Titel {props.id}</h3>
-      <img className="article__img" src={props.id}/>
+      <img className="article__img" src={props.id} alt={props.id}/>
       <p className="article__description">
       <span className="article__price">€ 5,99</span>
         Korte omschrijving
