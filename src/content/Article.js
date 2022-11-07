@@ -26,4 +26,10 @@ function DisplayArticles(props) {
 
 const blockArray = [1,2,3,4,5,6,7,8,9];
 
+function Article() {
+  return (
+    <DisplayArticles block={blockArray} />
+  );
+}
+
 export default Article;
