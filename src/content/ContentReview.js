@@ -8,10 +8,10 @@ const data = [
 
 function DisplayCustomerReview() {
 	return (
-		<div className="content__review__card">
-			<h3>Name:Steven</h3>
-			<p>Stars:5</p>
-			<p>Descr:Amazing!</p>
+		<div className="review__card">
+			<h3 className="review__card-title">Name:Steven</h3>
+			<p className="review__card-stars">Stars:5</p>
+			<p className="review__card-description">Descr:Amazing!</p>
 			<p>Date: 6-11-2022</p>
 		</div>
 	);
@@ -19,11 +19,11 @@ function DisplayCustomerReview() {
 
 function ContentReview() {
 	return (
-		<div className="content__review">
-			<div className="content__review__header">
+		<div className="review">
+			<div className="review__header">
 				<h2>Reviews</h2>
 			</div>
-			<div className="content__review__order">
+			<div className="review__order">
 				<DisplayCustomerReview />
         <DisplayCustomerReview />
         <DisplayCustomerReview />
