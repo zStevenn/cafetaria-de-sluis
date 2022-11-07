@@ -19,7 +19,7 @@ function HeaderMenu() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [menuClass, setMenuClass] = useState("header__menu");
 	const [menuSvgOpen, setMenuSvgOpen] = useState(false);
-	const [menuSvgClass, setMenuSvgClass] = useState("header__menu__svg");
+	const [menuSvgClass, setMenuSvgClass] = useState("header__menu-svg");
 
 	const MenuClosedIcon = (
 		<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
@@ -37,7 +37,7 @@ function HeaderMenu() {
 		setMenuOpen(!menuOpen);
 		setMenuSvgOpen(!menuSvgOpen);
 		setMenuClass(menuOpen ? "header__menu" : "header__menu open");
-		setMenuSvgClass(menuSvgOpen ? "header__menu__svg" : "header__menu__svg open");
+		setMenuSvgClass(menuSvgOpen ? "header__menu-svg" : "header__menu-svg open");
 	}
 
 	return (
@@ -45,7 +45,7 @@ function HeaderMenu() {
 			<div className={menuSvgClass} onClick={toggleMenu}>
 				{MenuClosedIcon}
 			</div>
-			<div className="header__menu__item">
+			<div className="header__menu-item">
 				<ul>
 					<li>
 						<a href="#home">Home</a>
