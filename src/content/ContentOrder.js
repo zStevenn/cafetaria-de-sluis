@@ -7,8 +7,8 @@ function ContentOrder() {
         <img src={`/images/ContentOrder.png`} alt="Cafetaria de Sluis" />
       </div>
       <div className="order__text">
-        <h1>Bestel je eten online</h1>
-        <p>
+        <h1 className="order__text-title">Bestel je eten online</h1>
+        <p className="order__text-description">
           Ga nu naar onze webshop en bestel je eten online.
           Je kunt je bestelling ophalen bij de kassa of laten bezorgen.
         </p>
