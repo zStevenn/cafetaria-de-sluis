@@ -58,7 +58,7 @@
 
 /* iPad optimization */
 @media screen and (min-width: 769px) {
-  .article__card {
+  .article .article__card {
     width: 33%;
   }
 
