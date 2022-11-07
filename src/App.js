@@ -1,11 +1,11 @@
 import "./App.css";
 
 // Import components
-import Header from "./header/Header";
-import ContentOrder from "./content/ContentOrder";
-import ContentReview from "./content/ContentReview";
-import Footer from "./content/Footer";
-import Article from "./content/Article";
+import Header from "./components/layout/Header";
+import ContentOrder from "./components/content/ContentOrder";
+import ContentReview from "./components/content/ContentReview";
+import Footer from "./components/content/Footer";
+import Article from "./components/content/Article";
 
 function App() {
 	return (
