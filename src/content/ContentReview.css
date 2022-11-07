@@ -8,13 +8,13 @@
   margin: 0 auto;
 }
 
-.content__review .content__review__order {
+.content__review .content__order {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.content__review .content__review__card {
+.content__review .content__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,13 +27,13 @@
   margin: 10px 20px;
 }
 
-.content__review .content__review__card .content__review__card__title {
+.content__review .content__card .content__card-title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.content__review .content__review__card .content__review__card__description {
+.content__review .content__card .content__card-description {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
