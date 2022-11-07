@@ -1,4 +1,4 @@
-.content__review {
+.review {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,13 +8,13 @@
   margin: 0 auto;
 }
 
-.content__review .content__order {
+.review .review__order {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.content__review .content__card {
+.review .review__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,13 +27,17 @@
   margin: 10px 20px;
 }
 
-.content__review .content__card .content__card-title {
+.review .review__card .review__card-title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.content__review .content__card .content__card-description {
+.review .review__card .review__card-stars {
+  font-weight: 900;
+}
+
+.review .review__card .review__card-description {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
