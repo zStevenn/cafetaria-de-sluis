@@ -29,7 +29,7 @@
 }
 
 .header .header__menu-item {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -71,11 +71,7 @@
   text-decoration: underline;
 }
 
-/* Display menu items when hamburger menu is pressed */
-.header .header__menu > .header__menu-item {
-  display: none;
-}
-
+/* Display menu items when header menu is open */
 .header .header__menu.open > .header__menu-item {
   display: flex;
 }
