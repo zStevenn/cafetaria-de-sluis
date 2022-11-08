@@ -6,6 +6,7 @@ import Banner from "./components/content/Banner";
 import ContentReview from "./components/content/ContentReview";
 import Footer from "./components/content/Footer";
 import Products from "./components/content/Products";
+import Newsarticle from "./components/content/Newsarticle";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Banner />
 				<ContentReview />
 				<Products />
+				<Newsarticle />
 			</div>
 			<Footer />
 		</div>
