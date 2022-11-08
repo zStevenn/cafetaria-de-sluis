@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 2vh;
+  background-color: var(--main-theme__white);
 }
 
 .product .product__card {
