@@ -1,10 +1,33 @@
 body {
+  --main-theme__black: #000000;
+  --main-theme__white: #FFFFFF;
+  --main-theme__cyan: #OF3F49;
+  --main-theme__green: #379C00;
+  --main-theme__green-light: #63D471;
+  --main-theme__green-dark: #4E7D55;
+  
+  --main-theme__green-hover: #2E8300;
+  --main-theme__black-hover: #rgba(255,255,255,0.06);
+  --main-theme__white-hover: #eee;
+  
+  
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.prevent-select {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Opera and Firefox */
 }
 
 code {
