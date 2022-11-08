@@ -1,4 +1,4 @@
-.order {
+.banner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,14 +8,14 @@
   min-height: 40vh;
 }
 
-.order .order__image,
-.order .order__image img {
+.banner .banner__image,
+.banner .banner__image img {
   width: 100%;
   height: 40vh;
   object-fit: cover;
 }
 
-.order .order__image {
+.banner .banner__image {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,11 +26,11 @@
   opacity: 0.5;
 }
 
-.order .order__button {
+.banner .banner__button {
   margin: 0 auto;
   margin-top: 2rem;
   padding: .5rem 1.5rem;
-  background: var(--color-header-bg);
+  background: var(--main-theme__green);
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.75);
   border-radius: 5px;
   font-size: 1rem;
@@ -41,13 +41,13 @@
   transition: all 0.2s ease-in-out;
 }
 
-.order .order__button:active,
-.order .order__button:hover {
-  background: rgba(0, 0, 0, 0.85);
-  color: var(--color-header-bg);
+.banner .banner__button:active,
+.banner .banner__button:hover {
+  background: var(--main-theme__green-hover);
+  color: var(--main-theme__white);
 }
 
-.order .order__text {
+.banner .banner__text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@
   z-index: 0;
 }
 
-.order .order__text .order__text-title {
+.banner .banner__text .banner__text-title {
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
@@ -65,7 +65,7 @@
   margin-bottom: 1rem;
 }
 
-.order .order__text .order__text-description {
+.banner .banner__text .banner__text-description {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
