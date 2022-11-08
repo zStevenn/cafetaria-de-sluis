@@ -14,7 +14,7 @@ function App() {
 			<div className="content__wrapper">
 				<Banner />
 				<ContentReview />
-				<Article />
+				<Products />
 			</div>
 			<Footer />
 		</div>
