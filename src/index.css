@@ -1,16 +1,10 @@
 body {
-  --main-theme__black: #000000;
-  --main-theme__white: #FFFFFF;
-  --main-theme__cyan: #OF3F49;
-  --main-theme__green: #379C00;
-  --main-theme__green-light: #63D471;
-  --main-theme__green-dark: #4E7D55;
+  /* Custom colors */
+  --theme-color--primary: #11470D;
+  --theme-color--secondary: #F2F2F2;
+  --theme-color--tertiary: #F2F2F2;
   
-  --main-theme__green-hover: #2E8300;
-  --main-theme__black-hover: #rgba(255,255,255,0.06);
-  --main-theme__white-hover: #eee;
-  
-  
+  /* Default styling */
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -28,9 +22,4 @@ body {
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently
                         supported by Chrome, Opera and Firefox */
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
