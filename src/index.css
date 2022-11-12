@@ -1,23 +1,42 @@
-body {
-  --main-theme__black: #000000;
-  --main-theme__white: #FFFFFF;
-  --main-theme__cyan: #OF3F49;
-  --main-theme__green: #379C00;
-  --main-theme__green-light: #63D471;
-  --main-theme__green-dark: #4E7D55;
-  
-  --main-theme__green-hover: #2E8300;
-  --main-theme__black-hover: #rgba(255,255,255,0.06);
-  --main-theme__white-hover: #eee;
-  
-  
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  /* Custom colors */
+  --theme-color--primary: #11470D;
+  --theme-color--secondary: #F2F2F2;
+  --theme-color--primary-light: #3B7E38;
+  --theme-color--title: #000000;
+  --theme-color--subtitle: #6F7A6B;
+  
+  /* Custom fonts */
+  --theme-font--primary: 'Roboto', sans-serif;
+  --theme-font--secondary: 'Roboto', sans-serif;
+  --theme-font--title: 'Outfit', sans-serif;
+  --theme-font--subtitle: 'Outfit', sans-serif;
+
+  /* Default styling */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--theme-font--title);
+  color: var(--theme-color--title);
+}
+
+p, .description, li, a {
+  font-family: var(--theme-font--secondary);
+  color: var(--theme-color--secondary);
+}
+
+.hidden {
+	display: none;
 }
 
 .prevent-select {
@@ -30,7 +49,16 @@ body {
                         supported by Chrome, Opera and Firefox */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
