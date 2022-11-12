@@ -70,9 +70,13 @@
 }
 
 .btn__order {
-	padding: 1rem 1.5rem;
+	padding: 0.5rem 1rem;
+	border: 2px solid var(--theme-color--secondary);
+	border-radius: 5px;
+	color: var(--theme-color--primary);
+	font-family: var(--theme-font--title);
 	font-size: 1.25rem;
-	font-weight: 600;
+	text-decoration: none;
 }
 
 @keyframes fadeIn {

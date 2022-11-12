@@ -12,11 +12,11 @@ function App() {
 		<div className="App">
 			<Navbar />
 			<div className="content__wrapper">
-				{/* <Banner /> */}
-				{/* <ContentReview /> */}
-				{/* <Products /> */}
+				<Banner />
+				<ContentReview />
+				<Products />
 			</div>
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }
