@@ -1,18 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   /* Custom colors */
   --theme-color--primary: #11470D;
   --theme-color--secondary: #F2F2F2;
-  --theme-color--tertiary: #F2F2F2;
+  --theme-color--primary-light: #3B7E38;
+  --theme-color--title: #000000;
+  --theme-color--subtitle: #6F7A6B;
   
+  /* Custom fonts */
+  --theme-font--primary: 'Roboto', sans-serif;
+  --theme-font--secondary: 'Roboto', sans-serif;
+  --theme-font--title: 'Outfit', sans-serif;
+  --theme-font--subtitle: 'Outfit', sans-serif;
+
   /* Default styling */
-  margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--theme-font--title);
+  color: var(--theme-color--title);
+}
+
+p {
+  font-family: var(--theme-font--primary);
+  color: var(--theme-color--primary);
+}
+
 
 .prevent-select {
 	-webkit-touch-callout: none; /* iOS Safari */

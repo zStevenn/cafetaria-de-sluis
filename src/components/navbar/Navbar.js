@@ -67,6 +67,7 @@ class Header extends Component {
 		return (
 			<div className="header">
 				<HeaderLogo />
+				<h1>Hi world!</h1>
 				<HeaderMenu />
 			</div>
 		);
