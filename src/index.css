@@ -30,11 +30,14 @@ h1,h2,h3,h4,h5,h6 {
   color: var(--theme-color--title);
 }
 
-p {
-  font-family: var(--theme-font--primary);
-  color: var(--theme-color--primary);
+p, .description, li, a {
+  font-family: var(--theme-font--secondary);
+  color: var(--theme-color--secondary);
 }
 
+.hidden {
+	display: none;
+}
 
 .prevent-select {
 	-webkit-touch-callout: none; /* iOS Safari */
