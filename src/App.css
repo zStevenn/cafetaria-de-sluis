@@ -6,6 +6,12 @@
 	position: relative;
 }
 
+.green-border {
+	height: .5em;
+	background-color: var(--theme-color--primary);
+	color: var(--theme-color--primary);
+}
+
 .btn {
 	padding: 0.5rem 1rem;
 	border: 1px solid var(--theme-color--secondary);
