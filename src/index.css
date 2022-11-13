@@ -10,6 +10,9 @@ body {
   --theme-color--primary-light: #3B7E38;
   --theme-color--title: #000000;
   --theme-color--subtitle: #6F7A6B;
+  --theme-color--text: #000000;
+  --theme-color--white: #FFFFFF;
+  --theme-color--black: #000000;
   
   /* Custom fonts */
   --theme-font--primary: 'Roboto', sans-serif;

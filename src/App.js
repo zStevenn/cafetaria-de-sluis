@@ -2,7 +2,7 @@ import "./App.css";
 
 // Import components
 import Navbar from "./components/navbar/Navbar";
-import Banner from "./components/content/Banner";
+import HeroSection from "./components/content/HeroSection";
 import ContentReview from "./components/content/ContentReview";
 import Footer from "./components/content/Footer";
 import Products from "./components/content/Products";
@@ -12,7 +12,7 @@ function App() {
 		<div className="App">
 			<Navbar />
 			<div className="content__wrapper">
-				<Banner />
+				<HeroSection />
 				<ContentReview />
 				<Products />
 			</div>
