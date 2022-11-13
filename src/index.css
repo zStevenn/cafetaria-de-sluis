@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+svg {
+  cursor: pointer;
+}
+
 body {
   /* Custom colors */
   --theme-color--primary: #11470D;
