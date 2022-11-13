@@ -4,7 +4,7 @@ function HighlightItem() {
 	return (
 		<div className="p-highlights__item">
 			<div className="p-highlights__item-img">
-				<img className="img-fluid" src="https://via.placeholder.com/150" alt="Product image" />
+				<img className="img-fluid" src="https://via.placeholder.com/125" alt="Product image" />
 			</div>
 			<div className="p-highlights__item-info">
 				<h3 className="p-highlights__item-title">Productnaam</h3>

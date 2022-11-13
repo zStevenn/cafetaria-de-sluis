@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   margin: 1.25em;
-  border-radius: 20%;
+  border-radius: 15%;
   background-color: var(--theme-color--white);
 }
 
@@ -30,12 +30,12 @@
 
 .p-highlights__intro .title {
   color: var(--theme-color--black);
-  font-size: 2.2em;
+  font-size: 2em;
 }
 
 .p-highlights__items {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   margin: 0 1em;
@@ -46,7 +46,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+  margin: 1em .1em;
 }
 
 .p-highlights__item-img,
@@ -64,10 +64,10 @@
 
 .p-highlights__item-title {
   color: var(--theme-color--black);
-  font-size: 1.45em;
+  font-size: 1.5em;
 }
 
 .p-highlights__item-price {
   color: var(--theme-color--subtitle);
-  font-size: 1.25em;
+  font-size: 1em;
 }
