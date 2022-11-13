@@ -7,17 +7,19 @@ import ContentReview from "./components/content/ContentReview";
 import Footer from "./components/content/Footer";
 import Products from "./components/content/Products";
 import CTASection from "./components/content/CTASection";
+import ProductHighlights from "./components/content/ProductHighlights";
 
 function App() {
 	return (
 		<div className="App">
 			<Navbar />
-			<div className="content__wrapper">
+			<section className="content__wrapper">
 				<HeroSection />
 				<CTASection />
+				<ProductHighlights />
 				<ContentReview />
 				<Products />
-			</div>
+			</section>
 			<Footer />
 		</div>
 	);
