@@ -4,10 +4,10 @@ function HeroSection() {
 			<div className="flex flex-1 flex-col justify-center content-center text-center">
 				<div className="text-xl font-normal text-grey">Snel én makkelijk!</div>
 				<div className="text-3xl tracking-wide font-bold text-black mb-4">Bestel nu via onze eigen webshop</div>
-				<div>
+				<div className="mb-4">
 					<a
 						href="https://www.google.com"
-						className="bg-transparent hover:bg-green text-green font-semibold hover:text-white py-3 px-6 border border-green hover:border-transparent rounded-lg"
+						className="bg-green hover:bg-white text-white font-semibold hover:text-green py-3 px-6 border border-green hover:border-green rounded-lg"
 					>
 						Bestel nu online!
 					</a>
