@@ -1,8 +1,5 @@
-import "./Navbar.css";
 import React, { Component, useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
-
-
 
 function NavigationMenu() {
 	const [menuOpen, setMenuOpen] = React.useState(false);
@@ -45,6 +42,7 @@ function NavigationMenu() {
 		</>
 	);
 }
+
 class Navbar extends Component {
 	render() {
 		return (
