@@ -11,12 +11,10 @@ function App() {
 	return (
 		<div className="App">
 			<Navbar />
-			<section className="content__wrapper">
-				<HeroSection />
-				<CTASection />
-				<ProductHighlights />
-				<Review />
-			</section>
+			<HeroSection />
+			<CTASection />
+			<ProductHighlights />
+			<Review />
 		</div>
 	);
 }

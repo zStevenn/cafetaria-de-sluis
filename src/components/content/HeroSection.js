@@ -1,20 +1,23 @@
-import "./HeroSection.css";
-
 function HeroSection() {
-  return (
-    <div className="hero__container">
-      <div className="hero__text">
-        <h2 className="subtitle">Snel én makkelijk!</h2>
-        <h1 className="title">Bestel nu via onze eigen webshop</h1>
-        <a href="https://www.google.com" className="btn btn__hero">
-          Bestellen
-        </a>
-      </div>
-      <div className="hero__image">
-        <img src="/images/hero__image.svg" alt="Hero image" />
-      </div>
-    </div>
-  );
+	return (
+		<div className="flex flex-col justify-center p-2 md:flex-row">
+			<div className="flex flex-1 flex-col justify-center content-center text-center">
+				<div className="text-xl font-normal text-grey">Snel én makkelijk!</div>
+				<div className="text-3xl tracking-wide font-bold text-black mb-4">Bestel nu via onze eigen webshop</div>
+				<div className="mb-4">
+					<a
+						href="https://www.google.com"
+						className="bg-green hover:bg-white text-white font-semibold hover:text-green py-3 px-6 border border-green hover:border-green rounded-lg"
+					>
+						Bestel nu online!
+					</a>
+				</div>
+			</div>
+			<div className="flex flex-1 justify-center content-center mt-4">
+				<img src="/images/hero__image.svg" alt="Hero image" />
+			</div>
+		</div>
+	);
 }
 
 export default HeroSection;

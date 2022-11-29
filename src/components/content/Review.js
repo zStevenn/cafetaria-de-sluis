@@ -1,22 +1,19 @@
-import "./Review.css";
 import React, { Component } from "react";
 import { MdStar, MdStarHalf, MdStarOutline } from "react-icons/md";
 
 function ReviewItem() {
   return (
-    <div className="review__item">
-      <div className="item__title">
-        <h3>Name</h3>
-      </div>
-      <div className="item__stars">
+    <div className="flex flex-col justify-center align-center p-4 m-2">
+      <h2 className="text-lg text-center text-black m-2">Titel</h2>
+      <div className="flex flex-row m-2">
         <MdStar className="material-icons md-24 md-dark"/>
         <MdStar className="material-icons md-24 md-dark"/>
         <MdStar className="material-icons md-24 md-dark"/>
         <MdStarHalf className="material-icons md-24 md-dark"/>
         <MdStarOutline className="material-icons md-24 md-dark"/>
       </div>
-      <div className="item__description">
-        Description but a slightly longer version
+      <div className="h-40 w-64 m-2">
+        <p className="text-black">Lorem ipsum blablablaweijpaweirjjap jwperij pwaeij prijwae r we</p>
       </div>
     </div>
   );
@@ -25,19 +22,15 @@ function ReviewItem() {
 class Review extends Component {
 	render() {
 		return (
-			<div className="review__container">
-        <div className="review__wrapper">
-          <div className="review__title">
-            <h1 className="title">
-              Reviews
-            </h1>
-          </div>
-          <div className="review__items">
-            <ReviewItem />
-            <ReviewItem />
-          </div>
+			<>
+        <div className="flex justify-center content-center m-2">
+          <h1 className="text-3xl text-center">Reviews</h1>
         </div>
-      </div>
+        <div className="flex justify-center content-center">
+          <ReviewItem />
+          <ReviewItem />
+        </div>
+      </>
 		);
 	}
 }
