@@ -11,7 +11,7 @@ function NavigationMenu() {
 		setMenuClass(
 			menuOpen
 				? "hidden sm:flex"
-				: "absolute p-0 m-0 top-0 left-0 flex justify-center h-[100vh] w-[100vw] bg-green-800 z-10 "
+				: "absolute p-0 m-0 top-0 left-0 flex justify-center h-[100vh] w-[100vw] bg-green z-10 text-white"
 		);
 	}
 
@@ -65,7 +65,7 @@ class Navbar extends Component {
 						{/* Order Button */}
 						<a
 							href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
-							className="transition-all h-12 w-32 px-4 py-2 bg-white text-center rounded-lg text-green-800 border-solid border-2 border-current font-bold text-lg hover:bg-green-800 hover:text-white"
+							className="btn-primary"
 						>
 							Bestellen
 						</a>

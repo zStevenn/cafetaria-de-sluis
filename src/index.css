@@ -2,26 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-svg {
-  cursor: pointer;
+@layer components {
+  .btn-primary {
+    @apply transition-all h-12 w-32 px-4 py-2 bg-green text-center rounded-lg text-white border-solid border-2 border-green font-bold text-lg hover:bg-white hover:text-green
+  }
 }
 
 body {
-  /* Custom colors */
-  --theme-color--primary: #11470D;
-  --theme-color--secondary: #F2F2F2;
-  --theme-color--primary-light: #3B7E38;
-  --theme-color--title: #000000;
-  --theme-color--subtitle: #6F7A6B;
-  --theme-color--text: #000000;
-  --theme-color--white: #FFFFFF;
-  --theme-color--black: #000000;
-  
   /* Custom fonts */
   --theme-font--primary: 'Roboto', sans-serif;
   --theme-font--secondary: 'Roboto', sans-serif;

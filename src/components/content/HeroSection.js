@@ -7,7 +7,7 @@ function HeroSection() {
 				<div className="mb-4">
 					<a
 						href="https://www.google.com"
-						className="bg-green hover:bg-white text-white font-semibold hover:text-green py-3 px-6 border border-green hover:border-green rounded-lg"
+						className="btn-primary font-semibold"
 					>
 						Bestel nu online!
 					</a>
