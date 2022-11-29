@@ -52,7 +52,7 @@ class Navbar extends Component {
 	render() {
 		return (
 			// Navbar
-			<div classname="relative">
+			<div className="relative">
 				<div className="bg-white flex flex-col justify-center mx-4">
 					{/* Title */}
 					<div className="text-3xl font-bold font-sans text-green-800 text-center my-2">Cafetaria de Sluis</div>
