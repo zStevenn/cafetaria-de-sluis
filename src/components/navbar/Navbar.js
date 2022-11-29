@@ -14,13 +14,13 @@ function NavigationMenu() {
 		<>
 			<div className=''>
 				<span onClick={toggleMenu}>
-					<MdMenu className="material-icons md-48 md-light" />
+					<MdMenu className="material-icons md-48 md-dark md:hidden" />
 				</span>
 			</div>
 			<div className={menuClass}>
-				<ul className='self-center text-white text-lg font-bold sm:flex sm:flex-row sm:flex-wrap sm:text-green-800'>
+				<ul className='self-center text-lg font-bold sm:flex sm:flex-row sm:flex-wrap sm:text-green-800'>
 					<li className='m-2 p-1' onClick={toggleMenu}>
-						<MdClose className="material-icons md-48 md-light" />
+						<MdClose className="material-icons md-48 md-dark sm:hidden" />
 					</li>
 					<li className="m-2 p-1">
 						<a href='#home'>Home</a>
