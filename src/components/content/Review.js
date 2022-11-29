@@ -12,7 +12,7 @@ function ReviewItem() {
         <MdStarHalf className="material-icons md-24 md-dark"/>
         <MdStarOutline className="material-icons md-24 md-dark"/>
       </div>
-      <div className="h-40 m-2 text-center text-black">
+      <div className="m-2 text-center text-black">
         Lorem ipsum blablablaweijpaweirjjap jwperij pwaeij prijwae r we
       </div>
     </div>
