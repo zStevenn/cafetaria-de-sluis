@@ -1,4 +1,3 @@
-import Navbar from "./components/layout/Navbar";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Menu } from "./pages/Menu";
