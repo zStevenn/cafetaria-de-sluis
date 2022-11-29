@@ -1,21 +1,17 @@
-import "./App.css";
-
-// Import components
 import Navbar from "./components/navbar/Navbar";
-import HeroSection from "./components/content/HeroSection";
-import CTASection from "./components/content/CTASection";
-import ProductHighlights from "./components/content/ProductHighlights";
-import Review from "./components/content/Review";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./components/pages/Home";
 
 function App() {
 	return (
-		<div className="App">
-			<Navbar />
-			<HeroSection />
-			<CTASection />
-			<ProductHighlights />
-			<Review />
-		</div>
+		<>
+			<div className="App">
+				<Navbar />
+			</div>
+			<Routes>
+				<Route path="/" element={<Home />} />
+			</Routes>
+		</>
 	);
 }
 
