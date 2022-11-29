@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavigationMenu() {
 	const [menuOpen, setMenuOpen] = React.useState(false);
@@ -19,28 +19,28 @@ function NavigationMenu() {
 		<>
 			<div className="">
 				<span onClick={toggleMenu}>
-					<MdMenu className="material-icons md-48 md-dark md:hidden" />
+					<MdMenu className="material-icons md-48 md-dark sm:hidden" />
 				</span>
 			</div>
 			<div className={menuClass}>
-				<ul className="self-center text-lg font-bold sm:flex sm:flex-row sm:flex-wrap sm:text-green-800">
-					<li className="m-2 p-1" onClick={toggleMenu}>
+				<ul  className="self-center text-lg font-bold sm:flex sm:flex-row sm:flex-wrap text-green-800">
+					<li onClick={toggleMenu} className="m-2 p-1" >
 						<MdClose className="material-icons md-48 md-dark sm:hidden" />
 					</li>
 					<li className="m-2 p-1">
-						<Link to="/">Home</Link>
+						<NavLink to="/">Home</NavLink>
 					</li>
 					<li className="m-2 p-1">
-						<Link to="/menu">Menu</Link>
+						<NavLink to="/menu">Menu</NavLink>
 					</li>
 					<li className="m-2 p-1">
-						<Link to="/contact">Contact</Link>
-					</li>
-					<li className="m-2 p-1">
-						<Link to="/nieuws">Nieuws</Link>
+						<NavLink to="/contact">Contact</NavLink>
 					</li>
 					<li className="m-2 p-1 sm:hidden md:flex">
-						<Link to="/vacatures">Vacatures</Link>
+						<NavLink to="/nieuws">Nieuws</NavLink>
+					</li>
+					<li className="m-2 p-1">
+						<NavLink to="/vacatures">Vacatures</NavLink>
 					</li>
 				</ul>
 			</div>
