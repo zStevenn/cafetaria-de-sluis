@@ -1,17 +1,16 @@
-import Navbar from "./components/navbar/Navbar"
-import { Route, Routes } from "react-router-dom"
-import { Home } from "./components/pages/Home"
-import { Menu } from "./components/pages/Menu"
-import { Contact } from "./components/pages/Contact"
-import { News } from "./components/pages/News"
-import { Vacatures } from "./components/pages/Vacatures"
-import { NotFound } from "./components/pages/NotFound"
+import Navbar from "./components/layout/Navbar";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Menu } from "./pages/Menu";
+import { Contact } from "./pages/Contact";
+import { News } from "./pages/News";
+import { Vacatures } from "./pages/Vacatures";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
 	return (
 		<>
 			<div className="App">
-				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/menu" element={<Menu />} />
@@ -32,4 +31,4 @@ function App() {
 	);
 }
 
-export default App
+export default App;
