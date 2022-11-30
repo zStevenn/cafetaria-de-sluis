@@ -7,6 +7,8 @@ import News from "./pages/News";
 import Vacatures from "./pages/Vacatures";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiePolicy from "./pages/CookiePolicy";
+import TermsOfService from "./pages/TermsOfService";
 
 function App() {
 	return (
@@ -20,6 +22,8 @@ function App() {
 					<Route path="/nieuws" element={<News />} />
 					<Route path="/vacatures" element={<Vacatures />} />
 					<Route path="/privacy-policy" element={<PrivacyPolicy />} />
+					<Route path="/cookie-policy" element={<CookiePolicy />} />
+					<Route path="/servicevoorwaarden" element={<TermsOfService />} />
 					{/* Vacatures nest example */}
 					{/* <Route path="vacatures">
 						<Route index element={<Vacatures />} />
