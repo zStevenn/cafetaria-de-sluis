@@ -1,20 +1,15 @@
-import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
-import HeroSection from "./content/HeroSection";
-import CTASection from "./content/CTASection";
-import ProductHighlights from "./content/ProductHighlights";
-import Review from "./content/Review";
-import Footer from "./content/Footer";
+import HeroSection from "../components/content/HeroSection";
+import CTASection from "../components/content/CTASection";
+import ProductHighlights from "../components/content/ProductHighlights";
+import Review from "../components/content/Review";
 
-export function Home() {
+export default function Home() {
 	return (
 		<>
-			<Navbar />
 			<HeroSection />
 			<CTASection />
 			<ProductHighlights />
 			<Review />
-			<Footer />
 		</>
 	);
 }

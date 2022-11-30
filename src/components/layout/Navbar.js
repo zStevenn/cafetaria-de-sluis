@@ -23,8 +23,8 @@ function NavigationMenu() {
 				</span>
 			</div>
 			<div className={menuClass}>
-				<ul  className="self-center text-lg font-bold sm:flex sm:flex-row sm:flex-wrap text-green-800">
-					<li onClick={toggleMenu} className="m-2 p-1" >
+				<ul className="self-center text-lg font-bold sm:flex sm:flex-row sm:flex-wrap text-green-800">
+					<li onClick={toggleMenu} className="m-2 p-1">
 						<MdClose className="material-icons md-48 md-dark sm:hidden" />
 					</li>
 					<li className="m-2 p-1">
@@ -63,10 +63,7 @@ class Navbar extends Component {
 						{/* Menu */}
 						<NavigationMenu />
 						{/* Order Button */}
-						<a
-							href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
-							className="btn-primary"
-						>
+						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis" className="btn-primary">
 							Bestellen
 						</a>
 					</div>
