@@ -1,4 +1,3 @@
-import React from "react";
 import { MobileNavigationMenu, DesktopNavigationMenu } from "./NavComponents";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 
