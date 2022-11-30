@@ -5,7 +5,7 @@ import { useState } from "react";
 function DesktopNavigationLink({ to, children }) {
 	return (
 		<li className="flex">
-			<NavLink to={to} className="m-2 p-1 text-white sm:text-green active:underline hover:underline text-lg font-bold font-sans">
+			<NavLink to={to} className="m-2 p-1 text-white active:underline hover:underline text-lg font-bold font-sans">
 				{children}
 			</NavLink>
 		</li>
@@ -26,10 +26,7 @@ export function DesktopNavigationMenu() {
 
 function MobileNavigationLink({ to, children }) {
 	return (
-		<NavLink
-			to={to}
-			className="m-2 p-1 text-white sm:text-green hover:underline active:underline text-3xl font-bold font-sans"
-		>
+		<NavLink to={to} className="m-2 p-1 text-white hover:underline active:underline text-3xl font-bold font-sans">
 			{children}
 		</NavLink>
 	);
@@ -37,13 +34,13 @@ function MobileNavigationLink({ to, children }) {
 
 export function MobileNavigationMenu() {
 	const [menuOpen, setMenuOpen] = useState(false);
-	const [menuClass, setMenuClass] = useState("hidden sm:flex");
+	const [menuClass, setMenuClass] = useState("hidden");
 
 	function toggleMenu() {
 		setMenuOpen(!menuOpen);
 		setMenuClass(
 			menuOpen
-				? "hidden sm:flex"
+				? "hidden"
 				: "fixed p-0 m-0 top-0 left-0 flex justify-center h-[100vh] w-[100vw] bg-green z-10 text-white"
 		);
 	}
@@ -52,13 +49,13 @@ export function MobileNavigationMenu() {
 		<>
 			<>
 				<span onClick={toggleMenu}>
-					<MdMenu className="material-icons md-48 md-green sm:hidden" />
+					<MdMenu className="material-icons md-48 text-white" />
 				</span>
 			</>
 			<div className={menuClass}>
 				<ul className="flex flex-col justify-center">
 					<li onClick={toggleMenu} className="py-2">
-						<MdClose className="material-icons md-48 md-green sm:hidden" />
+						<MdClose className="material-icons md-48 text-white" />
 					</li>
 					<li onClick={toggleMenu} className="py-2">
 						<MobileNavigationLink to="/">Home</MobileNavigationLink>
