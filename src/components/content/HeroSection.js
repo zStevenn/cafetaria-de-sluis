@@ -6,7 +6,7 @@ function HeroSection() {
 				<div className="text-3xl tracking-wide font-bold text-black mb-4">Bestel nu via onze eigen webshop</div>
 				<div className="mb-4">
 					<a
-						href="https://www.google.com"
+						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
 						className="btn-primary font-semibold"
 					>
 						Bestel nu online!
@@ -14,7 +14,7 @@ function HeroSection() {
 				</div>
 			</div>
 			<div className="flex flex-1 justify-center content-center mt-4">
-				<img src="/images/hero__image.svg" alt="Hero image" />
+				<img src="/images/hero__image.svg" alt="Hero" />
 			</div>
 		</div>
 	);

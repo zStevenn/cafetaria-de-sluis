@@ -1,7 +1,7 @@
 function HighlightItem() {
 	return (
 		<div className="flex flex-col text-center justify-center p-2 mx-2">
-      <img className="m-auto content-center w-auto h-48 rounded-3xl p-2" src="https://via.placeholder.com/125" alt="Product image" />
+      <img className="m-auto content-center w-auto h-48 rounded-3xl p-2" src="https://via.placeholder.com/125" alt="Product" />
       <span className="text-lg text-gray-500 font-medium">Productnaam</span>
       <span className="text-base text-gray-700">€ 4,95</span>
     </div>
