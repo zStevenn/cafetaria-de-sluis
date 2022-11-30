@@ -6,6 +6,10 @@
   .btn-primary {
     @apply transition-all h-12 w-32 px-4 py-2 bg-green text-center rounded-lg text-white border-solid border-2 border-green font-bold text-lg hover:bg-white hover:text-green
   }
+
+  .btn-secondary {
+    @apply transition-all h-12 w-32 px-4 py-2 bg-white text-center rounded-lg text-green border-solid border-2 border-white font-bold text-lg hover:bg-green hover:text-white
+  }
 }
 
 body {
