@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
@@ -33,6 +34,7 @@ function App() {
 					{/* Fallback Route if link doesn't exist */}
 					<Route path="*" element={<NotFound />} />
 				</Routes>
+				<Footer />
 			</div>
 		</>
 	);
