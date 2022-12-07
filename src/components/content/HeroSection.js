@@ -1,18 +1,6 @@
-import "./HeroSection.css";
-
 function HeroSection() {
 	return (
 		<div className="flex flex-col justify-center p-2 md:flex-row h-[40vh] relative">
-			<div class="waves-top">
-				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-					<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
-				</svg>
-			</div>
-			<div class="waves-bottom">
-				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-					<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-				</svg>
-			</div>
 			<div className="flex flex-1 flex-col justify-center content-center text-center">
 				<div className="text-xl font-normal text-grey">Snel én makkelijk!</div>
 				<div className="text-3xl tracking-wide font-bold text-black mb-4">Bestel nu via onze eigen webshop</div>
