@@ -1,8 +1,10 @@
 import { ReactComponent as HeroImage } from "../../assets/svg/hero-image.svg";
 import { PrimaryButton, SecondaryButton } from "../Button";
+import { AssortmentExamples } from "./HeroComponents";
 
 export default function Hero() {
 	return (
+		<>
 		<div className="flex flex-col justify-start items-center p-4 bg-primary">
 			<HeroImage className="w-2/5 h-2/5" />
 			<p className="text-3xl font-bold text-white">Bestel nu via</p>
@@ -13,6 +15,6 @@ export default function Hero() {
         <PrimaryButton>Bestel nu</PrimaryButton>
         <SecondaryButton>Bekijk menu</SecondaryButton>
       </div>
-		</div>
+		<AssortmentExamples />
 	);
 }
