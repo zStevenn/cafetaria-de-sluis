@@ -1,14 +1,14 @@
-import HeroSection from "../components/content/HeroSection";
-import CTASection from "../components/content/CTASection";
-import ProductHighlights from "../components/content/ProductHighlights";
-import Review from "../components/content/Review";
+import Hero from "../components/Hero";
+import ArticleList from "../components/Article";
+import { AssortmentExamples } from "../components/Hero/HeroComponents";
+import Review from "../components/CustomerReview";
 
 export default function Home() {
 	return (
 		<>
-			<HeroSection />
-			<CTASection />
-			<ProductHighlights />
+			<Hero />
+			<ArticleList />
+			<AssortmentExamples />
 			<Review />
 		</>
 	);
