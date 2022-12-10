@@ -1,6 +1,6 @@
 import { ContactUs, ContactForm } from "./ContactComponents";
 
-export default function Contact() {
+export default function ContactComponents() {
   return (
 		<>
 			<p className='text-white text-lg font-semibold text-center m-4'>Contacteer ons!</p>
