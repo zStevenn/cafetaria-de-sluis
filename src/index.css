@@ -4,11 +4,11 @@
 
 @layer components {
   .btn-primary {
-    @apply transition-all h-12 w-32 px-4 py-2 bg-green text-center rounded-lg text-white border-solid border-2 border-green font-bold text-lg hover:bg-white hover:text-green
+    @apply transition-all h-12 w-32 px-4 py-2 bg-green-900 text-center rounded-lg text-white border-solid border-2 border-green-900 font-bold text-lg hover:bg-white hover:text-green-900
   }
 
   .btn-secondary {
-    @apply transition-all h-12 w-32 px-4 py-2 bg-white text-center rounded-lg text-green border-solid border-2 border-white font-bold text-lg hover:bg-green hover:text-white
+    @apply transition-all h-12 w-32 px-4 py-2 bg-white text-center rounded-lg text-green-900 border-solid border-2 border-white font-bold text-lg hover:bg-green-900 hover:text-white
   }
 }
 
@@ -20,7 +20,7 @@ body {
   --theme-font--subtitle: 'Outfit', sans-serif;
 
   /* Default styling */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
