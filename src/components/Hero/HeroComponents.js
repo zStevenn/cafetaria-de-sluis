@@ -9,7 +9,7 @@ function ImageWithText(props) {
 				<img className="w-full rounded-3xl" src={props.src} alt="alt" />
 			</a>
 			<div className="self-center text-white text-center text-lg flex-1 max-w-xs">
-				<span className="flex justify-center">{props.icon}</span>
+				<span className="flex justify-center text-4xl fill-white">{props.icon}</span>
 				<p>{props.text}</p>
 			</div>
 		</div>
@@ -20,7 +20,7 @@ function ReversedImageWithText(props) {
 	return (
 		<div className="flex flex-row flex-nowrap mx-6 sm:justify-center my-2">
 			<div className="self-center text-white text-center text-lg flex-1 max-w-xs">
-				<span className="flex justify-center">{props.icon}</span>
+				<span className="flex justify-center text-4xl fill-white">{props.icon}</span>
 				<p>{props.text}</p>
 			</div>
 			<a className="flex-1 max-w-xs" href={props.href}>
@@ -38,19 +38,19 @@ export function AssortmentExamples() {
 			</p>
 			<ImageWithText
 				href={"/"}
-				icon={<FaHamburger className="text-3xl fill-white" />}
+				icon={<FaHamburger />}
 				text={"Sluisburgers"}
 				src={"https://loremflickr.com/cache/resized/65535_51976730205_07c53e56b5_b_600_600_nofilter.jpg"}
 			/>
 			<ReversedImageWithText
 				href={"/"}
-				icon={<GiFrenchFries className="text-3xl fill-white" />}
+				icon={<GiFrenchFries />}
 				text={"Patat Frites"}
 				src={"https://loremflickr.com/cache/resized/65535_51976730205_07c53e56b5_b_600_600_nofilter.jpg"}
 			/>
 			<ImageWithText
 				href={"/"}
-				icon={<BsCupStraw className="text-3xl fill-white" />}
+				icon={<BsCupStraw />}
 				text={"Milkshakes"}
 				src={"https://loremflickr.com/cache/resized/65535_51976730205_07c53e56b5_b_600_600_nofilter.jpg"}
 			/>
