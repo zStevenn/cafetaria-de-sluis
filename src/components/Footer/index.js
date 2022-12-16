@@ -1,13 +1,6 @@
-import { PrimaryButton } from "../Button";
-
 export default function Footer() {
 	return (
-		<footer className="flex flex-col justify-start bg-primary">
-			{/* Footer CTA */}
-			<div className="flex flex-row flex-nowrap justify-center items-center self-center w-4/5 bg-blue-900 rounded-full p-4">
-				<p className="text-white text-lg font-bold mr-4 truncate">Trek van het scrollen?</p>
-				<PrimaryButton to="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Bestel</PrimaryButton>
-			</div>
+		<footer className="flex flex-col justify-start bg-primary pt-6">
 			{/* Footer link wrappers */}
 			<div className="flex flex-col md:flex-row justify-start md:justify-evenly">
 				{/* Footer adresgegevens */}
@@ -59,36 +52,36 @@ export default function Footer() {
 					<p className="text-xl font-bold py-2 tracking-wider">Informatie</p>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Online bestellen</a>
+						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Online bestellen</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Menu</a>
+						<a href="/menu">Menu</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Contact</a>
+						<a href="/contact">Contact</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Vacatures</a>
+						<a href="/vacatures">Vacatures</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Nieuws</a>
+						<a href="/nieuws">Nieuws</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Algemene voorwaarden</a>
+						<a href="/privacy-policy">Algemene voorwaarden</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/">Cookie policy</a>
+						<a href="/cookie-policy">Cookie policy</a>
 					</div>
 				</div>
 			</div>
 			{/* Footer copyright banner */}
-			<div className="bg-black text-xl text-white font-bold text-center p-3 mt-4">&copy; Cafetaria de Sluis</div>
+			<div className="bg-gray-900 text-xl text-white font-bold text-center p-3 mt-4">&copy; Cafetaria de Sluis</div>
 		</footer>
 	);
 }
