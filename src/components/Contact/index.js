@@ -2,10 +2,10 @@ import { ContactUs, ContactForm } from "./ContactComponents";
 
 export default function ContactComponents() {
   return (
-		<>
-			<p className='text-white text-lg font-semibold text-center m-4'>Contacteer ons!</p>
+		<div className="bg-primary">
+			<h1 className='text-white text-3xl font-semibold text-center p-4'>Contacteer ons!</h1>
 			<ContactUs />
 			<ContactForm />
-		</>
+		</div>
 	);
 }

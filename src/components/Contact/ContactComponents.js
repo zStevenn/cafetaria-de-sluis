@@ -41,7 +41,7 @@ function FormTextarea(props) {
 
 export function ContactForm() {
 	return (
-		<div className='flex flex-col items-center my-8'>
+		<div className='flex flex-col items-center py-8'>
 			<form className='bg-white shadow-md rounded-xl px-8 pt-6 pb-8 w-full max-w-xs'>
         <p className="text-center text-lg font-bold text-black p-2 tracking-wider">Contactformulier</p>
 				<div className='mb-4'>
