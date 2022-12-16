@@ -11,8 +11,8 @@ export default function Hero() {
 				<p className="text-base text-white text-clip mt-6">Heerlijk warme én koude gerechten</p>
 				<p className="text-base text-white text-clip">bezorgd direct tot aan de deur!</p>
 				<div className="flex flex-row justify-between my-6">
-					<PrimaryButton>Bestel nu</PrimaryButton>
-					<SecondaryButton>Bekijk menu</SecondaryButton>
+					<PrimaryButton to={"https://www.e-food.nl/driebergen/cafeteria-de-sluis"}>Bestel nu</PrimaryButton>
+					<SecondaryButton to={"/menu"}>Bekijk menu</SecondaryButton>
 				</div>
 			</div>
 		</>
