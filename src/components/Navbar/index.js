@@ -7,7 +7,7 @@ export default function Navbar() {
 
 	return (
 		// Navbar
-		<div className="bg-primary flex flex-col justify-center p-2">
+		<div className="bg-primary flex flex-col justify-center p-2 shadow-md">
 			{/* Title */}
 			<div className="text-3xl font-bold text-white text-center my-2">Cafetaria de Sluis</div>
 			{/* Menu Wrapper */}

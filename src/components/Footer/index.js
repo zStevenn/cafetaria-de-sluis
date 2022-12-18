@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
 	return (
 		<footer className="flex flex-col justify-start bg-primary pt-6">
@@ -52,31 +54,31 @@ export default function Footer() {
 					<p className="text-xl font-bold py-2 tracking-wider">Informatie</p>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Online bestellen</a>
+						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Bestellen</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/menu">Menu</a>
+						<Link to="/menu">Menu</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/contact">Contact</a>
+						<Link to="/contact">Contact</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/vacatures">Vacatures</a>
+						<Link to="/vacatures">Vacatures</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/nieuws">Nieuws</a>
+						<Link to="/nieuws">Nieuws</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/privacy-policy">Algemene voorwaarden</a>
+						<Link to="/privacybeleid">Privacybeleid</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[10%]">&gt;</span>
-						<a href="/cookie-policy">Cookie policy</a>
+						<Link to="/cookiebeleid">Cookiebeleid</Link>
 					</div>
 				</div>
 			</div>
