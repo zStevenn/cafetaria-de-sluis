@@ -1,3 +1,6 @@
+import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md";
+
+
 function FormInput(props) {
 	return (
 		<>
@@ -70,18 +73,20 @@ export function ContactForm() {
 
 export function ContactUs() {
 	return (
-		<div className='flex flex-row flex-nowrap justify-evenly'>
-			<div className='flex flex-col flex-nowrap'>
-				<span>Icon</span>
-				<span>Text</span>
+		<div className='flex flex-col sm:flex-row justify-evenly items-center'>
+			<div className='flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 '>
+				<MdPhone className="text-3xl"/>
+				<span>(0343) - 531 646</span>
 			</div>
-			<div className='flex flex-col flex-nowrap'>
-				<span>Icon</span>
-				<span>Text</span>
+			<div className='flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 '>
+				<MdLocationOn className="text-3xl"/>
+				<span>De Sluis 25</span>
+				<span>3972 CW</span>
 			</div>
-			<div className='flex flex-col flex-nowrap'>
-				<span>Icon</span>
-				<span>Text</span>
+			<div className='flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 '>
+				<MdEmail className="text-3xl"/>
+				<span>info@</span>
+				<span>cafetariadesluis.nl</span>
 			</div>
 		</div>
 	);
