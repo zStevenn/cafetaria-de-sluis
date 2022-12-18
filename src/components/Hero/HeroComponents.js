@@ -33,7 +33,7 @@ function ReversedImageWithText(props) {
 export function AssortmentExamples() {
 	return (
 		<div className="flex flex-col bg-primary py-4 sm:py-6 md:py-8">
-			<p className="text-white text-lg sm:text-2xl md:text-3xl font-semibold sm:text-bold text-center mb-4">
+			<p className="text-white text-3xl font-semibold sm:text-bold text-center mb-4">
 				Heerlijke gerechten
 			</p>
 			<ImageWithText

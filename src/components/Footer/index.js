@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
 	return (
-		<footer className="flex flex-col justify-start bg-primary pt-6">
+		<footer className="flex flex-col justify-start bg-gray-900 pt-6">
 			{/* Footer link wrappers */}
 			<div className="flex flex-col md:flex-row justify-start md:justify-evenly">
 				{/* Footer adresgegevens */}
@@ -83,7 +83,7 @@ export default function Footer() {
 				</div>
 			</div>
 			{/* Footer copyright banner */}
-			<div className="bg-gray-900 text-xl text-white font-bold text-center p-3 mt-4">&copy; Cafetaria de Sluis</div>
+			<div className="bg-primary text-xl text-white font-bold text-center p-3 mt-4">&copy; Cafetaria de Sluis</div>
 		</footer>
 	);
 }

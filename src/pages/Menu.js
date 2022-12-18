@@ -1,7 +1,7 @@
+import {Menu as MenuComponents} from "../components/Menu";
+
 export default function Menu() {
 	return (
-		<>
-			<h1>Menu</h1>
-		</>
+		<MenuComponents />
 	);
 }
