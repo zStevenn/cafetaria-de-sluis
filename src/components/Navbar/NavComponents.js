@@ -49,13 +49,13 @@ export function MobileNavigationMenu() {
 		<>
 			<>
 				<span onClick={toggleMenu}>
-					<MdMenu className="material-icons md-48 text-white" />
+					<MdMenu className="text-5xl text-white hover:scale-110 transition-all" />
 				</span>
 			</>
 			<div className={menuClass}>
 				<ul className="flex flex-col justify-center">
 					<li onClick={toggleMenu} className="py-2">
-						<MdClose className="material-icons md-48 text-white" />
+						<MdClose className="text-5xl text-white hover:scale-110 transition-all" />
 					</li>
 					<li onClick={toggleMenu} className="py-2">
 						<MobileNavigationLink to="/">Home</MobileNavigationLink>
