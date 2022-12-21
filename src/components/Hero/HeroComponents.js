@@ -1,6 +1,7 @@
 import { FaHamburger } from "react-icons/fa";
 import { GiFrenchFries } from "react-icons/gi";
 import { BsCupStraw } from "react-icons/bs";
+import { Title } from "../Text";
 
 function ImageWithText(props) {
 	return (
@@ -33,9 +34,7 @@ function ReversedImageWithText(props) {
 export function AssortmentExamples() {
 	return (
 		<div className="flex flex-col bg-primary py-4 sm:py-6 md:py-8">
-			<p className="text-white text-3xl font-semibold sm:text-bold text-center mb-4">
-				Heerlijke gerechten
-			</p>
+			<Title text={"Heerlijke gerechten"}/>
 			<ImageWithText
 				href={"/"}
 				icon={<FaHamburger />}

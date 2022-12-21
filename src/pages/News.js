@@ -1,7 +1,9 @@
+import { Title } from "../components/Text";
+
 export default function News() {
 	return (
 		<>
-			<h1>Nieuws</h1>
+			<Title text={"Nieuws"} />
 		</>
 	);
 }

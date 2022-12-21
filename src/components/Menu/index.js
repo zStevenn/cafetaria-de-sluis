@@ -1,3 +1,4 @@
+import { Title } from "../Text";
 import { AllergyMenu, MenuItem, MenuSubheader } from "./MenuComponents";
 
 export function Menu() {
@@ -6,7 +7,7 @@ export function Menu() {
       {/* Desktop allergy slide */}
       <AllergyMenu />
       <div className="flex flex-col flex-nowrap basis-full md:basis-3/5">
-        <p className="text-white text-3xl font-bold text-center m-3">Menukaart</p>
+        <Title text={"Menukaart"} />
         <div className="text-white mx-6 my-2">
           <MenuSubheader name={"Patat Frites"}/>
           <MenuItem name={"Patat mayonaise"} price={"9.95"}/>

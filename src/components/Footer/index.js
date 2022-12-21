@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Title } from "../Text";
 
 export default function Footer() {
 	return (
@@ -83,7 +84,9 @@ export default function Footer() {
 				</div>
 			</div>
 			{/* Footer copyright banner */}
-			<div className="bg-primary text-xl text-white font-bold text-center p-3 mt-4">&copy; Cafetaria de Sluis</div>
+			<div className="bg-primary text-xl text-white font-bold text-center mt-4 pt-4">
+				<Title text={"© Cafetaria de Sluis 2022"} />
+			</div>
 		</footer>
 	);
 }

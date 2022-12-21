@@ -1,5 +1,6 @@
 import { BsFillArrowLeftCircleFill as ArrowLeft, BsFillArrowRightCircleFill as ArrowRight } from "react-icons/bs";
 import { BsStarFill } from "react-icons/bs";
+import { Title } from "./Text";
 
 function ReviewCard(props) {
 	const stars = [];
@@ -17,7 +18,7 @@ function ReviewCard(props) {
 export default function ReviewList() {
 	return (
 		<div className="flex flex-col justify-center items-center bg-primary">
-			<p className="text-3xl text-white font-bold m-2 ">Reviews</p>
+			<Title text={"Reviews"} />
 			<div className="flex flex-row flex-nowrap justify-center items-center">
 				<ArrowLeft className="text-3xl fill-white" />
 				<ReviewCard name={"Steven Li"} rating={4} />
