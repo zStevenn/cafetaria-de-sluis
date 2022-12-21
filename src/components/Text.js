@@ -4,7 +4,7 @@ export const Title = ({ text, className = "" }) => {
 
 export const TitleOutline = ({ text, className = "" }) => {
 	return (
-		<h1 className="text-3xl font-semibold text-white text-center relative hover:scale-110 hover:transition-all">
+		<h1 className={`text-3xl font-semibold text-white text-center relative hover:scale-110 hover:transition-all ${className}`}>
 			<span className="absolute inset-0 text-white">{text}</span>
 			<span className="relative text-primary">{text}</span>
 		</h1>
