@@ -11,7 +11,7 @@ export default function Navbar() {
 			{/* Title */}
 			<div className="text-3xl font-bold text-white text-center my-2 hover:scale-110 transition-all">Cafetaria de Sluis</div>
 			{/* Menu Wrapper */}
-			<div className="flex flex-row py-2 justify-evenly">
+			<div className="flex flex-row py-2 justify-evenly md:justify-center">
 				{/* Menu */}
 				{width > 640 ? <DesktopNavigationMenu /> : <MobileNavigationMenu />}
 				{/* Order Button */}

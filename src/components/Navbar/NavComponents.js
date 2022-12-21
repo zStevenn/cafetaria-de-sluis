@@ -14,7 +14,7 @@ function DesktopNavigationLink({ to, children }) {
 
 export function DesktopNavigationMenu() {
 	return (
-		<ul className="flex flex-row flex-nowrap ">
+		<ul className="flex flex-row flex-nowrap">
 			<DesktopNavigationLink to="/">Home</DesktopNavigationLink>
 			<DesktopNavigationLink to="/menu">Menu</DesktopNavigationLink>
 			<DesktopNavigationLink to="/contact">Contact</DesktopNavigationLink>
