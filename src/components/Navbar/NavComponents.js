@@ -5,7 +5,7 @@ import { useState } from "react";
 function DesktopNavigationLink({ to, children }) {
 	return (
 		<li className="flex">
-			<NavLink to={to} className="m-2 p-1 text-white active:underline hover:underline text-lg font-bold font-sans">
+			<NavLink to={to} className="m-2 p-1 text-white hover:scale-125 hover:transition-all text-lg font-bold font-sans">
 				{children}
 			</NavLink>
 		</li>
@@ -26,7 +26,7 @@ export function DesktopNavigationMenu() {
 
 function MobileNavigationLink({ to, children }) {
 	return (
-		<NavLink to={to} className="m-2 p-1 text-white hover:underline active:underline text-3xl font-bold">
+		<NavLink to={to} className="m-2 p-1 text-white text-3xl font-bold">
 			{children}
 		</NavLink>
 	);
