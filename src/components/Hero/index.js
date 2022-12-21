@@ -4,20 +4,18 @@ import { Paragraph, Title, TitleOutline } from "../Text";
 
 export default function Hero() {
 	return (
-		<>
-			<div className="flex flex-col justify-start items-center p-4 bg-primary">
-				<HeroImage className="w-2/5 h-2/5" />
+		<div className="flex flex-col md:flex-row justify-center items-center p-4 bg-primary">
+			<HeroImage className="h-full md:w-full md:flex-1 lg:flex-none lg:h-96 lg:w-96" />
+			<div className="flex flex-col md:flex-1 lg:flex-none justify-center items-center">
 				<Title text={"Bestel nu via"} />
 				<TitleOutline text={"onze webshop"} />
-				<div className="text-center mt-6">
-				<Paragraph text={"Heerlijk warme én koude gerechten"} />
+				<Paragraph text={"Heerlijk warme én koude gerechten"} className="mt-4" />
 				<Paragraph text={"bezorgd direct tot aan de deur!"} />
-				</div>
 				<div className="flex flex-row justify-between my-6">
 					<PrimaryButton to={"https://www.e-food.nl/driebergen/cafeteria-de-sluis"}>Bestel nu</PrimaryButton>
 					<SecondaryButton to={"/menu"}>Bekijk menu</SecondaryButton>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
