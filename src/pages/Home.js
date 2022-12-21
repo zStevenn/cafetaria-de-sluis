@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import ArticleList from "../components/Article";
-import { AssortmentExamples } from "../components/Hero/HeroComponents";
+import { Category } from "../components/Hero/HeroComponents";
 import Review from "../components/CustomerReview";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<Hero />
 			<ArticleList />
-			<AssortmentExamples />
+			<Category />
 			<Review />
 		</>
 	);

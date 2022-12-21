@@ -18,8 +18,8 @@ function ReviewCard(props) {
 export default function ReviewList() {
 	return (
 		<div className="flex flex-col justify-center items-center bg-primary">
-			<Title text={"Reviews"} />
-			<div className="flex flex-row flex-nowrap justify-center items-center">
+			<Title text={"Reviews"} className="my-10" />
+			<div className="flex flex-row flex-nowrap justify-center items-center mb-10">
 				<ArrowLeft className="text-3xl fill-white" />
 				<ReviewCard name={"Steven Li"} rating={4} />
 				<ReviewCard name={"Ai Hua Sun"} rating={4} />

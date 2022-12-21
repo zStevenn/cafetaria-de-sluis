@@ -1,58 +1,38 @@
 import { FaHamburger } from "react-icons/fa";
 import { GiFrenchFries } from "react-icons/gi";
 import { BsCupStraw } from "react-icons/bs";
-import { Title } from "../Text";
+import { Subtitle, Title } from "../Text";
 
-function ImageWithText(props) {
+export function Category() {
 	return (
-		<div className="flex flex-row flex-nowrap mx-6 sm:justify-center my-2">
-			<a className="flex-1 max-w-xs" href={props.href}>
-				<img className="w-full rounded-3xl" src={props.src} alt="alt" />
-			</a>
-			<div className="self-center text-white text-center text-lg flex-1 max-w-xs">
-				<span className="flex justify-center text-4xl fill-white">{props.icon}</span>
-				<p>{props.text}</p>
-			</div>
-		</div>
-	);
-}
-
-function ReversedImageWithText(props) {
-	return (
-		<div className="flex flex-row flex-nowrap mx-6 sm:justify-center my-2">
-			<div className="self-center text-white text-center text-lg flex-1 max-w-xs">
-				<span className="flex justify-center text-4xl fill-white">{props.icon}</span>
-				<p>{props.text}</p>
-			</div>
-			<a className="flex-1 max-w-xs" href={props.href}>
-				<img className="w-full rounded-3xl" src={props.src} alt="placeholder" />
-			</a>
-		</div>
-	);
-}
-
-export function AssortmentExamples() {
-	return (
-		<div className="flex flex-col bg-primary py-4 sm:py-6 md:py-8">
-			<Title text={"Heerlijke gerechten"}/>
-			<ImageWithText
-				href={"/"}
-				icon={<FaHamburger />}
-				text={"Sluisburgers"}
-				src={"https://loremflickr.com/cache/resized/65535_51976730205_07c53e56b5_b_600_600_nofilter.jpg"}
-			/>
-			<ReversedImageWithText
-				href={"/"}
-				icon={<GiFrenchFries />}
-				text={"Patat Frites"}
-				src={"https://loremflickr.com/cache/resized/65535_51976730205_07c53e56b5_b_600_600_nofilter.jpg"}
-			/>
-			<ImageWithText
-				href={"/"}
-				icon={<BsCupStraw />}
-				text={"Milkshakes"}
-				src={"https://loremflickr.com/cache/resized/65535_51976730205_07c53e56b5_b_600_600_nofilter.jpg"}
-			/>
+		<div className="flex flex-col bg-primary text-white fill-white">
+			<Title text={"Heerlijke gerechten"} className="my-10" />
+			<ul className="flex flex-row justify-evenly mb-10">
+				<li className="flex justify-center items-center content-center group">
+					<a
+						className="flex flex-col items-center group-hover:scale-110 transition-all"
+						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis/burgers/sluis-burgers"
+					>
+						<FaHamburger className="text-4xl" />
+						<Subtitle text={"Sluisburgers"} />
+					</a>
+				</li>
+				<li className="flex justify-center items-center content-center group">
+					<a className="flex flex-col items-center group-hover:scale-110 transition-all" href="https://www.e-food.nl/driebergen/cafeteria-de-sluis/frites">
+						<GiFrenchFries className="text-4xl" />
+						<Subtitle text={"Frietjes"} />
+					</a>
+				</li>
+				<li className="flex justify-center items-center content-center group">
+					<a
+						className="flex flex-col items-center group-hover:scale-110 transition-all"
+						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis/ijs--milkshakes/milkshakes"
+					>
+						<BsCupStraw className="text-4xl" />
+						<Subtitle text={"Milkshakes"} />
+					</a>
+				</li>
+			</ul>
 		</div>
 	);
 }

@@ -19,7 +19,7 @@ function ArticleWithImage(props) {
 export default function ArticleList() {
 	return (
 		<div className="flex flex-col py-6 bg-primary text-white">
-			<Title text={"Recente activiteiten"} />
+			<Title text={"Recente activiteiten"} className="my-10" />
 			<ArticleWithImage
 				imgSrc={"https://via.placeholder.com/1000"}
 				imgTitle={"Nieuwe website"}
@@ -39,9 +39,9 @@ export default function ArticleList() {
 			<ArticleWithImage
 				imgSrc={"https://via.placeholder.com/1000"}
 				imgTitle={"placeholder"}
-				title={"Artikel 1"}
+				title={"Prijsverhoging"}
 				text={
-					"x"
+					"Helaas hebben wij moeten besluiten om onze prijzen te verhogen. Dit komt door de hoge kosten van de grondstoffen. We hopen dat u dit begrijpt. We zullen ons best doen om de prijsverhoging zo klein mogelijk te houden."
 				}
 			/>
 		</div>
