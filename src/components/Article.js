@@ -2,15 +2,13 @@ import { Title } from "./Text";
 
 function ArticleWithImage(props) {
 	return (
-		<div className="flex flex-row my-4 mx-6 justify-center items-center">
+		<div className="flex flex-row my-4 mx-6 justify-start lg:justify-center">
 			{/* Image */}
-			<div className="flex justify-center basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/3">
-				<img className="rounded-xl object-cover max-w-full" src={props.imgSrc} alt={props.imgTitle} />
-			</div>
+			<img className="rounded-xl object-cover w-32 md:w-40" src={props.imgSrc} alt={props.imgTitle} />
 			{/* Text */}
-			<div className="flex flex-col justify-center text-white ml-2 h-40 basis-1/2 sm:basis-2/3 md:basis-3/4 lg:basis-1/3">
+			<div className="flex flex-col justify-center text-white ml-2 max-h-32">
 				<p className="text-lg font-medium mb-1">{props.title}</p>
-				<p className="text-base font-base text-clip overflow-hidden h-24 max-w-prose">{props.text}</p>
+				<p className="text-base font-base text-clip overflow-hidden lg:max-w-lg">{props.text}</p>
 			</div>
 		</div>
 	);
