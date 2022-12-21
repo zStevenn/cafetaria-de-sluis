@@ -54,32 +54,25 @@ export default function Footer() {
 				<div className="flex flex-col justify-start items-start text-white pl-4">
 					<p className="text-xl font-bold py-2 tracking-wider">Informatie</p>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Bestellen</a>
+						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">&gt; Bestellen</a>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<Link to="/menu">Menu</Link>
+						<Link to="/menu">&gt; Menu</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<Link to="/contact">Contact</Link>
+						<Link to="/contact">&gt; Contact</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<Link to="/vacatures">Vacatures</Link>
+						<Link to="/vacatures">&gt; Vacatures</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<Link to="/nieuws">Nieuws</Link>
+						<Link to="/nieuws">&gt; Nieuws</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<Link to="/privacybeleid">Privacybeleid</Link>
+						<Link to="/privacybeleid">&gt; Privacybeleid</Link>
 					</div>
 					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[10%]">&gt;</span>
-						<Link to="/cookiebeleid">Cookiebeleid</Link>
+						<Link to="/cookiebeleid">&gt; Cookiebeleid</Link>
 					</div>
 				</div>
 			</div>
