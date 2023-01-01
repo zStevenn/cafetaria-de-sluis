@@ -1,16 +1,16 @@
 export function MenuSubheader(props) {
   return(
-    <p className="text-lg font-semibold py-2">{props.name}</p>
+    <p className="text-lg font-semibold pb-2">{props.name}</p>
   );
 }
 
 export function MenuItem(props) {
   return(
-    <div className="flex flex-row flex-nowrap items-center">
+    <div className="flex flex-row justify-start sm:justify-center py-0.5 whitespace-nowrap w-full sm:w-80 lg:w-96">
       {/* Item name */}
-      <p className="basis-1/2">{props.name}</p>
+      <p className="w-1/2">{props.name}</p>
       {/* Price */}
-      <p className="basis-1/2 text-end">&euro; {props.price}</p>
+      <p className="w-1/2">&euro; {props.price}</p>
     </div>
   );
 }
