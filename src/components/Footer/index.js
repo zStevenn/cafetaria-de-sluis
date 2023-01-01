@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
 import { Title } from "../Text";
+import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export default function Footer() {
+	const handleClick = () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	};
+
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900 pt-6">
 			{/* Footer link wrappers */}
-			<div className="flex flex-col md:flex-row justify-start md:justify-evenly">
+			<div className="flex flex-col md:flex-row justify-start md:justify-evenly pl-4 py-4">
 				{/* Footer adresgegevens */}
-				<div className="flex flex-col justify-start items-start text-white pl-4">
+				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Adresgegevens</p>
 					<ul className="text-base">
 						<li>De Sluis 25, 3972 VC</li>
@@ -19,7 +24,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				{/* Footer openingstijden */}
-				<div className="flex flex-col justify-start items-start text-white pl-4">
+				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Openingstijden</p>
 					<div className="flex flex-row w-3/5 md:w-full">
 						<span className="min-w-[45%]">Maandag</span>
@@ -51,33 +56,49 @@ export default function Footer() {
 					</div>
 				</div>
 				{/* Footer informatie */}
-				<div className="flex flex-col justify-start items-start text-white pl-4">
+				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Informatie</p>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">&gt; Bestellen</a>
-					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<Link to="/menu">&gt; Menu</Link>
-					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<Link to="/contact">&gt; Contact</Link>
-					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<Link to="/vacatures">&gt; Vacatures</Link>
-					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<Link to="/nieuws">&gt; Nieuws</Link>
-					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<Link to="/privacybeleid">&gt; Privacybeleid</Link>
-					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<Link to="/cookiebeleid">&gt; Cookiebeleid</Link>
-					</div>
+					<ul>
+						<li>
+							<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">
+								<MdOutlineArrowRightAlt className="inline" /> Bestellen
+							</a>
+						</li>
+						<li>
+							<Link to="/menu" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Menu
+							</Link>
+						</li>
+						<li>
+							<Link to="/contact" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Contact
+							</Link>
+						</li>
+						<li>
+							<Link to="/vacatures" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Vacatures
+							</Link>
+						</li>
+						<li>
+							<Link to="/nieuws" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Nieuws
+							</Link>
+						</li>
+						<li>
+							<Link to="/privacybeleid" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Privacybeleid
+							</Link>
+						</li>
+						<li>
+							<Link to="/cookiebeleid" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Cookiebeleid
+							</Link>
+						</li>
+					</ul>
 				</div>
 			</div>
 			{/* Footer copyright banner */}
-			<div className="bg-primary text-xl text-white font-bold text-center mt-4 pt-4">
+			<div className="bg-primary text-center py-4">
 				<Title text={"© Cafetaria de Sluis 2022"} />
 			</div>
 		</footer>
