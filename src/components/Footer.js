@@ -10,7 +10,7 @@ export default function Footer() {
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900 pt-6">
 			{/* Footer link wrappers */}
-			<div className="flex flex-col md:flex-row justify-start md:justify-evenly pl-4 py-4">
+			<div className="flex flex-col sm:flex-row justify-start sm:justify-evenly pl-4 py-4">
 				{/* Footer adresgegevens */}
 				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Adresgegevens</p>
@@ -24,34 +24,34 @@ export default function Footer() {
 					</ul>
 				</div>
 				{/* Footer openingstijden */}
-				<div className="flex flex-col justify-start items-start text-white">
+				<div className="flex flex-col justify-start items-start text-white w-60 sm:w-auto">
 					<p className="text-xl font-bold py-2 tracking-wider">Openingstijden</p>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Maandag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Maandag</span>
 						<span>Gesloten</span>
 					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Dinsdag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Dinsdag</span>
 						<span>12:00 - 20:00</span>
 					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Woensdag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Woensdag</span>
 						<span>12:00 - 20:00</span>
 					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Donderdag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Donderdag</span>
 						<span>12:00 - 20:00</span>
 					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Vrijdag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Vrijdag</span>
 						<span>12:00 - 20:00</span>
 					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Zaterdag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Zaterdag</span>
 						<span>12:00 - 20:00</span>
 					</div>
-					<div className="flex flex-row w-3/5 md:w-full">
-						<span className="min-w-[45%]">Zondag</span>
+					<div className="flex flex-row hover:scale-110 transition-all">
+						<span className="w-28">Zondag</span>
 						<span>12:00 - 20:00</span>
 					</div>
 				</div>
@@ -59,37 +59,37 @@ export default function Footer() {
 				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Informatie</p>
 					<ul>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<a href="https://www.e-food.nl/driebergen/cafeteria-de-sluis">
 								<MdOutlineArrowRightAlt className="inline" /> Bestellen
 							</a>
 						</li>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<Link to="/menu" onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> Menu
 							</Link>
 						</li>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<Link to="/contact" onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> Contact
 							</Link>
 						</li>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<Link to="/vacatures" onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> Vacatures
 							</Link>
 						</li>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<Link to="/nieuws" onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> Nieuws
 							</Link>
 						</li>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<Link to="/privacybeleid" onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> Privacybeleid
 							</Link>
 						</li>
-						<li>
+						<li className="hover:scale-110 transition-all">
 							<Link to="/cookiebeleid" onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> Cookiebeleid
 							</Link>
@@ -99,7 +99,7 @@ export default function Footer() {
 			</div>
 			{/* Footer copyright banner */}
 			<div className="bg-primary text-center py-4">
-				<Title text={"© Cafetaria de Sluis 2022"} />
+				<Title text={"© Cafetaria de Sluis 2022"} className="hover:scale-110 transition-all" />
 			</div>
 		</footer>
 	);
