@@ -1,3517 +1,1937 @@
 [
- {
-  "productnummer": "L40014590001",
-  "productnaam": "Frites zonder",
-  "prijs": 2.55
- },
- {
-  "productnummer": "L40014590002",
-  "productnaam": "Frites mayonaise",
-  "prijs": 3.05
- },
- {
-  "productnummer": "L40014590003",
-  "productnaam": "Frites speciaal",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590004",
-  "productnaam": "Frites pindasaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590005",
-  "productnaam": "Frites oorlog",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014590006",
-  "productnaam": "Frites oorlog met ui",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014590007",
-  "productnaam": "Frites joppiesaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590008",
-  "productnaam": "Frites warmvlees pindasaus",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014590009",
-  "productnaam": "Frites stoofvlees",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014590010",
-  "productnaam": "Frites shoarma knoflooksaus",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014590011",
-  "productnaam": "Frites gyros knoflooksaus",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014590012",
-  "productnaam": "Kapsalon knoflooksaus",
-  "prijs": 8.7
- },
- {
-  "productnummer": "L40014590013",
-  "productnaam": "Gezinszak frites",
-  "prijs": 7.8
- },
- {
-  "productnummer": "L40014590015",
-  "productnaam": "Frikandel",
-  "prijs": 1.8
- },
- {
-  "productnummer": "L40014590016",
-  "productnaam": "Frikandel speciaal",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590017",
-  "productnaam": "Frikandel XXL",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014590018",
-  "productnaam": "Frikandel XXL speciaal",
-  "prijs": 4.25
- },
- {
-  "productnummer": "L40014590019",
-  "productnaam": "Kroket",
-  "prijs": 1.8
- },
- {
-  "productnummer": "L40014590020",
-  "productnaam": "Vegetarische kroket",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590021",
-  "productnaam": "Cas Spijkers kroket",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590022",
-  "productnaam": "Kwekkeboom kroket",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590023",
-  "productnaam": "Kalfskroket",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590024",
-  "productnaam": "Goulashkroket",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590025",
-  "productnaam": "Satékroket",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590026",
-  "productnaam": "Groentekroket",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590027",
-  "productnaam": "Kaaskroket",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014590028",
-  "productnaam": "Kaassoufflé",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590029",
-  "productnaam": "Ham-kaassoufflé",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590030",
-  "productnaam": "Souflesse",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014590031",
-  "productnaam": "Mozzarellasoufflé",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014590032",
-  "productnaam": "Pikante soufflé",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014590033",
-  "productnaam": "Berenklauw",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590034",
-  "productnaam": "Berenklauw pindasaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590035",
-  "productnaam": "Mexicano",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014590036",
-  "productnaam": "Pikanto",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590037",
-  "productnaam": "Hete donder",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590038",
-  "productnaam": "Kipkorn",
-  "prijs": 2.3
- },
- {
-  "productnummer": "L40014590039",
-  "productnaam": "Kikastick",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014590040",
-  "productnaam": "Shaslick",
-  "prijs": 2.85
- },
- {
-  "productnummer": "L40014590041",
-  "productnaam": "Knakworst",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590042",
-  "productnaam": "Viandel",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590043",
-  "productnaam": "Bonita",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014590044",
-  "productnaam": "Braadworst",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590045",
-  "productnaam": "Twijfelaar",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014590046",
-  "productnaam": "Mini megamix",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014590047",
-  "productnaam": "Gehaktbal",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590048",
-  "productnaam": "Bamischijf",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014590049",
-  "productnaam": "Nasischijf",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590050",
-  "productnaam": "Satérol",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590051",
-  "productnaam": "Smulrol",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014590052",
-  "productnaam": "Shoarmarol",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014590053",
-  "productnaam": "Lihanboutje",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590054",
-  "productnaam": "Kipfingers 6 stuks",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590055",
-  "productnaam": "Kipnuggets 4 stuks",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590056",
-  "productnaam": "Kipnuggets 6 stuks",
-  "prijs": 4.25
- },
- {
-  "productnummer": "L40014590057",
-  "productnaam": "Hotwings 5 stuks",
-  "prijs": 4.75
- },
- {
-  "productnummer": "L40014590058",
-  "productnaam": "Bitterballen Kwekkeboom 6 stuks",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014590059",
-  "productnaam": "Loempia",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014590060",
-  "productnaam": "Loempia speciaal",
-  "prijs": 4.8
- },
- {
-  "productnummer": "L40014590061",
-  "productnaam": "Halve kip",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014590062",
-  "productnaam": "Schnitzel",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014590063",
-  "productnaam": "Karbonade",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014590064",
-  "productnaam": "Kipsaté",
-  "prijs": 5.1
- },
- {
-  "productnummer": "L40014590065",
-  "productnaam": "Varkenshaas saté",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014590066",
-  "productnaam": "Spareribs",
-  "prijs": 7.25
- },
- {
-  "productnummer": "L40014590067",
-  "productnaam": "Vlammetjes 6 stuks",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014590068",
-  "productnaam": "Kaastengels 6 stuks",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014590069",
-  "productnaam": "Mini loempia's 8 stuks",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014590070",
-  "productnaam": "Bittergarnituur 50 stuks",
-  "prijs": 28.5
- },
- {
-  "productnummer": "L40014590071",
-  "productnaam": "Bittergarnituur 75 stuks",
-  "prijs": 42.5
- },
- {
-  "productnummer": "L40014590072",
-  "productnaam": "Sluis slaatje",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590073",
-  "productnaam": "Rauwkost salade met dressing",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590074",
-  "productnaam": "Feest salades",
-  "prijs": 0
- },
- {
-  "productnummer": "L40014590075",
-  "productnaam": "Broodje ei",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590076",
-  "productnaam": "Broodje ei en tomaat",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014590077",
-  "productnaam": "Broodje jonge kaas",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014590078",
-  "productnaam": "Broodje oude kaas",
-  "prijs": 0
- },
- {
-  "productnummer": "L40014590079",
-  "productnaam": "Broodje tartaar",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014590080",
-  "productnaam": "Broodje tartaar speciaal",
-  "prijs": 4.6
- },
- {
-  "productnummer": "L40014590081",
-  "productnaam": "Broodje gezond",
-  "prijs": 4.5
- },
- {
-  "productnummer": "L40014590082",
-  "productnaam": "Broodje kroket",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590083",
-  "productnaam": "Broodje ham",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014590084",
-  "productnaam": "Broodje Kwekkeboom kroket",
-  "prijs": 3.3
- },
- {
-  "productnummer": "L40014590085",
-  "productnaam": "Broodje kalfskroket",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014590086",
-  "productnaam": "Broodje satékroket",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014590087",
-  "productnaam": "Broodje goulashkroket",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014590088",
-  "productnaam": "Broodje frikandel",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590089",
-  "productnaam": "Broodje ham-kaassoufflé",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590091",
-  "productnaam": "Broodje kipburger",
-  "prijs": 3.85
- },
- {
-  "productnummer": "L40014590090",
-  "productnaam": "Broodje kaassoufflé",
-  "prijs": 3.05
- },
- {
-  "productnummer": "L40014590092",
-  "productnaam": "Broodje hete kip op pistolet",
-  "prijs": 6
- },
- {
-  "productnummer": "L40014590093",
-  "productnaam": "Broodje kipkorn",
-  "prijs": 3.45
- },
- {
-  "productnummer": "L40014590094",
-  "productnaam": "Broodje mexicano",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014590095",
-  "productnaam": "Broodje pikanto",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014590096",
-  "productnaam": "Broodje braadworst",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014590097",
-  "productnaam": "Broodje gehaktbal",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014590098",
-  "productnaam": "Broodje knakworst",
-  "prijs": 3.25
- },
- {
-  "productnummer": "L40014590099",
-  "productnaam": "Broodje warmvlees pindasaus",
-  "prijs": 4.7
- },
- {
-  "productnummer": "L40014590100",
-  "productnaam": "Broodje shoarma knoflooksaus",
-  "prijs": 5.95
- },
- {
-  "productnummer": "L40014590101",
-  "productnaam": "Broodje gyros knoflooksaus",
-  "prijs": 5.95
- },
- {
-  "productnummer": "L40014590102",
-  "productnaam": "Tosti ham",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590103",
-  "productnaam": "Tosti kaas",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590104",
-  "productnaam": "Tosti ham en kaas",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590105",
-  "productnaam": "Uitsmijter ham",
-  "prijs": 7
- },
- {
-  "productnummer": "L40014590106",
-  "productnaam": "Uitsmijter kaas",
-  "prijs": 7
- },
- {
-  "productnummer": "L40014590107",
-  "productnaam": "Uitsmijter ham en kaas",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014590108",
-  "productnaam": "Plate kipburger",
-  "prijs": 9.2
- },
- {
-  "productnummer": "L40014590109",
-  "productnaam": "Plate hamburger speciaal",
-  "prijs": 9.75
- },
- {
-  "productnummer": "L40014590110",
-  "productnaam": "Plate halve kip",
-  "prijs": 11.2
- },
- {
-  "productnummer": "L40014590111",
-  "productnaam": "Plate warmvlees pindasaus",
-  "prijs": 9.75
- },
- {
-  "productnummer": "L40014590112",
-  "productnaam": "Plate loempia speciaal",
-  "prijs": 10.4
- },
- {
-  "productnummer": "L40014590113",
-  "productnaam": "Plate shaslick 2 stuks",
-  "prijs": 12.25
- },
- {
-  "productnummer": "L40014590114",
-  "productnaam": "Plate karbonade",
-  "prijs": 9.7
- },
- {
-  "productnummer": "L40014590115",
-  "productnaam": "Plate schnitzel",
-  "prijs": 10.5
- },
- {
-  "productnummer": "L40014590116",
-  "productnaam": "Plate shoarma knoflooksaus",
-  "prijs": 10.5
- },
- {
-  "productnummer": "L40014590117",
-  "productnaam": "Plate gyros knoflooksaus",
-  "prijs": 10.5
- },
- {
-  "productnummer": "L40014590118",
-  "productnaam": "Plate kipsaté",
-  "prijs": 10.9
- },
- {
-  "productnummer": "L40014590119",
-  "productnaam": "Plate varkenshaassaté",
-  "prijs": 11.1
- },
- {
-  "productnummer": "L40014590120",
-  "productnaam": "Plate spareribs",
-  "prijs": 13
- },
- {
-  "productnummer": "L40014590121",
-  "productnaam": "Voor de Kidz",
-  "prijs": 4.8
- },
- {
-  "productnummer": "L40014590122",
-  "productnaam": "Bacon",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014590124",
-  "productnaam": "Double cheese",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590125",
-  "productnaam": "Chicken cheese",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014590123",
-  "productnaam": "Hot",
-  "prijs": 4.85
- },
- {
-  "productnummer": "L40014590126",
-  "productnaam": "Bacon cheese",
-  "prijs": 4.75
- },
- {
-  "productnummer": "L40014590127",
-  "productnaam": "Chicken sateh",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014590128",
-  "productnaam": "Special + egg",
-  "prijs": 4.85
- },
- {
-  "productnummer": "L40014590129",
-  "productnaam": "Cheese",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014590130",
-  "productnaam": "Joppie",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014590131",
-  "productnaam": "Regular",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014590132",
-  "productnaam": "Kroketburger",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014590133",
-  "productnaam": "Fishburger",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014590134",
-  "productnaam": "Koffie",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590135",
-  "productnaam": "Thee",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590136",
-  "productnaam": "Warme chocolademelk",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014590137",
-  "productnaam": "Cappuccino",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014590138",
-  "productnaam": "Melk",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590139",
-  "productnaam": "Milkshake klein",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590140",
-  "productnaam": "Milkshake middel",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590141",
-  "productnaam": "Milkshake groot",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590142",
-  "productnaam": "Heksenmix klein",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590143",
-  "productnaam": "Heksenmix middel",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590144",
-  "productnaam": "Heksenmix groot",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014590145",
-  "productnaam": "Slush mini",
-  "prijs": 1.1
- },
- {
-  "productnummer": "L40014590146",
-  "productnaam": "Slush klein",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590148",
-  "productnaam": "Slush groot",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590147",
-  "productnaam": "Slush middel",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590153",
-  "productnaam": "Sundae chocolade",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590151",
-  "productnaam": "Sundae aardbei",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590152",
-  "productnaam": "Sundae caramel",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014590154",
-  "productnaam": "Sorbet kersen",
-  "prijs": 4
- },
- {
-  "productnummer": "L40014590156",
-  "productnaam": "Sorbet fruit",
-  "prijs": 4
- },
- {
-  "productnummer": "L40014590155",
-  "productnaam": "Sorbet aardbei",
-  "prijs": 4
- },
- {
-  "productnummer": "L40014590157",
-  "productnaam": "Rasfrites zonder",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590158",
-  "productnaam": "Rasfrites mayonaise",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014590159",
-  "productnaam": "Rasfrites speciaal",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014590160",
-  "productnaam": "Rasfrites pindasaus",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014590161",
-  "productnaam": "Rasfrites oorlog",
-  "prijs": 3.75
- },
- {
-  "productnummer": "L40014590162",
-  "productnaam": "Rasfrites oorlog met ui",
-  "prijs": 3.75
- },
- {
-  "productnummer": "L40014590163",
-  "productnaam": "Rasfrites warmvlees pindasaus",
-  "prijs": 5.9
- },
- {
-  "productnummer": "L40014590164",
-  "productnaam": "Rasfrites joppiesaus",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590165",
-  "productnaam": "Rasfrites stoofvlees",
-  "prijs": 6.85
- },
- {
-  "productnummer": "L40014590166",
-  "productnaam": "Rasfrites shoarma knoflooksaus",
-  "prijs": 7.75
- },
- {
-  "productnummer": "L40014590167",
-  "productnaam": "Rasfrites gyros knoflooksaus",
-  "prijs": 7.75
- },
- {
-  "productnummer": "L40014590169",
-  "productnaam": "Rasfrites kapsalon",
-  "prijs": 8.25
- },
- {
-  "productnummer": "L40014590184",
-  "productnaam": "Kidzmenu kroket",
-  "prijs": 5.35
- },
- {
-  "productnummer": "L40014590185",
-  "productnaam": "Kidzmenu 3 kipfingers",
-  "prijs": 5.35
- },
- {
-  "productnummer": "L40014590186",
-  "productnaam": "Kidzmenu frikandel",
-  "prijs": 5.35
- },
- {
-  "productnummer": "L40014590189",
-  "productnaam": "Coca Cola",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590190",
-  "productnaam": "Coca Cola Zero",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590191",
-  "productnaam": "Fanta Cassis",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590192",
-  "productnaam": "Fanta Orange",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590193",
-  "productnaam": "7-Up",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590194",
-  "productnaam": "Dr. Pepper",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590195",
-  "productnaam": "Lipton Ice Tea",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590196",
-  "productnaam": "Lipton Ice Tea Green",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590197",
-  "productnaam": "Appelsap",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590198",
-  "productnaam": "Jus d'Orange",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590200",
-  "productnaam": "Fristi",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590199",
-  "productnaam": "Chocomel",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590201",
-  "productnaam": "Red Bull",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590202",
-  "productnaam": "AA drink",
-  "prijs": 2.25
- },
- {
-  "productnummer": "L40014590203",
-  "productnaam": "Fanta Lemon",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590204",
-  "productnaam": "Chaudfontaine water",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014590205",
-  "productnaam": "Chaudfontaine water sparkling",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590207",
-  "productnaam": "Capri Sun",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590206",
-  "productnaam": "Sisi no bubbles (klein)",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590209",
-  "productnaam": "Playmobil drink blauw",
-  "prijs": 1.2
- },
- {
-  "productnummer": "L40014590208",
-  "productnaam": "Playmobil drink roze",
-  "prijs": 1.2
- },
- {
-  "productnummer": "L40014590214",
-  "productnaam": "Gezinszak 1 pers.",
-  "prijs": 2.55
- },
- {
-  "productnummer": "L40014590215",
-  "productnaam": "Gezinszak 2 pers.",
-  "prijs": 5.1
- },
- {
-  "productnummer": "L40014590216",
-  "productnaam": "Gezinszak 3 pers.",
-  "prijs": 7.65
- },
- {
-  "productnummer": "L40014590217",
-  "productnaam": "Gezinszak 4 pers.",
-  "prijs": 10.2
- },
- {
-  "productnummer": "L40014590220",
-  "productnaam": "Grote gezinszak",
-  "prijs": 10.2
- },
- {
-  "productnummer": "L40014590218",
-  "productnaam": "Gezinszak 5 pers.",
-  "prijs": 12.75
- },
- {
-  "productnummer": "L40014590219",
-  "productnaam": "Kleine gezinszak",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014590221",
-  "productnaam": "Gezinszak 6 pers.",
-  "prijs": 15.3
- },
- {
-  "productnummer": "L40014590222",
-  "productnaam": "Gezinszak ras 1 pers.",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014590223",
-  "productnaam": "Gezinszak ras 2 pers.",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590224",
-  "productnaam": "Gezinszak ras 3 pers.",
-  "prijs": 8.1
- },
- {
-  "productnummer": "L40014590225",
-  "productnaam": "Gezinszak ras 4 pers.",
-  "prijs": 10.8
- },
- {
-  "productnummer": "L40014590226",
-  "productnaam": "Gezinszak ras 5 pers.",
-  "prijs": 13.5
- },
- {
-  "productnummer": "L40014590227",
-  "productnaam": "Gezinszak ras 6 pers.",
-  "prijs": 16.2
- },
- {
-  "productnummer": "L40014590228",
-  "productnaam": "Kleine gezinszak ras",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014590229",
-  "productnaam": "Grote gezinszak ras",
-  "prijs": 10.8
- },
- {
-  "productnummer": "L40014590230",
-  "productnaam": "Dubbel frites zonder",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014590231",
-  "productnaam": "Dubbel frites mayonaise",
-  "prijs": 5.1
- },
- {
-  "productnummer": "L40014590232",
-  "productnaam": "Dubbel frites speciaal",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014590233",
-  "productnaam": "Dubbel frites speciaal ketchup",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014590234",
-  "productnaam": "Dubbel frites joppiesaus",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014590235",
-  "productnaam": "Dubbel frites ketchup",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014590236",
-  "productnaam": "Dubbel frites pindasaus",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014590237",
-  "productnaam": "Dubbel frites curry",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014590238",
-  "productnaam": "Dubbel frites oorlog met ui",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014590239",
-  "productnaam": "Dubbel frites oorlog",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014590241",
-  "productnaam": "Dubbel rasfrites zonder",
-  "prijs": 4.7
- },
- {
-  "productnummer": "L40014590240",
-  "productnaam": "Dubbel rasfrites speciaal",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590242",
-  "productnaam": "Dubbel rasfrites mayonaise",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590243",
-  "productnaam": "Dubbel rasfrites speciaal ketchup",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590244",
-  "productnaam": "Dubbel rasfrites joppiesaus",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590245",
-  "productnaam": "Dubbel rasfrites ketchup",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014590246",
-  "productnaam": "Dubbel rasfrites curry",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014590247",
-  "productnaam": "Dubbel rasfrites pindasaus",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014590248",
-  "productnaam": "Dubbel rasfrites oorlog",
-  "prijs": 5.6
- },
- {
-  "productnummer": "L40014590249",
-  "productnaam": "Dubbel rasfrites oorlog met ui",
-  "prijs": 5.6
- },
- {
-  "productnummer": "L40014590250",
-  "productnaam": "Frites speciaal ketchup",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590251",
-  "productnaam": "Frites piccalilly",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590253",
-  "productnaam": "Frites ketchup",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590252",
-  "productnaam": "Frites curry",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590254",
-  "productnaam": "Waterfiets",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014590255",
-  "productnaam": "Frites hete kip chilisaus",
-  "prijs": 7
- },
- {
-  "productnummer": "L40014590256",
-  "productnaam": "Frites warmvlees",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014590258",
-  "productnaam": "Rasfrites speciaal ketchup",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014590257",
-  "productnaam": "Rasfrites joppiesaus",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014590259",
-  "productnaam": "Rasfrites ketchup",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014590260",
-  "productnaam": "Rasfrites curry",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014590261",
-  "productnaam": "Rasfrites warmvlees",
-  "prijs": 6.85
- },
- {
-  "productnummer": "L40014590262",
-  "productnaam": "Rasfrites warmvlees pindasaus",
-  "prijs": 6.85
- },
- {
-  "productnummer": "L40014590263",
-  "productnaam": "Vegetarische kipcorn",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590264",
-  "productnaam": "Vegetarische bitterballen 4 stuks",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014590265",
-  "productnaam": "Vegetarische frikandel",
-  "prijs": 2.55
- },
- {
-  "productnummer": "L40014590266",
-  "productnaam": "Broodje cas spijkers kroket",
-  "prijs": 3.3
- },
- {
-  "productnummer": "L40014590267",
-  "productnaam": "Broodje frikandel speciaal",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590268",
-  "productnaam": "Broodje frikandel mayonaise",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014590269",
-  "productnaam": "Broodje kaassouflé pindasaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590270",
-  "productnaam": "Broodje warm vlees",
-  "prijs": 4.7
- },
- {
-  "productnummer": "L40014590271",
-  "productnaam": "Broodje hamburger speciaal (saus en ei)",
-  "prijs": 4.15
- },
- {
-  "productnummer": "L40014590272",
-  "productnaam": "Broodje hamburger",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014590273",
-  "productnaam": "Broodje cheeseburger (saus en ei)",
-  "prijs": 4.55
- },
- {
-  "productnummer": "L40014590274",
-  "productnaam": "Broodje hamburger keuken",
-  "prijs": 3.75
- },
- {
-  "productnummer": "L40014590275",
-  "productnaam": "Broodje hamburger speciaal keuken (saus en ei)",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014590276",
-  "productnaam": "Broodje cheeseburger keuken (saus en ei)",
-  "prijs": 4.9
- },
- {
-  "productnummer": "L40014590278",
-  "productnaam": "Black Jack Burger",
-  "prijs": 4.35
- },
- {
-  "productnummer": "L40014590277",
-  "productnaam": "Klein bakje softijs 100cc",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014590279",
-  "productnaam": "Medium bakje softijs 150cc",
-  "prijs": 2.3
- },
- {
-  "productnummer": "L40014590280",
-  "productnaam": "Groot bakje softijs 225cc",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590281",
-  "productnaam": "Klein beker softijs 300cc",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014590282",
-  "productnaam": "Medium beker softijs 400cc",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014590283",
-  "productnaam": "Groot beker softijs 500cc",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014590284",
-  "productnaam": "Milkshake klein aardbei",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590285",
-  "productnaam": "Milkshake middel aardbei",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590286",
-  "productnaam": "Milkshake groot aardbei",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590287",
-  "productnaam": "Milkshake groot banaan",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590290",
-  "productnaam": "Milkshake klein chocolade",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590288",
-  "productnaam": "Milkshake middel banaan",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590289",
-  "productnaam": "Milkshake klein banaan",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590291",
-  "productnaam": "Milkshake middel chocolade",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590292",
-  "productnaam": "Milkshake groot chocolade",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590293",
-  "productnaam": "Milkshake klein vanille",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590294",
-  "productnaam": "Milkshake middel vanille",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590295",
-  "productnaam": "Milkshake groot vanille",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590311",
-  "productnaam": "Beker klein mayonaise",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590312",
-  "productnaam": "Beker klein curry",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590313",
-  "productnaam": "Beker klein speciaal",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014590314",
-  "productnaam": "Beker klein speciaal ketchup",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014590315",
-  "productnaam": "Beker klein pindasaus",
-  "prijs": 1.7
- },
- {
-  "productnummer": "L40014590316",
-  "productnaam": "Beker klein ketchup",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590317",
-  "productnaam": "Beker klein joppiesaus",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590318",
-  "productnaam": "Beker klein oorlog",
-  "prijs": 1.7
- },
- {
-  "productnummer": "L40014590319",
-  "productnaam": "Beker klein oorlog met ui",
-  "prijs": 1.7
- },
- {
-  "productnummer": "L40014590320",
-  "productnaam": "Beker klein chilisaus",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014590321",
-  "productnaam": "Beker klein piri piri saus",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014590322",
-  "productnaam": "Beker klein zigeunersaus",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014590323",
-  "productnaam": "Beker klein knoflooksaus",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590324",
-  "productnaam": "Beker klein uitjes",
-  "prijs": 0.9
- },
- {
-  "productnummer": "L40014590325",
-  "productnaam": "Beker klein ravigottesaus",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014590326",
-  "productnaam": "Beker groot mayonaise",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014590327",
-  "productnaam": "Beker groot curry",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014590329",
-  "productnaam": "Beker groot speciaal ketchup",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590328",
-  "productnaam": "Beker groot speciaal",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590330",
-  "productnaam": "Beker groot ketchup",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014590331",
-  "productnaam": "Beker groot pindasaus",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590332",
-  "productnaam": "Beker groot joppiesaus",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014590333",
-  "productnaam": "Beker groot oorlog met ui",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590334",
-  "productnaam": "Beker groot oorlog",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590335",
-  "productnaam": "Beker groot chilisaus",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590337",
-  "productnaam": "Beker groot piri piri saus",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590336",
-  "productnaam": "Beker groot zigeunersaus",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014590338",
-  "productnaam": "Beker groot uitjes",
-  "prijs": 1.3
- },
- {
-  "productnummer": "L40014590339",
-  "productnaam": "Beker groot knoflooksaus",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590340",
-  "productnaam": "Beker groot ravigottesaus",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590362",
-  "productnaam": "Frikandel speciaal ketchup",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014590363",
-  "productnaam": "Frikandel XXL speciaal ketchup",
-  "prijs": 4.8
- },
- {
-  "productnummer": "L40014590373",
-  "productnaam": "Lipton Ice Tea Peach",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014500798",
-  "productnaam": "Frites normaal fritessaus",
-  "prijs": 3.05
- },
- {
-  "productnummer": "L40014500003",
-  "productnaam": "Frites Speciaal",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500799",
-  "productnaam": "Frites Speciaal Ketchup",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500384",
-  "productnaam": "Frites Piccalilly",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500004",
-  "productnaam": "Frites Pindasaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500959",
-  "productnaam": "Frites oorlog",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014500960",
-  "productnaam": "Frites Oorlog met ui",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014500011",
-  "productnaam": "Frites Curry",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500012",
-  "productnaam": "Frites Ketchup",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500294",
-  "productnaam": "Frites Joppiesaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500006",
-  "productnaam": "Frites Knoflooksaus",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500538",
-  "productnaam": "Waterfiets",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014500450",
-  "productnaam": "Frites Kapsalon",
-  "prijs": 8.7
- },
- {
-  "productnummer": "L40014500009",
-  "productnaam": "Frites Shoarma",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014500010",
-  "productnaam": "Frites Gyros",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014500572",
-  "productnaam": "Frites Hete Kip Chili",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014500008",
-  "productnaam": "Frites Stoofvlees",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014500007",
-  "productnaam": "Frites Warm Vlees Pi",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014500578",
-  "productnaam": "Frites Warm Vlees",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014500528",
-  "productnaam": "Gezinszak klein",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014500529",
-  "productnaam": "Gezinszak groot",
-  "prijs": 10.2
- },
- {
-  "productnummer": "L40014500295",
-  "productnaam": "Dub.Frites Zonder",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014500296",
-  "productnaam": "Dub.Frites Mayonaise",
-  "prijs": 5.1
- },
- {
-  "productnummer": "L40014500299",
-  "productnaam": "Dub.Frites Speciaal",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014500715",
-  "productnaam": "Dub.Frites Speciaal Ketchup",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014500802",
-  "productnaam": "Dub.Frites Joppiesaus",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014500298",
-  "productnaam": "Dub.Frites Ketchup",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014500982",
-  "productnaam": "Dub.Frites Curry",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014500300",
-  "productnaam": "Dub.Frites Pindasaus",
-  "prijs": 5.3
- },
- {
-  "productnummer": "L40014500978",
-  "productnaam": "Frites Dubbel Oorlog",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500979",
-  "productnaam": "Frites dubbel Oorlog ui",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500223",
-  "productnaam": "Gezinszak 1 Pers.",
-  "prijs": 2.55
- },
- {
-  "productnummer": "L40014500310",
-  "productnaam": "Gezinszak 2 Pers.",
-  "prijs": 5.1
- },
- {
-  "productnummer": "L40014500311",
-  "productnaam": "Gezinszak 3 Pers.",
-  "prijs": 7.65
- },
- {
-  "productnummer": "L40014500312",
-  "productnaam": "Gezinszak 4 Pers.",
-  "prijs": 10.2
- },
- {
-  "productnummer": "L40014500313",
-  "productnaam": "Gezinszak 5 Pers.",
-  "prijs": 12.75
- },
- {
-  "productnummer": "L40014500314",
-  "productnaam": "Gezinszak 6 Pers.",
-  "prijs": 15.3
- },
- {
-  "productnummer": "L40014500454",
-  "productnaam": "Kleine Gezinszak",
-  "prijs": 6.5
- },
- {
-  "productnummer": "L40014500441",
-  "productnaam": "Grote Gezinszak",
-  "prijs": 10.2
- },
- {
-  "productnummer": "L40014500158",
-  "productnaam": "Frites Ras Zonder",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500159",
-  "productnaam": "Frites Ras Mayonaise",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014500162",
-  "productnaam": "Frites Ras Speciaal",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500803",
-  "productnaam": "Frites Ras Speciaal Ketchup",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500163",
-  "productnaam": "Frites Ras Pindasaus",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500971",
-  "productnaam": "Frites Ras Oorlog",
-  "prijs": 3.75
- },
- {
-  "productnummer": "L40014500972",
-  "productnaam": "Frites Ras Orrlog + Ui",
-  "prijs": 3.75
- },
- {
-  "productnummer": "L40014500805",
-  "productnaam": "Frites Ras Joppiesaus",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500973",
-  "productnaam": "Frites Ras Curry",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500974",
-  "productnaam": "Frites Ras Ketchup",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500808",
-  "productnaam": "Frites Ras Warm Vlees",
-  "prijs": 6.85
- },
- {
-  "productnummer": "L40014500995",
-  "productnaam": "Frites Ras Warm Vlees + Pinda",
-  "prijs": 6.85
- },
- {
-  "productnummer": "L40014500809",
-  "productnaam": "Frites Ras Stoofvlees",
-  "prijs": 6.85
- },
- {
-  "productnummer": "L40014500168",
-  "productnaam": "Frites Ras Shoarma",
-  "prijs": 7.75
- },
- {
-  "productnummer": "L40014500169",
-  "productnaam": "Frites Ras Gyros",
-  "prijs": 7.75
- },
- {
-  "productnummer": "L40014500595",
-  "productnaam": "Ras Gezinszak klein",
-  "prijs": 6.9
- },
- {
-  "productnummer": "L40014500596",
-  "productnaam": "Ras Gezinszak groot",
-  "prijs": 11.6
- },
- {
-  "productnummer": "L40014500813",
-  "productnaam": "Dub.Frites Ras Zonder",
-  "prijs": 4.8
- },
- {
-  "productnummer": "L40014500814",
-  "productnaam": "Dub.Frites Ras Mayonaise",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500599",
-  "productnaam": "Dub.Frites Ras Curry",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500600",
-  "productnaam": "Dub.Frites Ras Ketchup",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500815",
-  "productnaam": "Dub.Frites Ras Speciaal",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500602",
-  "productnaam": "Dub.Frites Ras Speciaal Ketchu",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500816",
-  "productnaam": "Dub.Frites Ras Pindasaus",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500817",
-  "productnaam": "Dub.Frites Ras Gezellig",
-  "prijs": 5.95
- },
- {
-  "productnummer": "L40014500818",
-  "productnaam": "Dub.Frites Ras Gezellig ui",
-  "prijs": 5.95
- },
- {
-  "productnummer": "L40014500606",
-  "productnaam": "Dub.Frites Ras Joppiesaus",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500607",
-  "productnaam": "Dub.Frites Ras Wimpiesaus",
-  "prijs": 4.8
- },
- {
-  "productnummer": "L40014500608",
-  "productnaam": "Dub.Frites Ras Knoflooksaus",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500609",
-  "productnaam": "Dub.Frites Ras Piccalilly",
-  "prijs": 5.7
- },
- {
-  "productnummer": "L40014500909",
-  "productnaam": "Dub.Frites Ras Hete Kip Chili",
-  "prijs": 0
- },
- {
-  "productnummer": "L40014500819",
-  "productnaam": "Gezinszak Ras 1 Pers.",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500820",
-  "productnaam": "Gezinszak Ras 2 Pers.",
-  "prijs": 5.8
- },
- {
-  "productnummer": "L40014500821",
-  "productnaam": "Gezinszak Ras 3 Pers.",
-  "prijs": 8.7
- },
- {
-  "productnummer": "L40014500822",
-  "productnaam": "Gezinszak Ras 4 Pers.",
-  "prijs": 11.6
- },
- {
-  "productnummer": "L40014500823",
-  "productnaam": "Gezinszak Ras 5 Pers.",
-  "prijs": 14.5
- },
- {
-  "productnummer": "L40014500824",
-  "productnaam": "Gezinszak Ras 6 Pers.",
-  "prijs": 17.4
- },
- {
-  "productnummer": "L40014500460",
-  "productnaam": "Kleine Gezinszak Ras",
-  "prijs": 6.8
- },
- {
-  "productnummer": "L40014500461",
-  "productnaam": "Grote Gezinszak Ras",
-  "prijs": 11.6
- },
- {
-  "productnummer": "L40014500069",
-  "productnaam": "Plate Kipburger",
-  "prijs": 9.2
- },
- {
-  "productnummer": "L40014500071",
-  "productnaam": "Plate Halve Kip",
-  "prijs": 11.2
- },
- {
-  "productnummer": "L40014500072",
-  "productnaam": "Plate Warm Vlees",
-  "prijs": 9.75
- },
- {
-  "productnummer": "L40014500825",
-  "productnaam": "Plate Loempia Speciaal",
-  "prijs": 10.4
- },
- {
-  "productnummer": "L40014500826",
-  "productnaam": "Plate Shaslick (2st.)",
-  "prijs": 12.25
- },
- {
-  "productnummer": "L40014500076",
-  "productnaam": "Plate Schnitzel",
-  "prijs": 10.5
- },
- {
-  "productnummer": "L40014500077",
-  "productnaam": "Plate Shoarma",
-  "prijs": 10.5
- },
- {
-  "productnummer": "L40014500078",
-  "productnaam": "Plate Gyros",
-  "prijs": 10.5
- },
- {
-  "productnummer": "L40014500079",
-  "productnaam": "Plate Kipsate",
-  "prijs": 10.9
- },
- {
-  "productnummer": "L40014500827",
-  "productnaam": "Plate Varkenshaassate",
-  "prijs": 11.1
- },
- {
-  "productnummer": "L40014500081",
-  "productnaam": "Plate Spareribs",
-  "prijs": 12.8
- },
- {
-  "productnummer": "L40014500388",
-  "productnaam": "Plate",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014500828",
-  "productnaam": "Plate Hamburger Spec.",
-  "prijs": 9.75
- },
- {
-  "productnummer": "L40014500829",
-  "productnaam": "Plate Hamburger Spec. Keuken",
-  "prijs": 10.1
- },
- {
-  "productnummer": "L40014500389",
-  "productnaam": "Kidz Kroket",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500390",
-  "productnaam": "Kidz Frikandel",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500830",
-  "productnaam": "Kidz Kipfingers 3 st.",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500013",
-  "productnaam": "Kroket",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014500014",
-  "productnaam": "Cas Spijkers Kroket",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500015",
-  "productnaam": "Kwekkeboom Kroket",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500016",
-  "productnaam": "Sate Kroket",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500017",
-  "productnaam": "Goulash Kroket",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500018",
-  "productnaam": "Kalfs Kroket",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500019",
-  "productnaam": "Groente Kroket",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500020",
-  "productnaam": "Kaas Kroket",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500548",
-  "productnaam": "Holtkamp kroket",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014501018",
-  "productnaam": "Elite kroket",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500021",
-  "productnaam": "Frikandel",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014500023",
-  "productnaam": "Frikandel Speciaal",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014500833",
-  "productnaam": "Frikandel Speciaal Ketchup",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014500022",
-  "productnaam": "Frikandel Mayonaise",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500039",
-  "productnaam": "Viandel",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014500964",
-  "productnaam": "Frikandel Glutenvrij",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014500926",
-  "productnaam": "Kipfrikandel Halal",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500957",
-  "productnaam": "Frikandel XXL",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014500958",
-  "productnaam": "Frikandel XXL Speciaal",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014501028",
-  "productnaam": "Loempiadel",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014501029",
-  "productnaam": "Frikandel pinda",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500045",
-  "productnaam": "Bamischijf",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014501030",
-  "productnaam": "Bamischijf curry",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014501031",
-  "productnaam": "Bamischijf pinda",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014500046",
-  "productnaam": "Nasischijf",
-  "prijs": 2.45
- },
- {
-  "productnummer": "L40014500047",
-  "productnaam": "Hamburger",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014500834",
-  "productnaam": "Hamburger uit eigen keuken",
-  "prijs": 3.45
- },
- {
-  "productnummer": "L40014500060",
-  "productnaam": "Loempia",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014500061",
-  "productnaam": "Loempia Speciaal",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500923",
-  "productnaam": "Veg. mini loempia's (8 st.)",
-  "prijs": 4.35
- },
- {
-  "productnummer": "L40014500344",
-  "productnaam": "Vegetarische Loempia",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014501032",
-  "productnaam": "Veg.loempia speciaal",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014500036",
-  "productnaam": "Kipcorn",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014500054",
-  "productnaam": "Kipfingers (6st.)",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500055",
-  "productnaam": "Kipnuggets (4st.)",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500059",
-  "productnaam": "Halve Kip",
-  "prijs": 6.35
- },
- {
-  "productnummer": "L40014500541",
-  "productnaam": "Kipnuggets (6st.)",
-  "prijs": 4.5
- },
- {
-  "productnummer": "L40014500540",
-  "productnaam": "Hotwings (5st.)",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014500921",
-  "productnaam": "Fried Chicken",
-  "prijs": 4.6
- },
- {
-  "productnummer": "L40014500290",
-  "productnaam": "Kipburger Los",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500051",
-  "productnaam": "Saterol",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500057",
-  "productnaam": "Kipsate",
-  "prijs": 6
- },
- {
-  "productnummer": "L40014500058",
-  "productnaam": "Varkenshaassate",
-  "prijs": 6.2
- },
- {
-  "productnummer": "L40014500044",
-  "productnaam": "Mini - Megamix",
-  "prijs": 3.8
- },
- {
-  "productnummer": "L40014500056",
-  "productnaam": "Bitterballen (6st.)",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014500939",
-  "productnaam": "Vlammetjes 6 st.",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014500043",
-  "productnaam": "Twijfelaar",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014500940",
-  "productnaam": "Kaasstengels 6 st.",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014500249",
-  "productnaam": "Bittergarnituur(50st)",
-  "prijs": 29.75
- },
- {
-  "productnummer": "L40014500835",
-  "productnaam": "Bittergarnituur(75st)",
-  "prijs": 45
- },
- {
-  "productnummer": "L40014500026",
-  "productnaam": "Kaassouffle",
-  "prijs": 2.25
- },
- {
-  "productnummer": "L40014500027",
-  "productnaam": "Souflesse",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500836",
-  "productnaam": "Ham\/Kaassouffle",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500245",
-  "productnaam": "Souflesse Pikant",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500246",
-  "productnaam": "Souflesse Ham\/Kaas",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500248",
-  "productnaam": "Souflesse Mozzarella",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014501033",
-  "productnaam": "Cheesecrack",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500029",
-  "productnaam": "Bereklauw",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500030",
-  "productnaam": "Bereklauw Pindasaus",
-  "prijs": 3.9
- },
- {
-  "productnummer": "L40014500035",
-  "productnaam": "Hete Donder",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500031",
-  "productnaam": "Mexicano",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014500032",
-  "productnaam": "Mexicano Pindasaus",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014500932",
-  "productnaam": "Mexicano glutenvrij",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014500034",
-  "productnaam": "Pikanto",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014500033",
-  "productnaam": "Pikanto Pindasaus",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500053",
-  "productnaam": "Shoarmarol",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500575",
-  "productnaam": "Triotje",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500576",
-  "productnaam": "Triotje pindasaus",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014500052",
-  "productnaam": "Smulrol",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500049",
-  "productnaam": "Bal Gehakt",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014501020",
-  "productnaam": "Bal Gehakt Mayo",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014501019",
-  "productnaam": "Bal Gehakt Pinda",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014501034",
-  "productnaam": "Shoarmarol knoflooksaus",
-  "prijs": 3.45
- },
- {
-  "productnummer": "L40014500037",
-  "productnaam": "Kikastick",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014500038",
-  "productnaam": "Shaslick",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014500040",
-  "productnaam": "Bonita",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500041",
-  "productnaam": "Knakworst",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500042",
-  "productnaam": "Braadworst",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500050",
-  "productnaam": "Lihanboutje",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014500062",
-  "productnaam": "Schnitzel",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014500063",
-  "productnaam": "Karbonade",
-  "prijs": 5.55
- },
- {
-  "productnummer": "L40014500064",
-  "productnaam": "Spareribs",
-  "prijs": 7.6
- },
- {
-  "productnummer": "L40014500065",
-  "productnaam": "Sluis Slaatje",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014500267",
-  "productnaam": "Rauwkost Salade",
-  "prijs": 3.4
- },
- {
-  "productnummer": "L40014500954",
-  "productnaam": "Feest Salade P.P.",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014501025",
-  "productnaam": "Vegetarische Kipcorn",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014501026",
-  "productnaam": "Vegetarische Kroket",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500095",
-  "productnaam": "Broodje Kroket",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500839",
-  "productnaam": "Broodje Kwekkeboom Kroket",
-  "prijs": 3.3
- },
- {
-  "productnummer": "L40014500924",
-  "productnaam": "Broodje Kalfskroket",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014500925",
-  "productnaam": "Broodje Goulashkroket",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014500542",
-  "productnaam": "Broodje Cas Spijkers Kroket",
-  "prijs": 3.3
- },
- {
-  "productnummer": "L40014500097",
-  "productnaam": "Broodje Frikandel",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500840",
-  "productnaam": "Broodje Frikandel Mayo",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500841",
-  "productnaam": "Broodje Frikandel Speciaal",
-  "prijs": 3.75
- },
- {
-  "productnummer": "L40014500100",
-  "productnaam": "Broodje Kaassouffle",
-  "prijs": 3.05
- },
- {
-  "productnummer": "L40014500842",
-  "productnaam": "Broodje Kaassouffle Pindasaus",
-  "prijs": 3.85
- },
- {
-  "productnummer": "L40014500976",
-  "productnaam": "Broodje Satekroket",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014500955",
-  "productnaam": "Broodje Kipcorn",
-  "prijs": 3.45
- },
- {
-  "productnummer": "L40014500956",
-  "productnaam": "Broodje Pikanto",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014500931",
-  "productnaam": "Broodje braadworst",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014500977",
-  "productnaam": "Broodje Ham-Kaassoufle",
-  "prijs": 3.15
- },
- {
-  "productnummer": "L40014500108",
-  "productnaam": "Broodje Gehaktbal",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014500110",
-  "productnaam": "Broodje Warm Vlees",
-  "prijs": 4.7
- },
- {
-  "productnummer": "L40014500843",
-  "productnaam": "Broodje Warm Vlees Pindasaus",
-  "prijs": 4.7
- },
- {
-  "productnummer": "L40014500112",
-  "productnaam": "Broodje Gyros",
-  "prijs": 5.95
- },
- {
-  "productnummer": "L40014500113",
-  "productnaam": "Broodje Shoarma",
-  "prijs": 5.95
- },
- {
-  "productnummer": "L40014500559",
-  "productnaam": "pistolet Hete Kip",
-  "prijs": 6
- },
- {
-  "productnummer": "L40014500107",
-  "productnaam": "Broodje Kipburger",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014500109",
-  "productnaam": "Broodje Knakworst",
-  "prijs": 3.25
- },
- {
-  "productnummer": "L40014500083",
-  "productnaam": "Broodje Ei",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500084",
-  "productnaam": "Broodje Ei\/Tomaat",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014500085",
-  "productnaam": "Broodje Jonge Kaas",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014500086",
-  "productnaam": "Broodje Oude Kaas",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500087",
-  "productnaam": "Broodje Ham",
-  "prijs": 2.65
- },
- {
-  "productnummer": "L40014500088",
-  "productnaam": "Broodje Osseworst",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014500090",
-  "productnaam": "Broodje Tartaar",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014500837",
-  "productnaam": "Broodje Tartaar Speciaal",
-  "prijs": 4.5
- },
- {
-  "productnummer": "L40014500838",
-  "productnaam": "Broodje Filet Americain",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500094",
-  "productnaam": "Broodje Gezond",
-  "prijs": 4.25
- },
- {
-  "productnummer": "L40014500934",
-  "productnaam": "Pistolet los",
-  "prijs": 1.2
- },
- {
-  "productnummer": "L40014500105",
-  "productnaam": "Sluisburger Cheese",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014500942",
-  "productnaam": "Double Cheese",
-  "prijs": 5.4
- },
- {
-  "productnummer": "L40014500944",
-  "productnaam": "Sluisburger Triple Cheese",
-  "prijs": 7.2
- },
- {
-  "productnummer": "L40014500947",
-  "productnaam": "Sluisburger Bacon Cheese",
-  "prijs": 4.75
- },
- {
-  "productnummer": "L40014500941",
-  "productnaam": "Sluisburger Bacon burger",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014500952",
-  "productnaam": "Sluisburger Regular",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014500946",
-  "productnaam": "Sluisburger Special +Egg",
-  "prijs": 4.85
- },
- {
-  "productnummer": "L40014500948",
-  "productnaam": "Sluisburger Cheese Onion",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014500943",
-  "productnaam": "Sluisburger Hot",
-  "prijs": 4.85
- },
- {
-  "productnummer": "L40014500951",
-  "productnaam": "Sluisburger Joppie",
-  "prijs": 4.1
- },
- {
-  "productnummer": "L40014500950",
-  "productnaam": "Sluisburger Kroket",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014500962",
-  "productnaam": "Visburger",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014500953",
-  "productnaam": "Sluisburger Chicken",
-  "prijs": 4.7
- },
- {
-  "productnummer": "L40014500945",
-  "productnaam": "Sluisburger Chicken Cheese",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014500949",
-  "productnaam": "Sluisburger Chicken Sateh",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014500114",
-  "productnaam": "Tosti Kaas",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500115",
-  "productnaam": "Tosti Ham",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500116",
-  "productnaam": "Tosti Ham\/Kaas",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014500232",
-  "productnaam": "Uitsmijter Kaas",
-  "prijs": 7
- },
- {
-  "productnummer": "L40014500233",
-  "productnaam": "Uitsmijter Ham",
-  "prijs": 7
- },
- {
-  "productnummer": "L40014500234",
-  "productnaam": "Uitsmijter Ham\/Kaas",
-  "prijs": 7.4
- },
- {
-  "productnummer": "L40014500170",
-  "productnaam": "Pistolet Ei",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500171",
-  "productnaam": "Pistolet Ei\/Tomaat",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014500172",
-  "productnaam": "Pistolet Jonge Kaas",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014500173",
-  "productnaam": "Pistolet Oude Kaas",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014500174",
-  "productnaam": "Pistolet Ham",
-  "prijs": 2.95
- },
- {
-  "productnummer": "L40014500175",
-  "productnaam": "Pistolet Osseworst",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014500176",
-  "productnaam": "Pistolet Fricandeau",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500177",
-  "productnaam": "Pistolet Tartaar",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500849",
-  "productnaam": "Pistolet Tartaar Speciaal",
-  "prijs": 3.95
- },
- {
-  "productnummer": "L40014500850",
-  "productnaam": "Pistolet Filet Americain",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014500180",
-  "productnaam": "Pistolet Brie",
-  "prijs": 3.85
- },
- {
-  "productnummer": "L40014500181",
-  "productnaam": "Pistolet Gezond",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014500103",
-  "productnaam": "Broodje Hamburger",
-  "prijs": 3.8
- },
- {
-  "productnummer": "L40014500104",
-  "productnaam": "Broodje Hamburger Speciaal",
-  "prijs": 4.85
- },
- {
-  "productnummer": "L40014501037",
-  "productnaam": "Broodje Cheeseburger",
-  "prijs": 5.2
- },
- {
-  "productnummer": "L40014500793",
-  "productnaam": "Black Jack Burger",
-  "prijs": 4.55
- },
- {
-  "productnummer": "L40014500912",
-  "productnaam": "Pikomex",
-  "prijs": 4.25
- },
- {
-  "productnummer": "L40014501035",
-  "productnaam": "Royal Filetburger",
-  "prijs": 4.85
- },
- {
-  "productnummer": "L40014500489",
-  "productnaam": "Broodje Hamburger Keuken.",
-  "prijs": 4.2
- },
- {
-  "productnummer": "L40014500961",
-  "productnaam": "Br. Hamburger Speciaal keuken",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014500696",
-  "productnaam": "Broodje Cheeseburger Keuken",
-  "prijs": 5.6
- },
- {
-  "productnummer": "L40014500187",
-  "productnaam": "Coca cola",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500712",
-  "productnaam": "Coca Cola ZERO",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500190",
-  "productnaam": "Fanta orange",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500189",
-  "productnaam": "Fanta cassis",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500345",
-  "productnaam": "7 UP",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500293",
-  "productnaam": "Dr. Pepper",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500193",
-  "productnaam": "Liptonice",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500346",
-  "productnaam": "Lipton Ice Tea Green",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500183",
-  "productnaam": "Appelsap",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500347",
-  "productnaam": "Jus d'Orange",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500191",
-  "productnaam": "Fristi",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500186",
-  "productnaam": "Chocomel",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500182",
-  "productnaam": "AA drink",
-  "prijs": 2.3
- },
- {
-  "productnummer": "L40014500194",
-  "productnaam": "Red bull",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500184",
-  "productnaam": "Fanta lemon",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500348",
-  "productnaam": "Spa Blauw",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500292",
-  "productnaam": "Spa Rood",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014500291",
-  "productnaam": "Capri Sun",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500493",
-  "productnaam": "Twist drink groen",
-  "prijs": 1.2
- },
- {
-  "productnummer": "L40014500446",
-  "productnaam": "Twist drink rood",
-  "prijs": 1.2
- },
- {
-  "productnummer": "L40014500922",
-  "productnaam": "Slammers Energy Drink",
-  "prijs": 1.25
- },
- {
-  "productnummer": "L40014500910",
-  "productnaam": "Amstel Radler 0.0%",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014500192",
-  "productnaam": "Heineken bier blikje",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014501022",
-  "productnaam": "Fuze tea",
-  "prijs": 2.3
- },
- {
-  "productnummer": "L40014501036",
-  "productnaam": "Fuze tea blik",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014500117",
-  "productnaam": "Koffie",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014500118",
-  "productnaam": "Koffie Verkeerd",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500119",
-  "productnaam": "Thee",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014500120",
-  "productnaam": "Warme Chocomelk",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500121",
-  "productnaam": "Melk",
-  "prijs": 2.3
- },
- {
-  "productnummer": "L40014500230",
-  "productnaam": "Cappuccino",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500851",
-  "productnaam": "Milkshake Klein Aardbei",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500852",
-  "productnaam": "Milkshake Middel Aardbei",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500853",
-  "productnaam": "Milkshake Groot Aardbei",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014500854",
-  "productnaam": "Milkshake Klein Banaan",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500855",
-  "productnaam": "Milkshake Middel Banaan",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500856",
-  "productnaam": "Milkshake Groot Banaan",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014500857",
-  "productnaam": "Milkshake Klein Chocolade",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500858",
-  "productnaam": "Milkshake Middel Chocolade",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500859",
-  "productnaam": "Milkshake Groot Chocolade",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014500860",
-  "productnaam": "Milkshake Klein Vanille",
-  "prijs": 2.7
- },
- {
-  "productnummer": "L40014500861",
-  "productnaam": "Milkshake Middel Vanille",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500862",
-  "productnaam": "Milkshake Groot Vanille",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014500129",
-  "productnaam": "Kinderijsje",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014500132",
-  "productnaam": "Oubliehoorn",
-  "prijs": 2.2
- },
- {
-  "productnummer": "L40014500350",
-  "productnaam": "Oubliehoorn groot",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500270",
-  "productnaam": "Beker Mini",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500271",
-  "productnaam": "Beker Klein",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014500272",
-  "productnaam": "Beker Medium",
-  "prijs": 4.45
- },
- {
-  "productnummer": "L40014500273",
-  "productnaam": "Beker Groot",
-  "prijs": 5.2
- },
- {
-  "productnummer": "L40014500936",
-  "productnaam": "Sorbet kersen",
-  "prijs": 4
- },
- {
-  "productnummer": "L40014500937",
-  "productnaam": "Sorbet fruit",
-  "prijs": 4
- },
- {
-  "productnummer": "L40014500938",
-  "productnaam": "Sorbet aardbei",
-  "prijs": 4
- },
- {
-  "productnummer": "L40014500276",
-  "productnaam": "Schepijs 1 Bol",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014500277",
-  "productnaam": "Schepijs 2 Bollen",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014500279",
-  "productnaam": "Schepijs 3 Bollen",
-  "prijs": 4.8
- },
- {
-  "productnummer": "L40014500280",
-  "productnaam": "Schepijs 4 Bollen",
-  "prijs": 6.4
- },
- {
-  "productnummer": "L40014500281",
-  "productnaam": "Schepijs 5 Bollen",
-  "prijs": 8
- },
- {
-  "productnummer": "L40014500355",
-  "productnaam": "Festini peer",
-  "prijs": 0.5
- },
- {
-  "productnummer": "L40014500356",
-  "productnaam": "Magnum almond",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014501012",
-  "productnaam": "Magnum Almond White",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500274",
-  "productnaam": "Heksen-Mix Klein",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500126",
-  "productnaam": "Slush Klein",
-  "prijs": 2
- },
- {
-  "productnummer": "L40014500366",
-  "productnaam": "Heksen-Mix Middel",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500127",
-  "productnaam": "Slush Middel",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500275",
-  "productnaam": "Heksen-Mix Groot",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014500128",
-  "productnaam": "Slush Groot",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500395",
-  "productnaam": "Sundea Aardbei",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500865",
-  "productnaam": "Sundea Chocolade",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500372",
-  "productnaam": "Sundea Caramel",
-  "prijs": 3
- },
- {
-  "productnummer": "L40014500866",
-  "productnaam": "Beker Klein Pindasaus",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014500867",
-  "productnaam": "Beker Klein Mayonaise",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500254",
-  "productnaam": "Beker Klein Ketchup",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500255",
-  "productnaam": "Beker Klein Speciaal",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014500253",
-  "productnaam": "Beker Klein Curry",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500257",
-  "productnaam": "Beker Klein Oorlog",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014500868",
-  "productnaam": "Beker Klein Joppiesaus",
-  "prijs": 1.5
- },
- {
-  "productnummer": "L40014500259",
-  "productnaam": "Beker Klein Wimpiesaus",
-  "prijs": 0.85
- },
- {
-  "productnummer": "L40014500988",
-  "productnaam": "Beker klein Gezellig + Ui",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014500781",
-  "productnaam": "Beker Klein Piri Piri",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014500265",
-  "productnaam": "Beker Klein Zigeuner",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014500870",
-  "productnaam": "Beker Klein Piccalilly",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500871",
-  "productnaam": "Beker Klein Chilisaus",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500872",
-  "productnaam": "Beker Klein Knoflooksaus",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500517",
-  "productnaam": "Beker Klein Uitjes",
-  "prijs": 0.8
- },
- {
-  "productnummer": "L40014500869",
-  "productnaam": "Beker Klein Ravigottesaus",
-  "prijs": 1.4
- },
- {
-  "productnummer": "L40014500874",
-  "productnaam": "Beker Groot Mayonaise",
-  "prijs": 2.35
- },
- {
-  "productnummer": "L40014500875",
-  "productnaam": "Beker Groot Pindasaus",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500402",
-  "productnaam": "Beker Groot Ketchup",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500403",
-  "productnaam": "Beker Groot Speciaal",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014500401",
-  "productnaam": "Beker Groot Curry",
-  "prijs": 2.4
- },
- {
-  "productnummer": "L40014500405",
-  "productnaam": "Beker Groot Oorlog",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500876",
-  "productnaam": "Beker Groot Joppiesaus",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500669",
-  "productnaam": "Beker Groot Wimpiesaus",
-  "prijs": 1.85
- },
- {
-  "productnummer": "L40014500989",
-  "productnaam": "Beker groot Gezellig + Ui",
-  "prijs": 2.9
- },
- {
-  "productnummer": "L40014500879",
-  "productnaam": "Beker Groot Knoflooksaus",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500412",
-  "productnaam": "Beker Groot Piri Piri",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500877",
-  "productnaam": "Beker Groot Ravigottesaus",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014500382",
-  "productnaam": "Beker Groot Piccalilly",
-  "prijs": 2.3
- },
- {
-  "productnummer": "L40014500671",
-  "productnaam": "Beker Groot Zigeunersaus",
-  "prijs": 2.8
- },
- {
-  "productnummer": "L40014500523",
-  "productnaam": "Beker Groot Uitjes",
-  "prijs": 1.2
- },
- {
-  "productnummer": "L40014500519",
-  "productnaam": "Beker Groot Stoofvlees",
-  "prijs": 3.5
- },
- {
-  "productnummer": "L40014500520",
-  "productnaam": "Beker Groot Gyros",
-  "prijs": 5
- },
- {
-  "productnummer": "L40014500521",
-  "productnaam": "Beker Groot Shoarma",
-  "prijs": 5
- },
- {
-  "productnummer": "L40014500414",
-  "productnaam": "Portie Mayonaise",
-  "prijs": 0.65
- },
- {
-  "productnummer": "L40014500415",
-  "productnaam": "Portie Curry",
-  "prijs": 0.7
- },
- {
-  "productnummer": "L40014500416",
-  "productnaam": "Portie Ketchup",
-  "prijs": 0.8
- },
- {
-  "productnummer": "L40014500418",
-  "productnaam": "Portie Pindasaus",
-  "prijs": 0.9
- },
- {
-  "productnummer": "L40014500417",
-  "productnaam": "Portie Speciaal",
-  "prijs": 0.8
- },
- {
-  "productnummer": "L40014500419",
-  "productnaam": "Portie Gezellig",
-  "prijs": 1.1
- },
- {
-  "productnummer": "L40014500420",
-  "productnaam": "Portie Joppiesaus",
-  "prijs": 0.9
- },
- {
-  "productnummer": "L40014500421",
-  "productnaam": "Portie Wimpiesaus",
-  "prijs": 0.55
- },
- {
-  "productnummer": "L40014500990",
-  "productnaam": "Portie Gezellig + Ui",
-  "prijs": 1.1
- },
- {
-  "productnummer": "L40014501044",
-  "productnaam": "Portie Piri Piri",
-  "prijs": 1
- },
- {
-  "productnummer": "L40014500427",
-  "productnaam": "Portie Zigeunersaus",
-  "prijs": 1
- },
- {
-  "productnummer": "L40014500562",
-  "productnaam": "Portie Knoflooksaus",
-  "prijs": 1
- },
- {
-  "productnummer": "L40014500525",
-  "productnaam": "Portie Uitjes",
-  "prijs": 0.6
- },
- {
-  "productnummer": "L40014500425",
-  "productnaam": "Portie Ravigottesaus",
-  "prijs": 0.8
- },
- {
-  "productnummer": "L40014590379",
-  "productnaam": "Chickenstrips 5st",
-  "prijs": 5.25
- },
- {
-  "productnummer": "L40014590380",
-  "productnaam": "Vega Frikandel",
-  "prijs": 2.55
- },
- {
-  "productnummer": "L40014590381",
-  "productnaam": "Frikandel XXL speciaal Ketchup",
-  "prijs": 4.95
- },
- {
-  "productnummer": "L40014590382",
-  "productnaam": "Pikanto Mayo",
-  "prijs": 3.35
- },
- {
-  "productnummer": "L40014590383",
-  "productnaam": "Berenklauw Speciaal",
-  "prijs": 3.7
- },
- {
-  "productnummer": "L40014590384",
-  "productnaam": "Broodje Mexicano",
-  "prijs": 3.55
- },
- {
-  "productnummer": "L40014590389",
-  "productnaam": "Milkshake middel",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590390",
-  "productnaam": "Milkshake klein",
-  "prijs": 2.1
- },
- {
-  "productnummer": "L40014590391",
-  "productnaam": "Milkshake groot",
-  "prijs": 3.1
- },
- {
-  "productnummer": "L40014590392",
-  "productnaam": "Twister 3ster",
-  "prijs": 1.6
- },
- {
-  "productnummer": "L40014590393",
-  "productnaam": "Solero Mango",
-  "prijs": 1.75
- },
- {
-  "productnummer": "L40014590394",
-  "productnaam": "Magnum Ruby",
-  "prijs": 2.75
- },
- {
-  "productnummer": "L40014590395",
-  "productnaam": "Smulrol pinda",
-  "prijs": 3.6
- },
- {
-  "productnummer": "L40014590398",
-  "productnaam": "Reuzebeker",
-  "prijs": 2.5
- },
- {
-  "productnummer": "L40014590399",
-  "productnaam": "Vegetarische frikandel speciaal",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590400",
-  "productnaam": "Vegetarische frikandel speciaal ketchup",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590401",
-  "productnaam": "Vega frikandel speciaal",
-  "prijs": 3.2
- },
- {
-  "productnummer": "L40014590402",
-  "productnaam": "Kidz Kipnuggets 3st.",
-  "prijs": 5.5
- },
- {
-  "productnummer": "L40014590403",
-  "productnaam": "Vega Burger",
-  "prijs": 3.85
- },
- {
-  "productnummer": "L40014590417",
-  "productnaam": "Vega Kipcorn",
-  "prijs": 2.6
- },
- {
-  "productnummer": "L40014590427",
-  "productnaam": "Mexicano XXL",
-  "prijs": 4.3
- },
- {
-  "productnummer": "L40014590435",
-  "productnaam": "Mini Mexicano (6st.)",
-  "prijs": 3.95
- },
- {
-  "productnummer": "L40014590436",
-  "productnaam": "Uienringen (8st.)",
-  "prijs": 3.95
- }
-]
+  {
+   "productnummer": "L40014590001",
+   "productnaam": "Frites zonder",
+   "prijs": 2.55
+  },
+  {
+   "productnummer": "L40014590002",
+   "productnaam": "Frites mayonaise",
+   "prijs": 3.05
+  },
+  {
+   "productnummer": "L40014590003",
+   "productnaam": "Frites speciaal",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590004",
+   "productnaam": "Frites pindasaus",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590005",
+   "productnaam": "Frites oorlog",
+   "prijs": 3.4
+  },
+  {
+   "productnummer": "L40014590006",
+   "productnaam": "Frites oorlog met ui",
+   "prijs": 3.4
+  },
+  {
+   "productnummer": "L40014590007",
+   "productnaam": "Frites joppiesaus",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590008",
+   "productnaam": "Frites warmvlees pindasaus",
+   "prijs": 6.5
+  },
+  {
+   "productnummer": "L40014590009",
+   "productnaam": "Frites stoofvlees",
+   "prijs": 6.5
+  },
+  {
+   "productnummer": "L40014590010",
+   "productnaam": "Frites shoarma knoflooksaus",
+   "prijs": 7.4
+  },
+  {
+   "productnummer": "L40014590011",
+   "productnaam": "Frites gyros knoflooksaus",
+   "prijs": 7.4
+  },
+  {
+   "productnummer": "L40014590012",
+   "productnaam": "Kapsalon knoflooksaus",
+   "prijs": 8.7
+  },
+  {
+   "productnummer": "L40014590013",
+   "productnaam": "Gezinszak frites",
+   "prijs": 7.8
+  },
+  {
+   "productnummer": "L40014590015",
+   "productnaam": "Frikandel",
+   "prijs": 1.8
+  },
+  {
+   "productnummer": "L40014590016",
+   "productnaam": "Frikandel speciaal",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590017",
+   "productnaam": "Frikandel XXL",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014590018",
+   "productnaam": "Frikandel XXL speciaal",
+   "prijs": 4.25
+  },
+  {
+   "productnummer": "L40014590019",
+   "productnaam": "Kroket",
+   "prijs": 1.8
+  },
+  {
+   "productnummer": "L40014590020",
+   "productnaam": "Vegetarische kroket",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590021",
+   "productnaam": "Cas Spijkers kroket",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590022",
+   "productnaam": "Kwekkeboom kroket",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590023",
+   "productnaam": "Kalfskroket",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590024",
+   "productnaam": "Goulashkroket",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590025",
+   "productnaam": "Satékroket",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590026",
+   "productnaam": "Groentekroket",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590027",
+   "productnaam": "Kaaskroket",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014590028",
+   "productnaam": "Kaassoufflé",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590029",
+   "productnaam": "Ham-kaassoufflé",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590030",
+   "productnaam": "Souflesse",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014590031",
+   "productnaam": "Mozzarellasoufflé",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014590032",
+   "productnaam": "Pikante soufflé",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014590033",
+   "productnaam": "Berenklauw",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590034",
+   "productnaam": "Berenklauw pindasaus",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590035",
+   "productnaam": "Mexicano",
+   "prijs": 2.8
+  },
+  {
+   "productnummer": "L40014590036",
+   "productnaam": "Pikanto",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590037",
+   "productnaam": "Hete donder",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590038",
+   "productnaam": "Kipkorn",
+   "prijs": 2.3
+  },
+  {
+   "productnummer": "L40014590039",
+   "productnaam": "Kikastick",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014590040",
+   "productnaam": "Shaslick",
+   "prijs": 2.85
+  },
+  {
+   "productnummer": "L40014590041",
+   "productnaam": "Knakworst",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590042",
+   "productnaam": "Viandel",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590043",
+   "productnaam": "Bonita",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014590044",
+   "productnaam": "Braadworst",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590045",
+   "productnaam": "Twijfelaar",
+   "prijs": 2.8
+  },
+  {
+   "productnummer": "L40014590046",
+   "productnaam": "Mini megamix",
+   "prijs": 3.6
+  },
+  {
+   "productnummer": "L40014590047",
+   "productnaam": "Gehaktbal",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590048",
+   "productnaam": "Bamischijf",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014590049",
+   "productnaam": "Nasischijf",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590050",
+   "productnaam": "Satérol",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590051",
+   "productnaam": "Smulrol",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014590052",
+   "productnaam": "Shoarmarol",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014590053",
+   "productnaam": "Lihanboutje",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590054",
+   "productnaam": "Kipfingers 6 stuks",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590055",
+   "productnaam": "Kipnuggets 4 stuks",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590056",
+   "productnaam": "Kipnuggets 6 stuks",
+   "prijs": 4.25
+  },
+  {
+   "productnummer": "L40014590057",
+   "productnaam": "Hotwings 5 stuks",
+   "prijs": 4.75
+  },
+  {
+   "productnummer": "L40014590058",
+   "productnaam": "Bitterballen Kwekkeboom 6 stuks",
+   "prijs": 4.1
+  },
+  {
+   "productnummer": "L40014590059",
+   "productnaam": "Loempia",
+   "prijs": 4.2
+  },
+  {
+   "productnummer": "L40014590060",
+   "productnaam": "Loempia speciaal",
+   "prijs": 4.8
+  },
+  {
+   "productnummer": "L40014590061",
+   "productnaam": "Halve kip",
+   "prijs": 5.25
+  },
+  {
+   "productnummer": "L40014590062",
+   "productnaam": "Schnitzel",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014590064",
+   "productnaam": "Kipsaté",
+   "prijs": 5.1
+  },
+  {
+   "productnummer": "L40014590065",
+   "productnaam": "Varkenshaas saté",
+   "prijs": 5.3
+  },
+  {
+   "productnummer": "L40014590066",
+   "productnaam": "Spareribs",
+   "prijs": 7.25
+  },
+  {
+   "productnummer": "L40014590067",
+   "productnaam": "Vlammetjes 6 stuks",
+   "prijs": 4.2
+  },
+  {
+   "productnummer": "L40014590068",
+   "productnaam": "Kaastengels 6 stuks",
+   "prijs": 4.2
+  },
+  {
+   "productnummer": "L40014590069",
+   "productnaam": "Mini loempia's 8 stuks",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014590070",
+   "productnaam": "Bittergarnituur 50 stuks",
+   "prijs": 28.5
+  },
+  {
+   "productnummer": "L40014590071",
+   "productnaam": "Bittergarnituur 75 stuks",
+   "prijs": 42.5
+  },
+  {
+   "productnummer": "L40014590072",
+   "productnaam": "Sluis slaatje",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590073",
+   "productnaam": "Rauwkost salade met dressing",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590075",
+   "productnaam": "Broodje ei",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590076",
+   "productnaam": "Broodje ei en tomaat",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014590077",
+   "productnaam": "Broodje jonge kaas",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014590078",
+   "productnaam": "Broodje oude kaas",
+   "prijs": 0
+  },
+  {
+   "productnummer": "L40014590079",
+   "productnaam": "Broodje tartaar",
+   "prijs": 3.6
+  },
+  {
+   "productnummer": "L40014590080",
+   "productnaam": "Broodje tartaar speciaal",
+   "prijs": 4.6
+  },
+  {
+   "productnummer": "L40014590081",
+   "productnaam": "Broodje gezond",
+   "prijs": 4.5
+  },
+  {
+   "productnummer": "L40014590082",
+   "productnaam": "Broodje kroket",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590083",
+   "productnaam": "Broodje ham",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014590084",
+   "productnaam": "Broodje Kwekkeboom kroket",
+   "prijs": 3.3
+  },
+  {
+   "productnummer": "L40014590085",
+   "productnaam": "Broodje kalfskroket",
+   "prijs": 3.15
+  },
+  {
+   "productnummer": "L40014590086",
+   "productnaam": "Broodje satékroket",
+   "prijs": 3.15
+  },
+  {
+   "productnummer": "L40014590087",
+   "productnaam": "Broodje goulashkroket",
+   "prijs": 3.15
+  },
+  {
+   "productnummer": "L40014590088",
+   "productnaam": "Broodje frikandel",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590089",
+   "productnaam": "Broodje ham-kaassoufflé",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590091",
+   "productnaam": "Broodje kipburger",
+   "prijs": 3.85
+  },
+  {
+   "productnummer": "L40014590090",
+   "productnaam": "Broodje kaassoufflé",
+   "prijs": 3.05
+  },
+  {
+   "productnummer": "L40014590092",
+   "productnaam": "Broodje hete kip op pistolet",
+   "prijs": 6
+  },
+  {
+   "productnummer": "L40014590093",
+   "productnaam": "Broodje kipkorn",
+   "prijs": 3.45
+  },
+  {
+   "productnummer": "L40014590094",
+   "productnaam": "Broodje mexicano",
+   "prijs": 3.55
+  },
+  {
+   "productnummer": "L40014590095",
+   "productnaam": "Broodje pikanto",
+   "prijs": 3.55
+  },
+  {
+   "productnummer": "L40014590096",
+   "productnaam": "Broodje braadworst",
+   "prijs": 3.6
+  },
+  {
+   "productnummer": "L40014590097",
+   "productnaam": "Broodje gehaktbal",
+   "prijs": 4.2
+  },
+  {
+   "productnummer": "L40014590098",
+   "productnaam": "Broodje knakworst",
+   "prijs": 3.25
+  },
+  {
+   "productnummer": "L40014590099",
+   "productnaam": "Broodje warmvlees pindasaus",
+   "prijs": 4.7
+  },
+  {
+   "productnummer": "L40014590100",
+   "productnaam": "Broodje shoarma knoflooksaus",
+   "prijs": 5.95
+  },
+  {
+   "productnummer": "L40014590101",
+   "productnaam": "Broodje gyros knoflooksaus",
+   "prijs": 5.95
+  },
+  {
+   "productnummer": "L40014590102",
+   "productnaam": "Tosti ham",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590103",
+   "productnaam": "Tosti kaas",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590104",
+   "productnaam": "Tosti ham en kaas",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590105",
+   "productnaam": "Uitsmijter ham",
+   "prijs": 7
+  },
+  {
+   "productnummer": "L40014590106",
+   "productnaam": "Uitsmijter kaas",
+   "prijs": 7
+  },
+  {
+   "productnummer": "L40014590107",
+   "productnaam": "Uitsmijter ham en kaas",
+   "prijs": 7.4
+  },
+  {
+   "productnummer": "L40014590108",
+   "productnaam": "Plate kipburger",
+   "prijs": 9.2
+  },
+  {
+   "productnummer": "L40014590109",
+   "productnaam": "Plate hamburger speciaal",
+   "prijs": 9.75
+  },
+  {
+   "productnummer": "L40014590110",
+   "productnaam": "Plate halve kip",
+   "prijs": 11.2
+  },
+  {
+   "productnummer": "L40014590111",
+   "productnaam": "Plate warmvlees pindasaus",
+   "prijs": 9.75
+  },
+  {
+   "productnummer": "L40014590112",
+   "productnaam": "Plate loempia speciaal",
+   "prijs": 10.4
+  },
+  {
+   "productnummer": "L40014590113",
+   "productnaam": "Plate shaslick 2 stuks",
+   "prijs": 12.25
+  },
+  {
+   "productnummer": "L40014590114",
+   "productnaam": "Plate karbonade",
+   "prijs": 9.7
+  },
+  {
+   "productnummer": "L40014590115",
+   "productnaam": "Plate schnitzel",
+   "prijs": 10.5
+  },
+  {
+   "productnummer": "L40014590116",
+   "productnaam": "Plate shoarma knoflooksaus",
+   "prijs": 10.5
+  },
+  {
+   "productnummer": "L40014590117",
+   "productnaam": "Plate gyros knoflooksaus",
+   "prijs": 10.5
+  },
+  {
+   "productnummer": "L40014590118",
+   "productnaam": "Plate kipsaté",
+   "prijs": 10.9
+  },
+  {
+   "productnummer": "L40014590119",
+   "productnaam": "Plate varkenshaassaté",
+   "prijs": 11.1
+  },
+  {
+   "productnummer": "L40014590120",
+   "productnaam": "Plate spareribs",
+   "prijs": 13
+  },
+  {
+   "productnummer": "L40014590122",
+   "productnaam": "Bacon",
+   "prijs": 4.45
+  },
+  {
+   "productnummer": "L40014590124",
+   "productnaam": "Double cheese",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590125",
+   "productnaam": "Chicken cheese",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014590123",
+   "productnaam": "Hot",
+   "prijs": 4.85
+  },
+  {
+   "productnummer": "L40014590126",
+   "productnaam": "Bacon cheese",
+   "prijs": 4.75
+  },
+  {
+   "productnummer": "L40014590127",
+   "productnaam": "Chicken sateh",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014590128",
+   "productnaam": "Special + egg",
+   "prijs": 4.85
+  },
+  {
+   "productnummer": "L40014590129",
+   "productnaam": "Cheese",
+   "prijs": 4.45
+  },
+  {
+   "productnummer": "L40014590130",
+   "productnaam": "Joppie",
+   "prijs": 4.1
+  },
+  {
+   "productnummer": "L40014590131",
+   "productnaam": "Regular",
+   "prijs": 4.1
+  },
+  {
+   "productnummer": "L40014590132",
+   "productnaam": "Kroketburger",
+   "prijs": 4.3
+  },
+  {
+   "productnummer": "L40014590133",
+   "productnaam": "Fishburger",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014590139",
+   "productnaam": "Milkshake klein",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590140",
+   "productnaam": "Milkshake middel",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590141",
+   "productnaam": "Milkshake groot",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590142",
+   "productnaam": "Heksenmix klein",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590143",
+   "productnaam": "Heksenmix middel",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590144",
+   "productnaam": "Heksenmix groot",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014590145",
+   "productnaam": "Slush mini",
+   "prijs": 1.1
+  },
+  {
+   "productnummer": "L40014590146",
+   "productnaam": "Slush klein",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590148",
+   "productnaam": "Slush groot",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590147",
+   "productnaam": "Slush middel",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590153",
+   "productnaam": "Sundae chocolade",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590151",
+   "productnaam": "Sundae aardbei",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590152",
+   "productnaam": "Sundae caramel",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014590154",
+   "productnaam": "Sorbet kersen",
+   "prijs": 4
+  },
+  {
+   "productnummer": "L40014590156",
+   "productnaam": "Sorbet fruit",
+   "prijs": 4
+  },
+  {
+   "productnummer": "L40014590155",
+   "productnaam": "Sorbet aardbei",
+   "prijs": 4
+  },
+  {
+   "productnummer": "L40014590157",
+   "productnaam": "Rasfrites zonder",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590158",
+   "productnaam": "Rasfrites mayonaise",
+   "prijs": 3.4
+  },
+  {
+   "productnummer": "L40014590159",
+   "productnaam": "Rasfrites speciaal",
+   "prijs": 3.55
+  },
+  {
+   "productnummer": "L40014590160",
+   "productnaam": "Rasfrites pindasaus",
+   "prijs": 3.55
+  },
+  {
+   "productnummer": "L40014590161",
+   "productnaam": "Rasfrites oorlog",
+   "prijs": 3.75
+  },
+  {
+   "productnummer": "L40014590162",
+   "productnaam": "Rasfrites oorlog met ui",
+   "prijs": 3.75
+  },
+  {
+   "productnummer": "L40014590163",
+   "productnaam": "Rasfrites warmvlees pindasaus",
+   "prijs": 5.9
+  },
+  {
+   "productnummer": "L40014590164",
+   "productnaam": "Rasfrites joppiesaus",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590165",
+   "productnaam": "Rasfrites stoofvlees",
+   "prijs": 6.85
+  },
+  {
+   "productnummer": "L40014590166",
+   "productnaam": "Rasfrites shoarma knoflooksaus",
+   "prijs": 7.75
+  },
+  {
+   "productnummer": "L40014590167",
+   "productnaam": "Rasfrites gyros knoflooksaus",
+   "prijs": 7.75
+  },
+  {
+   "productnummer": "L40014590169",
+   "productnaam": "Rasfrites kapsalon",
+   "prijs": 8.25
+  },
+  {
+   "productnummer": "L40014590184",
+   "productnaam": "Kidzmenu kroket",
+   "prijs": 5.35
+  },
+  {
+   "productnummer": "L40014590185",
+   "productnaam": "Kidzmenu 3 kipfingers",
+   "prijs": 5.35
+  },
+  {
+   "productnummer": "L40014590186",
+   "productnaam": "Kidzmenu frikandel",
+   "prijs": 5.35
+  },
+  {
+   "productnummer": "L40014590189",
+   "productnaam": "Coca Cola",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590190",
+   "productnaam": "Coca Cola Zero",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590191",
+   "productnaam": "Fanta Cassis",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590192",
+   "productnaam": "Fanta Orange",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590193",
+   "productnaam": "7-Up",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590194",
+   "productnaam": "Dr. Pepper",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590195",
+   "productnaam": "Lipton Ice Tea",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590196",
+   "productnaam": "Lipton Ice Tea Green",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590197",
+   "productnaam": "Appelsap",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590198",
+   "productnaam": "Jus d'Orange",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590200",
+   "productnaam": "Fristi",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590199",
+   "productnaam": "Chocomel",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590201",
+   "productnaam": "Red Bull",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590202",
+   "productnaam": "AA drink",
+   "prijs": 2.25
+  },
+  {
+   "productnummer": "L40014590203",
+   "productnaam": "Fanta Lemon",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590204",
+   "productnaam": "Chaudfontaine water",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014590205",
+   "productnaam": "Chaudfontaine water sparkling",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590207",
+   "productnaam": "Capri Sun",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590214",
+   "productnaam": "Gezinszak 1 pers.",
+   "prijs": 2.55
+  },
+  {
+   "productnummer": "L40014590215",
+   "productnaam": "Gezinszak 2 pers.",
+   "prijs": 5.1
+  },
+  {
+   "productnummer": "L40014590216",
+   "productnaam": "Gezinszak 3 pers.",
+   "prijs": 7.65
+  },
+  {
+   "productnummer": "L40014590217",
+   "productnaam": "Gezinszak 4 pers.",
+   "prijs": 10.2
+  },
+  {
+   "productnummer": "L40014590220",
+   "productnaam": "Grote gezinszak",
+   "prijs": 10.2
+  },
+  {
+   "productnummer": "L40014590218",
+   "productnaam": "Gezinszak 5 pers.",
+   "prijs": 12.75
+  },
+  {
+   "productnummer": "L40014590219",
+   "productnaam": "Kleine gezinszak",
+   "prijs": 6.5
+  },
+  {
+   "productnummer": "L40014590221",
+   "productnaam": "Gezinszak 6 pers.",
+   "prijs": 15.3
+  },
+  {
+   "productnummer": "L40014590222",
+   "productnaam": "Gezinszak ras 1 pers.",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014590223",
+   "productnaam": "Gezinszak ras 2 pers.",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590224",
+   "productnaam": "Gezinszak ras 3 pers.",
+   "prijs": 8.1
+  },
+  {
+   "productnummer": "L40014590225",
+   "productnaam": "Gezinszak ras 4 pers.",
+   "prijs": 10.8
+  },
+  {
+   "productnummer": "L40014590226",
+   "productnaam": "Gezinszak ras 5 pers.",
+   "prijs": 13.5
+  },
+  {
+   "productnummer": "L40014590227",
+   "productnaam": "Gezinszak ras 6 pers.",
+   "prijs": 16.2
+  },
+  {
+   "productnummer": "L40014590228",
+   "productnaam": "Kleine gezinszak ras",
+   "prijs": 6.5
+  },
+  {
+   "productnummer": "L40014590229",
+   "productnaam": "Grote gezinszak ras",
+   "prijs": 10.8
+  },
+  {
+   "productnummer": "L40014590230",
+   "productnaam": "Dubbel frites zonder",
+   "prijs": 4.45
+  },
+  {
+   "productnummer": "L40014590231",
+   "productnaam": "Dubbel frites mayonaise",
+   "prijs": 5.1
+  },
+  {
+   "productnummer": "L40014590232",
+   "productnaam": "Dubbel frites speciaal",
+   "prijs": 5.3
+  },
+  {
+   "productnummer": "L40014590233",
+   "productnaam": "Dubbel frites speciaal ketchup",
+   "prijs": 5.3
+  },
+  {
+   "productnummer": "L40014590234",
+   "productnaam": "Dubbel frites joppiesaus",
+   "prijs": 5.3
+  },
+  {
+   "productnummer": "L40014590235",
+   "productnaam": "Dubbel frites ketchup",
+   "prijs": 5.3
+  },
+  {
+   "productnummer": "L40014590236",
+   "productnaam": "Dubbel frites pindasaus",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014590237",
+   "productnaam": "Dubbel frites curry",
+   "prijs": 5.3
+  },
+  {
+   "productnummer": "L40014590238",
+   "productnaam": "Dubbel frites oorlog met ui",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014590239",
+   "productnaam": "Dubbel frites oorlog",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014590241",
+   "productnaam": "Dubbel rasfrites zonder",
+   "prijs": 4.7
+  },
+  {
+   "productnummer": "L40014590240",
+   "productnaam": "Dubbel rasfrites speciaal",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590242",
+   "productnaam": "Dubbel rasfrites mayonaise",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590243",
+   "productnaam": "Dubbel rasfrites speciaal ketchup",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590244",
+   "productnaam": "Dubbel rasfrites joppiesaus",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590245",
+   "productnaam": "Dubbel rasfrites ketchup",
+   "prijs": 5.4
+  },
+  {
+   "productnummer": "L40014590246",
+   "productnaam": "Dubbel rasfrites curry",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014590247",
+   "productnaam": "Dubbel rasfrites pindasaus",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014590248",
+   "productnaam": "Dubbel rasfrites oorlog",
+   "prijs": 5.6
+  },
+  {
+   "productnummer": "L40014590249",
+   "productnaam": "Dubbel rasfrites oorlog met ui",
+   "prijs": 5.6
+  },
+  {
+   "productnummer": "L40014590250",
+   "productnaam": "Frites speciaal ketchup",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590251",
+   "productnaam": "Frites piccalilly",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590253",
+   "productnaam": "Frites ketchup",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590252",
+   "productnaam": "Frites curry",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590254",
+   "productnaam": "Waterfiets",
+   "prijs": 6.5
+  },
+  {
+   "productnummer": "L40014590255",
+   "productnaam": "Frites hete kip chilisaus",
+   "prijs": 7
+  },
+  {
+   "productnummer": "L40014590256",
+   "productnaam": "Frites warmvlees",
+   "prijs": 6.5
+  },
+  {
+   "productnummer": "L40014590258",
+   "productnaam": "Rasfrites speciaal ketchup",
+   "prijs": 3.55
+  },
+  {
+   "productnummer": "L40014590257",
+   "productnaam": "Rasfrites joppiesaus",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014590259",
+   "productnaam": "Rasfrites ketchup",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014590260",
+   "productnaam": "Rasfrites curry",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014590261",
+   "productnaam": "Rasfrites warmvlees",
+   "prijs": 6.85
+  },
+  {
+   "productnummer": "L40014590262",
+   "productnaam": "Rasfrites warmvlees pindasaus",
+   "prijs": 6.85
+  },
+  {
+   "productnummer": "L40014590263",
+   "productnaam": "Vegetarische kipcorn",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590264",
+   "productnaam": "Vegetarische bitterballen 4 stuks",
+   "prijs": 2
+  },
+  {
+   "productnummer": "L40014590265",
+   "productnaam": "Vegetarische frikandel",
+   "prijs": 2.55
+  },
+  {
+   "productnummer": "L40014590266",
+   "productnaam": "Broodje cas spijkers kroket",
+   "prijs": 3.3
+  },
+  {
+   "productnummer": "L40014590267",
+   "productnaam": "Broodje frikandel speciaal",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590268",
+   "productnaam": "Broodje frikandel mayonaise",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014590269",
+   "productnaam": "Broodje kaassouflé pindasaus",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590270",
+   "productnaam": "Broodje warm vlees",
+   "prijs": 4.7
+  },
+  {
+   "productnummer": "L40014590271",
+   "productnaam": "Broodje hamburger speciaal (saus en ei)",
+   "prijs": 4.15
+  },
+  {
+   "productnummer": "L40014590272",
+   "productnaam": "Broodje hamburger",
+   "prijs": 3.4
+  },
+  {
+   "productnummer": "L40014590273",
+   "productnaam": "Broodje cheeseburger (saus en ei)",
+   "prijs": 4.55
+  },
+  {
+   "productnummer": "L40014590274",
+   "productnaam": "Broodje hamburger keuken",
+   "prijs": 3.75
+  },
+  {
+   "productnummer": "L40014590275",
+   "productnaam": "Broodje hamburger speciaal keuken (saus en ei)",
+   "prijs": 4.45
+  },
+  {
+   "productnummer": "L40014590276",
+   "productnaam": "Broodje cheeseburger keuken (saus en ei)",
+   "prijs": 4.9
+  },
+  {
+   "productnummer": "L40014590278",
+   "productnaam": "Black Jack Burger",
+   "prijs": 4.35
+  },
+  {
+   "productnummer": "L40014590277",
+   "productnaam": "Klein bakje softijs 100cc",
+   "prijs": 1.6
+  },
+  {
+   "productnummer": "L40014590279",
+   "productnaam": "Medium bakje softijs 150cc",
+   "prijs": 2.3
+  },
+  {
+   "productnummer": "L40014590280",
+   "productnaam": "Groot bakje softijs 225cc",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590281",
+   "productnaam": "Klein beker softijs 300cc",
+   "prijs": 3.7
+  },
+  {
+   "productnummer": "L40014590282",
+   "productnaam": "Medium beker softijs 400cc",
+   "prijs": 4.45
+  },
+  {
+   "productnummer": "L40014590283",
+   "productnaam": "Groot beker softijs 500cc",
+   "prijs": 5.25
+  },
+  {
+   "productnummer": "L40014590284",
+   "productnaam": "Milkshake klein aardbei",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590285",
+   "productnaam": "Milkshake middel aardbei",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590286",
+   "productnaam": "Milkshake groot aardbei",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590287",
+   "productnaam": "Milkshake groot banaan",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590290",
+   "productnaam": "Milkshake klein chocolade",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590288",
+   "productnaam": "Milkshake middel banaan",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590289",
+   "productnaam": "Milkshake klein banaan",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590291",
+   "productnaam": "Milkshake middel chocolade",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590292",
+   "productnaam": "Milkshake groot chocolade",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590293",
+   "productnaam": "Milkshake klein vanille",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590294",
+   "productnaam": "Milkshake middel vanille",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590295",
+   "productnaam": "Milkshake groot vanille",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590311",
+   "productnaam": "Beker klein mayonaise",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590312",
+   "productnaam": "Beker klein curry",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590313",
+   "productnaam": "Beker klein speciaal",
+   "prijs": 1.6
+  },
+  {
+   "productnummer": "L40014590314",
+   "productnaam": "Beker klein speciaal ketchup",
+   "prijs": 1.6
+  },
+  {
+   "productnummer": "L40014590315",
+   "productnaam": "Beker klein pindasaus",
+   "prijs": 1.7
+  },
+  {
+   "productnummer": "L40014590316",
+   "productnaam": "Beker klein ketchup",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590317",
+   "productnaam": "Beker klein joppiesaus",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590318",
+   "productnaam": "Beker klein oorlog",
+   "prijs": 1.7
+  },
+  {
+   "productnummer": "L40014590319",
+   "productnaam": "Beker klein oorlog met ui",
+   "prijs": 1.7
+  },
+  {
+   "productnummer": "L40014590320",
+   "productnaam": "Beker klein chilisaus",
+   "prijs": 1.4
+  },
+  {
+   "productnummer": "L40014590321",
+   "productnaam": "Beker klein piri piri saus",
+   "prijs": 1.6
+  },
+  {
+   "productnummer": "L40014590322",
+   "productnaam": "Beker klein zigeunersaus",
+   "prijs": 1.6
+  },
+  {
+   "productnummer": "L40014590323",
+   "productnaam": "Beker klein knoflooksaus",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590324",
+   "productnaam": "Beker klein uitjes",
+   "prijs": 0.9
+  },
+  {
+   "productnummer": "L40014590325",
+   "productnaam": "Beker klein ravigottesaus",
+   "prijs": 1.5
+  },
+  {
+   "productnummer": "L40014590326",
+   "productnaam": "Beker groot mayonaise",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014590327",
+   "productnaam": "Beker groot curry",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014590329",
+   "productnaam": "Beker groot speciaal ketchup",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590328",
+   "productnaam": "Beker groot speciaal",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590330",
+   "productnaam": "Beker groot ketchup",
+   "prijs": 2.65
+  },
+  {
+   "productnummer": "L40014590331",
+   "productnaam": "Beker groot pindasaus",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590332",
+   "productnaam": "Beker groot joppiesaus",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014590333",
+   "productnaam": "Beker groot oorlog met ui",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590334",
+   "productnaam": "Beker groot oorlog",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590335",
+   "productnaam": "Beker groot chilisaus",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590337",
+   "productnaam": "Beker groot piri piri saus",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590336",
+   "productnaam": "Beker groot zigeunersaus",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014590338",
+   "productnaam": "Beker groot uitjes",
+   "prijs": 1.3
+  },
+  {
+   "productnummer": "L40014590339",
+   "productnaam": "Beker groot knoflooksaus",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590340",
+   "productnaam": "Beker groot ravigottesaus",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014590362",
+   "productnaam": "Frikandel speciaal ketchup",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014590363",
+   "productnaam": "Frikandel XXL speciaal ketchup",
+   "prijs": 4.25
+  },
+  {
+   "productnummer": "L40014590367",
+   "productnaam": "Hamburger uit eigen keuken (los)",
+   "prijs": 3.05
+  },
+  {
+   "productnummer": "L40014590368",
+   "productnaam": "Hamburger (los)",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014590373",
+   "productnaam": "Lipton Ice Tea Peach",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014500013",
+   "productnaam": "Kroket",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014500014",
+   "productnaam": "Cas Spijkers Kroket",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014500015",
+   "productnaam": "Kwekkeboom Kroket",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014500016",
+   "productnaam": "Sate Kroket",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500017",
+   "productnaam": "Goulash Kroket",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500018",
+   "productnaam": "Kalfs Kroket",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500019",
+   "productnaam": "Groente Kroket",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500020",
+   "productnaam": "Kaas Kroket",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014500548",
+   "productnaam": "Holtkamp kroket",
+   "prijs": 2.95
+  },
+  {
+   "productnummer": "L40014500021",
+   "productnaam": "Frikandel",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014500023",
+   "productnaam": "Frikandel Speciaal",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014500833",
+   "productnaam": "Frikandel Speciaal Ketchup",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014500022",
+   "productnaam": "Frikandel Mayonaise",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500039",
+   "productnaam": "Viandel",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014500964",
+   "productnaam": "Frikandel Glutenvrij",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014500926",
+   "productnaam": "Kipfrikandel Halal",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500957",
+   "productnaam": "Frikandel XXL",
+   "prijs": 4.1
+  },
+  {
+   "productnummer": "L40014500958",
+   "productnaam": "Frikandel XXL Speciaal",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014501028",
+   "productnaam": "Loempiadel",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014501029",
+   "productnaam": "Frikandel pinda",
+   "prijs": 2.9
+  },
+  {
+   "productnummer": "L40014500045",
+   "productnaam": "Bamischijf",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014500046",
+   "productnaam": "Nasischijf",
+   "prijs": 2.45
+  },
+  {
+   "productnummer": "L40014500061",
+   "productnaam": "Loempia Speciaal",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014500923",
+   "productnaam": "Veg. mini loempia's (8 st.)",
+   "prijs": 4.35
+  },
+  {
+   "productnummer": "L40014500344",
+   "productnaam": "Vegetarische Loempia",
+   "prijs": 4.1
+  },
+  {
+   "productnummer": "L40014501032",
+   "productnaam": "Veg.loempia speciaal",
+   "prijs": 5.25
+  },
+  {
+   "productnummer": "L40014500036",
+   "productnaam": "Kipcorn",
+   "prijs": 2.65
+  },
+  {
+   "productnummer": "L40014500054",
+   "productnaam": "Kipfingers (6st.)",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014500055",
+   "productnaam": "Kipnuggets (4st.)",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014500059",
+   "productnaam": "Halve Kip",
+   "prijs": 6.35
+  },
+  {
+   "productnummer": "L40014500541",
+   "productnaam": "Kipnuggets (6st.)",
+   "prijs": 4.5
+  },
+  {
+   "productnummer": "L40014500540",
+   "productnaam": "Hotwings (5st.)",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014500290",
+   "productnaam": "Kipburger Los",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500051",
+   "productnaam": "Saterol",
+   "prijs": 2.8
+  },
+  {
+   "productnummer": "L40014500057",
+   "productnaam": "Kipsate",
+   "prijs": 6
+  },
+  {
+   "productnummer": "L40014500058",
+   "productnaam": "Varkenshaassate",
+   "prijs": 6.2
+  },
+  {
+   "productnummer": "L40014500043",
+   "productnaam": "Twijfelaar",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014500026",
+   "productnaam": "Kaassouffle",
+   "prijs": 2.15
+  },
+  {
+   "productnummer": "L40014500027",
+   "productnaam": "Souflesse",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500836",
+   "productnaam": "Ham\/Kaassouffle",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500245",
+   "productnaam": "Souflesse Pikant",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014500248",
+   "productnaam": "Souflesse Mozzarella",
+   "prijs": 2.35
+  },
+  {
+   "productnummer": "L40014501033",
+   "productnaam": "Cheesecrack",
+   "prijs": 2.2
+  },
+  {
+   "productnummer": "L40014500029",
+   "productnaam": "Bereklauw",
+   "prijs": 3
+  },
+  {
+   "productnummer": "L40014500030",
+   "productnaam": "Bereklauw Pindasaus",
+   "prijs": 3.9
+  },
+  {
+   "productnummer": "L40014500032",
+   "productnaam": "Mexicano Pindasaus",
+   "prijs": 3.6
+  },
+  {
+   "productnummer": "L40014500034",
+   "productnaam": "Pikanto",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014500033",
+   "productnaam": "Pikanto Pindasaus",
+   "prijs": 3.55
+  },
+  {
+   "productnummer": "L40014500053",
+   "productnaam": "Shoarmarol",
+   "prijs": 2.8
+  },
+  {
+   "productnummer": "L40014500052",
+   "productnaam": "Smulrol",
+   "prijs": 2.8
+  },
+  {
+   "productnummer": "L40014500049",
+   "productnaam": "Bal Gehakt",
+   "prijs": 3.5
+  },
+  {
+   "productnummer": "L40014501020",
+   "productnaam": "Bal Gehakt Mayo",
+   "prijs": 4.3
+  },
+  {
+   "productnummer": "L40014501019",
+   "productnaam": "Bal Gehakt Pinda",
+   "prijs": 4.3
+  },
+  {
+   "productnummer": "L40014501034",
+   "productnaam": "Shoarmarol knoflooksaus",
+   "prijs": 3.45
+  },
+  {
+   "productnummer": "L40014500037",
+   "productnaam": "Kikastick",
+   "prijs": 2.65
+  },
+  {
+   "productnummer": "L40014500038",
+   "productnaam": "Shaslick",
+   "prijs": 3.15
+  },
+  {
+   "productnummer": "L40014500040",
+   "productnaam": "Bonita",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014500041",
+   "productnaam": "Knakworst",
+   "prijs": 2.4
+  },
+  {
+   "productnummer": "L40014500042",
+   "productnaam": "Braadworst",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500050",
+   "productnaam": "Lihanboutje",
+   "prijs": 2.65
+  },
+  {
+   "productnummer": "L40014500062",
+   "productnaam": "Schnitzel",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014500064",
+   "productnaam": "Spareribs",
+   "prijs": 7.6
+  },
+  {
+   "productnummer": "L40014500267",
+   "productnaam": "Rauwkost Salade",
+   "prijs": 3.4
+  },
+  {
+   "productnummer": "L40014501026",
+   "productnaam": "Vegetarische Kroket",
+   "prijs": 2.5
+  },
+  {
+   "productnummer": "L40014500192",
+   "productnaam": "Heineken bier blikje",
+   "prijs": 2.75
+  },
+  {
+   "productnummer": "L40014500851",
+   "productnaam": "Milkshake Klein Aardbei",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500852",
+   "productnaam": "Milkshake Middel Aardbei",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014500853",
+   "productnaam": "Milkshake Groot Aardbei",
+   "prijs": 3.7
+  },
+  {
+   "productnummer": "L40014500854",
+   "productnaam": "Milkshake Klein Banaan",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500855",
+   "productnaam": "Milkshake Middel Banaan",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014500856",
+   "productnaam": "Milkshake Groot Banaan",
+   "prijs": 3.7
+  },
+  {
+   "productnummer": "L40014500857",
+   "productnaam": "Milkshake Klein Chocolade",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500858",
+   "productnaam": "Milkshake Middel Chocolade",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014500859",
+   "productnaam": "Milkshake Groot Chocolade",
+   "prijs": 3.7
+  },
+  {
+   "productnummer": "L40014500860",
+   "productnaam": "Milkshake Klein Vanille",
+   "prijs": 2.7
+  },
+  {
+   "productnummer": "L40014500861",
+   "productnaam": "Milkshake Middel Vanille",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014500862",
+   "productnaam": "Milkshake Groot Vanille",
+   "prijs": 3.7
+  },
+  {
+   "productnummer": "L40014590379",
+   "productnaam": "Chickenstrips 5st",
+   "prijs": 5.25
+  },
+  {
+   "productnummer": "L40014590380",
+   "productnaam": "Vega Frikandel",
+   "prijs": 2.55
+  },
+  {
+   "productnummer": "L40014590381",
+   "productnaam": "Frikandel XXL speciaal Ketchup",
+   "prijs": 4.95
+  },
+  {
+   "productnummer": "L40014590389",
+   "productnaam": "Milkshake middel",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590390",
+   "productnaam": "Milkshake klein",
+   "prijs": 2.1
+  },
+  {
+   "productnummer": "L40014590391",
+   "productnaam": "Milkshake groot",
+   "prijs": 3.1
+  },
+  {
+   "productnummer": "L40014590395",
+   "productnaam": "Smulrol pinda",
+   "prijs": 3.6
+  },
+  {
+   "productnummer": "L40014590399",
+   "productnaam": "Vegetarische frikandel speciaal",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590400",
+   "productnaam": "Vegetarische frikandel speciaal ketchup",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590401",
+   "productnaam": "Vega frikandel speciaal",
+   "prijs": 3.2
+  },
+  {
+   "productnummer": "L40014590402",
+   "productnaam": "Kidz Kipnuggets 3st.",
+   "prijs": 5.5
+  },
+  {
+   "productnummer": "L40014590403",
+   "productnaam": "Vega Burger",
+   "prijs": 3.85
+  },
+  {
+   "productnummer": "L40014590417",
+   "productnaam": "Vega Kipcorn",
+   "prijs": 2.6
+  },
+  {
+   "productnummer": "L40014590427",
+   "productnaam": "Mexicano XXL",
+   "prijs": 4.3
+  },
+  {
+   "productnummer": "L40014590436",
+   "productnaam": "Uienringen (8st.)",
+   "prijs": 3.95
+  }
+ ]
