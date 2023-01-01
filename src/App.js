@@ -29,7 +29,6 @@ function App() {
 						<Route path=":vacatureId" element={<Vacatures />} />
 						<Route path="*" element={<NotFound />} />
 					</Route> */}
-					{/* Fallback Route if link doesn't exist */}
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 				<Footer />

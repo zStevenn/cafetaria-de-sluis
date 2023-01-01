@@ -4,7 +4,7 @@ import { Title } from "../components/Text";
 export default function Vacatures() {
 	return (
 		<div className="bg-primary">
-			<Title text={"Vacatures"} />
+			<Title text={"Vacatures"} className="py-4" />
 			<div className="flex flex-row justify-between items-center mx-8 p-4 bg-white rounded-lg">
 				<div className="flex flex-col">
 					<span className="text-lg font-semibold">Fietskoerier M/V</span>
