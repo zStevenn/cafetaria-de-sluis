@@ -7,7 +7,7 @@ export function Category() {
 	return (
 		<div className="flex flex-col bg-primary text-white fill-white">
 			<Title text={"Heerlijke gerechten"} className="my-10" />
-			<ul className="flex flex-col sm:flex-row justify-evenly md:justify-center mb-10">
+			<ul className="flex flex-col sm:flex-row justify-evenly lg:justify-center mb-10">
 				<li className="flex justify-center items-center content-center group my-6 sm:my-0 lg:mx-8">
 					<a
 						className="flex flex-col items-center group-hover:scale-110 transition-all"

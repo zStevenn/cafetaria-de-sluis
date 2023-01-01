@@ -2,7 +2,7 @@ import { Title } from "./Text";
 
 function ArticleWithImage(props) {
 	return (
-		<div className="flex flex-row my-4 mx-6 justify-start lg:justify-center">
+		<div className="flex flex-row my-4 mx-6 justify-start lg:justify-center gap-4">
 			{/* Image */}
 			<img className="rounded-xl object-cover w-32 md:w-40" src={props.imgSrc} alt={props.imgTitle} />
 			{/* Text */}

@@ -1,6 +1,6 @@
 import { ReactComponent as HeroImage } from "../../assets/svg/hero-image.svg";
 import { PrimaryButton, SecondaryButton } from "../Button";
-import { Paragraph, Title, TitleOutline } from "../Text";
+import { Paragraph, Title } from "../Text";
 
 export default function Hero() {
 	return (
@@ -8,7 +8,7 @@ export default function Hero() {
 			<HeroImage className="h-full md:w-full md:flex-1 lg:flex-none lg:h-96 lg:w-96" />
 			<div className="flex flex-col md:flex-1 lg:flex-none justify-center items-center">
 				<Title text={"Bestel nu via"} />
-				<TitleOutline text={"onze webshop"} />
+				<Title text={"onze webshop"} />
 				<Paragraph text={"Heerlijk warme én koude gerechten"} className="mt-4" />
 				<Paragraph text={"bezorgd direct tot aan de deur!"} />
 				<div className="flex flex-row justify-between my-6">
