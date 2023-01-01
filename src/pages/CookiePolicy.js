@@ -1,6 +1,6 @@
 const CookiePolicy = () => {
 	return (
-		<div className="px-10 pt-6 py-4">
+		<div className="px-10 pt-6 py-4 ">
 			<h1 className="text-3xl mb-4 font-bold">Cookiesbeleid</h1>
 			<p className="mb-4">
 				Onze website maakt gebruik van cookies om uw gebruikservaring te verbeteren. Een cookie is een klein

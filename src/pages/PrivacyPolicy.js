@@ -1,6 +1,6 @@
 const PrivacyPolicy = () => {
 	return (
-		<div className="px-10 pt-6 py-4">
+		<div className="px-10 pt-6 py-4 min-h-[75vh]">
 			<h1 className="text-3xl font-bold mb-4">Privacybeleid</h1>
 			<p className="mb-4">
 				Wij nemen de bescherming van uw persoonlijke gegevens serieus en nemen passende maatregelen om misbruik,
