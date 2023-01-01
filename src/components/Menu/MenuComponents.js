@@ -6,19 +6,11 @@ export function MenuSubheader(props) {
 
 export function MenuItem(props) {
   return(
-    <div className="flex flex-row justify-between sm:justify-start flex-nowrap items-center md:justify-center">
+    <div className="flex flex-row flex-nowrap items-center">
       {/* Item name */}
-      <p className="sm:basis-1/4 md:basis-1/3">{props.name}</p>
-      {/* Allergy icons */}
-      <div className="flex flex-row sm:basis-2/4 md:basis-1/3 justify-evenly sm:justify-center flex-nowrap">
-        <span>*</span>
-        <span>*</span>
-        <span>*</span>
-        <span>*</span>
-        <span>*</span>
-      </div>
+      <p className="basis-1/2">{props.name}</p>
       {/* Price */}
-      <p className="sm:basis-1/4 md:basis-1/3 md:text-center">&euro; {props.price}</p>
+      <p className="basis-1/2 text-end">&euro; {props.price}</p>
     </div>
   );
 }

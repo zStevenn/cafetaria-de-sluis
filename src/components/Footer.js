@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Title } from "../Text";
+import { Title } from "./Text";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export default function Footer() {
