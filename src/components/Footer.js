@@ -8,7 +8,7 @@ export default function Footer() {
 	};
 
 	return (
-		<footer className="flex flex-col justify-start bg-gray-900 pt-6">
+		<footer className="flex flex-col justify-start bg-gray-900">
 			{/* Footer link wrappers */}
 			<div className="flex flex-col sm:flex-row justify-start sm:justify-evenly pl-4 py-4">
 				{/* Footer adresgegevens */}
