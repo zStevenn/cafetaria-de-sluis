@@ -99,7 +99,7 @@ export default function Footer() {
 			</div>
 			{/* Footer copyright banner */}
 			<div className="bg-primary text-center py-4">
-				<Title text={"© Cafetaria de Sluis 2022"} className="hover:scale-110 transition-all" />
+				<Title text={"© Cafetaria de Sluis 2022"} />
 			</div>
 		</footer>
 	);
