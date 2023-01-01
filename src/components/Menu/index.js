@@ -1,5 +1,5 @@
 import { Title } from "../Text";
-import { MenuItem, MenuSubheader } from "./MenuComponents";
+import { MenuItem } from "./MenuComponents";
 import products from "../../data/products.json";
 
 export function Menu() {
@@ -8,9 +8,9 @@ export function Menu() {
 			<Title text={"Menukaart"} />
 			<div className="flex flex-col py-4">
 				<div className="text-white my-2">
-				{products.map(product => (
-					<MenuItem key={product.productnummer} name={product.productnaam} price={product.prijs} />
-      ))}
+					{products.map((product) => (
+						<MenuItem key={product.productnummer} name={product.productnaam} price={product.prijs} />
+					))}
 				</div>
 			</div>
 		</div>
