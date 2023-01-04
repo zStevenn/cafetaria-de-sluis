@@ -52,7 +52,7 @@ export default function Footer() {
 					</div>
 					<div className="flex flex-row hover:scale-110 transition-all">
 						<span className="w-28">Zondag</span>
-						<span>12:00 - 20:00</span>
+						<span>16:00 - 20:00</span>
 					</div>
 				</div>
 				{/* Footer informatie */}
