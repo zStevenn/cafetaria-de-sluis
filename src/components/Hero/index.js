@@ -1,5 +1,5 @@
 import { ReactComponent as HeroImage } from "../../assets/svg/hero-image.svg";
-import { PrimaryButton, SecondaryButton } from "../Button";
+import { PrimaryButton, InternalSecondaryButton } from "../Button";
 import { Paragraph, Title } from "../Text";
 
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
 				<Paragraph text={"bezorgd direct tot aan de deur!"} />
 				<div className="flex flex-row justify-between my-6">
 					<PrimaryButton to={"https://www.e-food.nl/driebergen/cafeteria-de-sluis"}>Bestel nu</PrimaryButton>
-					<SecondaryButton to={"/menu"}>Bekijk menu</SecondaryButton>
+					<InternalSecondaryButton to={"/menu"}>Bekijk menu</InternalSecondaryButton>
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 import { MobileNavigationMenu, DesktopNavigationMenu } from "./NavComponents";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
-import { SecondaryButton as Button } from "../Button";
+import { ExternalSecondaryButton as Button } from "../Button";
 
 export default function Navbar() {
 	const { width } = useWindowDimensions();
