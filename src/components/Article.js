@@ -7,10 +7,10 @@ function ArticleWithImage(props) {
 	return (
 		<div className="flex flex-row my-4 justify-start lg:justify-center gap-4">
 			{/* Image */}
-			<img className="rounded-xl object-cover min-w-[8rem] w-32 h-32 md:w-40 md:h-40 border-white border shadow-sm shadow-white" src={props.imgSrc} alt={props.imgTitle} />
+			<img className="rounded-xl object-cover min-w-[8rem] min-h-[8rem] w-32 h-32 border-primary border shadow-sm shadow-white" src={props.imgSrc} alt={props.imgTitle} />
 			{/* Text */}
-			<div className="flex flex-col justify-center text-white ml-2 max-h-32 md:max-h-40">
-				<p className="text-lg font-medium mb-1">{props.title}</p>
+			<div className="flex flex-col justify-center text-primary ml-2 max-h-32">
+				<p className="text-lg font-semibold mb-1">{props.title}</p>
 				<p className="text-base font-base text-clip overflow-hidden lg:max-w-lg">{props.text}</p>
 			</div>
 		</div>
@@ -19,8 +19,8 @@ function ArticleWithImage(props) {
 
 export default function ArticleList() {
 	return (
-		<div className="flex flex-col px-8 bg-primary text-white">
-			<Title text={"Recente activiteiten"} className="my-4" />
+		<div className="flex flex-col px-8 bg-white text-primary my-4">
+			<Title text={"Recente activiteiten"} className="my-4 text-primary" />
 			<ArticleWithImage
 				imgSrc={ArticleImg01}
 				imgTitle={"Nieuwe website"}
