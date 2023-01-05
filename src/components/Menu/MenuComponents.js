@@ -6,9 +6,9 @@ export function MenuItem(props) {
 	return (
 		<div className="flex flex-row justify-start py-1 whitespace-nowrap w-full sm:w-96">
 			{/* Item name */}
-			<p className="w-2/3">{props.name}</p>
+			<p className="w-3/4">{props.name}</p>
 			{/* Price */}
-			<p className="w-1/3">&euro; {props.price}</p>
+			<p className="w-1/4">&euro; {props.price}</p>
 		</div>
 	);
 }
