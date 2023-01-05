@@ -71,20 +71,18 @@ export function ContactForm(props) {
 
 export function ContactUs() {
 	return (
-		<div className="flex flex-col sm:flex-row justify-evenly items-center mb-8">
-			<div className="flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 ">
-				<MdPhone className="text-3xl" />
-				<span>(0343) - 531 646</span>
+		<div className="flex flex-col sm:flex-row gap-4 px-8 justify-evenly items-center mb-8">
+			<div className="flex flex-col text-primary text-center justify-center items-center bg-white p-10 my-2 rounded-lg w-full sm:w-1/3 h-full sm:h-48">
+				<MdPhone className="text-3xl mb-2" />
+				<p>(0343) - 531 646</p>
 			</div>
-			<div className="flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 ">
-				<MdLocationOn className="text-3xl" />
-				<span>De Sluis 25</span>
-				<span>3972 CW</span>
+			<div className="flex flex-col text-primary text-center justify-center items-center bg-white p-10 my-2 rounded-lg w-full sm:w-1/3 h-full sm:h-48">
+				<MdLocationOn className="text-3xl mb-2" />
+				<p>De Sluis 25, 3972 CW</p>
 			</div>
-			<div className="flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 ">
-				<MdEmail className="text-3xl" />
-				<span>info@</span>
-				<span>cafetariadesluis.nl</span>
+			<div className="flex flex-col text-primary text-center justify-center items-center bg-white p-10 my-2 rounded-lg w-full sm:w-1/3 h-full sm:h-48">
+				<MdEmail className="text-3xl mb-2" />
+				<p>info@cafetariadesluis.nl</p>
 			</div>
 		</div>
 	);
