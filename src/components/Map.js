@@ -1,12 +1,11 @@
-function Map() {
+function Map(props) {
 	return (
 		<iframe
+			className={props.className}
 			src="https://maps.google.com/maps?q=de%20sluis%2025&t=&z=15&ie=UTF8&iwloc=&output=embed"
-			width="600"
-			height="450"
 			frameborder="0"
 			style={{ border: 0 }}
-			allowfullscreen=""
+			allowfullscreen="false"
 			aria-hidden="false"
 			tabindex="0"
 		></iframe>
