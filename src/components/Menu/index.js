@@ -53,7 +53,7 @@ function ProductList(props) {
 			<div className="mb-4">
 				<button onClick={handleSortClick}>Sorteer A-Z</button>
 				<input
-					className="text-gray-500 ml-4"
+					className="ml-4 rounded-lg bg-white text-primary px-1 py-2"
 					type="text"
 					value={filterText}
 					onChange={handleFilterChange}
