@@ -7,7 +7,7 @@ function ArticleWithImage(props) {
 	return (
 		<div className="flex flex-row my-4 mx-6 justify-start lg:justify-center gap-4">
 			{/* Image */}
-			<img className="rounded-xl object-cover w-32 h-32 md:w-40 md:h-40 border-white border shadow-sm shadow-white" src={props.imgSrc} alt={props.imgTitle} />
+			<img className="rounded-xl object-cover min-w-[8rem] w-32 h-32 md:w-40 md:h-40 border-white border shadow-sm shadow-white" src={props.imgSrc} alt={props.imgTitle} />
 			{/* Text */}
 			<div className="flex flex-col justify-center text-white ml-2 max-h-32">
 				<p className="text-lg font-medium mb-1">{props.title}</p>
