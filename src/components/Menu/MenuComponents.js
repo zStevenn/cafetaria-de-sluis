@@ -4,7 +4,7 @@ export function MenuSubheader(props) {
 
 export function MenuItem(props) {
 	return (
-		<div className="flex flex-row justify-start py-0.5 whitespace-nowrap w-full sm:w-96">
+		<div className="flex flex-row justify-start py-1 whitespace-nowrap w-full sm:w-96">
 			{/* Item name */}
 			<p className="w-2/3">{props.name}</p>
 			{/* Price */}
