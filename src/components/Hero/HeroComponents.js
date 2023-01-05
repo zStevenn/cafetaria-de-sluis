@@ -45,18 +45,18 @@ export function Category() {
 // White banner with order options: take away, delivery, eat in
 export function OrderOptions() {
 	return (
-		<div className="flex flex-col flex-nowrap bg-primary text-white justify-evenly py-4">
+		<div className="flex flex-col flex-nowrap bg-primary text-white justify-evenly py-4 px-8">
 			<Title text={"Bestelopties"} className="text-2xl text-white py-4" />
-			<div className="flex flex-row flex-nowrap justify-evenly items-center pb-4">
-				<div className="flex flex-col flex-nowrap items-center">
+			<div className="flex flex-row flex-nowrap gap-4 justify-evenly items-center pb-4">
+				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<MdDeliveryDining className="text-5xl" />
 					<h2 className="text-lg font-semibold text-white">Bezorgen</h2>
 				</div>
-				<div className="flex flex-col flex-nowrap items-center">
+				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<MdDeliveryDining className="text-5xl" />
 					<h2 className="text-lg font-semibold text-white">Afhalen</h2>
 				</div>
-				<div className="flex flex-col flex-nowrap items-center">
+				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<GiKnifeFork className="text-5xl" />
 					<h2 className="text-lg font-semibold text-white">Hier eten</h2>
 				</div>
