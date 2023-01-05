@@ -1,51 +1,35 @@
-import { FaHamburger } from "react-icons/fa";
-import { GiFrenchFries, GiKnifeFork } from "react-icons/gi";
-import { BsCupStraw } from "react-icons/bs";
+import { GiKnifeFork } from "react-icons/gi";
 import { MdDeliveryDining } from "react-icons/md";
-import { Subtitle, Title } from "../Text";
+import { Title } from "../Text";
+import { Card } from "../Card";
 import ArticleImg01 from "../../assets/img/static/article01.jpg";
 import ArticleImg02 from "../../assets/img/static/article02.jpg";
 import ArticleImg03 from "../../assets/img/static/article03.jpg";
+import Wings from "../../assets/img/static/wings.jpg";
+import Placeholder from "../../assets/img/static/freshfoodfast.jpg";
 
-// Shortcut of available categories
-export function Category() {
+// Shortcut of highlighted monthly products
+export function MonthlySnack() {
 	return (
-		<div className="flex flex-col bg-primary text-white fill-white">
-			<Title text={"Heerlijke gerechten"} className="my-4" />
-			<ul className="flex flex-col sm:flex-row justify-evenly lg:justify-center my-4">
-				<li className="flex justify-center items-center content-center group my-6 sm:my-0 lg:mx-8">
-					<a
-						className="flex flex-col items-center group-hover:scale-110 transition-all"
-						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis/burgers/sluis-burgers"
-					>
-						<FaHamburger className="text-4xl" />
-						<Subtitle text={"Sluisburgers"} />
-					</a>
-				</li>
-				<li className="flex justify-center items-center content-center group my-6 sm:my-0 lg:mx-8">
-					<a
-						className="flex flex-col items-center group-hover:scale-110 transition-all"
-						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis/frites"
-					>
-						<GiFrenchFries className="text-4xl" />
-						<Subtitle text={"Frietjes"} />
-					</a>
-				</li>
-				<li className="flex justify-center items-center content-center group my-6 sm:my-0 lg:mx-8">
-					<a
-						className="flex flex-col items-center group-hover:scale-110 transition-all"
-						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis/ijs--milkshakes/milkshakes"
-					>
-						<BsCupStraw className="text-4xl" />
-						<Subtitle text={"Milkshakes"} />
-					</a>
-				</li>
-			</ul>
+		<div className="flex flex-col bg-primary text-white px-8">
+			<Title text={"Snack(s) van de maand"} className="text-white py-4" />
+			<div className="flex flex-row gap-4 justify-center pb-4">
+				<Card 
+				title={"Hotwings 5st"}
+				imgSrc={Wings}
+				imgTitle={"Hotwings 5st"}
+				/>
+				<Card 
+				title={"Snack"}
+				imgSrc={Placeholder}
+				imgTitle={"placeholder"}
+				/>
+			</div>
 		</div>
 	);
 }
 
-// White banner with order options: take away, delivery, eat in
+// Banner showcasing order options: take away, delivery, eat in
 export function OrderOptions() {
 	return (
 		<div className="flex flex-col flex-nowrap bg-primary text-white justify-evenly py-4 px-8">
@@ -68,6 +52,7 @@ export function OrderOptions() {
 	);
 }
 
+// Article with image and text
 function ArticleWithImage(props) {
 	return (
 		<div className="flex flex-row my-4 justify-start lg:justify-center gap-4">
@@ -86,6 +71,7 @@ function ArticleWithImage(props) {
 	);
 }
 
+// List of articles
 export function ArticleList() {
 	return (
 		<div className="flex flex-col px-8 bg-white text-primary my-4">

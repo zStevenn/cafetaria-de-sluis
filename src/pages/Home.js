@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import { Category, OrderOptions, ArticleList } from "../components/Hero/HeroComponents";
+import { MonthlySnack, OrderOptions, ArticleList } from "../components/Hero/HeroComponents";
 // import Review from "../components/CustomerReview";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
 			<Hero />
 			<ArticleList />
 			<OrderOptions />
-			<Category />
+			<MonthlySnack />
 			{/* <Review /> */}
 		</>
 	);
