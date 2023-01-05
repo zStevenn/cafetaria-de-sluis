@@ -59,7 +59,7 @@ function ProductList(props) {
 
 	// Button component for preset filter
 	const FilterButton = ({ value, children }) => (
-		<button className="px-2 py-3 mr-1 rounded-lg bg-white text-primary" value={value} onClick={handlePresetFilterClick}>
+		<button className="px-2 py-3 mr-1.5 rounded-lg bg-white text-primary hover:transition-all hover:scale-110" value={value} onClick={handlePresetFilterClick}>
 			{children}
 		</button>
 	);
@@ -76,8 +76,8 @@ function ProductList(props) {
 				/>
 			</div>
 			<div className="mb-4">
-				<button onClick={handleSortClick}>Sorteer A-Z</button>
-				<button className="ml-6" onClick={handlePriceSortClick}>
+				<button className="hover:scale-110 transition-all" onClick={handleSortClick}>Sorteer A-Z</button>
+				<button className="ml-6 hover:scale-110 transition-all" onClick={handlePriceSortClick}>
 					Sorteer op prijs
 				</button>
 			</div>
