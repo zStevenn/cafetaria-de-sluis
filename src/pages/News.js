@@ -5,7 +5,7 @@ export default function News() {
 	return (
 		<>
 			<Title text={"Nieuws"} className="py-4 bg-primary" />
-			<div className="bg-primary flex flex-col sm:flex-row sm:flex-wrap gap-4 px-8 min-h-screen">
+			<div className="bg-primary flex flex-col gap-4 px-8 min-h-screen">
 				<NewsCard
 					title="Nieuwe website!"
 					date="4 Januari 2023"
