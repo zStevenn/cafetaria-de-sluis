@@ -640,21 +640,6 @@
 		"prijs": 4.95
 	},
 	{
-		"productnummer": "L40014590139",
-		"productnaam": "Milkshake klein",
-		"prijs": 2.1
-	},
-	{
-		"productnummer": "L40014590140",
-		"productnaam": "Milkshake middel",
-		"prijs": 2.6
-	},
-	{
-		"productnummer": "L40014590141",
-		"productnaam": "Milkshake groot",
-		"prijs": 3.1
-	},
-	{
 		"productnummer": "L40014590142",
 		"productnaam": "Heksenmix klein",
 		"prijs": 2.5
@@ -1166,7 +1151,7 @@
 	},
 	{
 		"productnummer": "L40014590271",
-		"productnaam": "Broodje hamburger speciaal (saus en ei)",
+		"productnaam": "Broodje hamburger speciaal",
 		"prijs": 4.15
 	},
 	{
@@ -1176,7 +1161,7 @@
 	},
 	{
 		"productnummer": "L40014590273",
-		"productnaam": "Broodje cheeseburger (saus en ei)",
+		"productnaam": "Broodje cheeseburger",
 		"prijs": 4.55
 	},
 	{
@@ -1186,12 +1171,12 @@
 	},
 	{
 		"productnummer": "L40014590275",
-		"productnaam": "Broodje hamburger speciaal keuken (saus en ei)",
+		"productnaam": "Broodje hamburger speciaal keuken",
 		"prijs": 4.45
 	},
 	{
 		"productnummer": "L40014590276",
-		"productnaam": "Broodje cheeseburger keuken (saus en ei)",
+		"productnaam": "Broodje cheeseburger keuken",
 		"prijs": 4.9
 	},
 	{
@@ -1228,66 +1213,6 @@
 		"productnummer": "L40014590283",
 		"productnaam": "Groot beker softijs 500cc",
 		"prijs": 5.25
-	},
-	{
-		"productnummer": "L40014590284",
-		"productnaam": "Milkshake klein aardbei",
-		"prijs": 2.1
-	},
-	{
-		"productnummer": "L40014590285",
-		"productnaam": "Milkshake middel aardbei",
-		"prijs": 2.6
-	},
-	{
-		"productnummer": "L40014590286",
-		"productnaam": "Milkshake groot aardbei",
-		"prijs": 3.1
-	},
-	{
-		"productnummer": "L40014590287",
-		"productnaam": "Milkshake groot banaan",
-		"prijs": 3.1
-	},
-	{
-		"productnummer": "L40014590290",
-		"productnaam": "Milkshake klein chocolade",
-		"prijs": 2.1
-	},
-	{
-		"productnummer": "L40014590288",
-		"productnaam": "Milkshake middel banaan",
-		"prijs": 2.6
-	},
-	{
-		"productnummer": "L40014590289",
-		"productnaam": "Milkshake klein banaan",
-		"prijs": 2.1
-	},
-	{
-		"productnummer": "L40014590291",
-		"productnaam": "Milkshake middel chocolade",
-		"prijs": 2.6
-	},
-	{
-		"productnummer": "L40014590292",
-		"productnaam": "Milkshake groot chocolade",
-		"prijs": 3.1
-	},
-	{
-		"productnummer": "L40014590293",
-		"productnaam": "Milkshake klein vanille",
-		"prijs": 2.1
-	},
-	{
-		"productnummer": "L40014590294",
-		"productnaam": "Milkshake middel vanille",
-		"prijs": 2.6
-	},
-	{
-		"productnummer": "L40014590295",
-		"productnaam": "Milkshake groot vanille",
-		"prijs": 3.1
 	},
 	{
 		"productnummer": "L40014590311",
@@ -1858,21 +1783,6 @@
 		"productnummer": "L40014590381",
 		"productnaam": "Frikandel XXL speciaal Ketchup",
 		"prijs": 4.95
-	},
-	{
-		"productnummer": "L40014590389",
-		"productnaam": "Milkshake middel",
-		"prijs": 2.6
-	},
-	{
-		"productnummer": "L40014590390",
-		"productnaam": "Milkshake klein",
-		"prijs": 2.1
-	},
-	{
-		"productnummer": "L40014590391",
-		"productnaam": "Milkshake groot",
-		"prijs": 3.1
 	},
 	{
 		"productnummer": "L40014590395",
