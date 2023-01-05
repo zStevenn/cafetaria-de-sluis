@@ -71,7 +71,7 @@ export function ContactForm(props) {
 
 export function ContactUs() {
 	return (
-		<div className="flex flex-col sm:flex-row justify-evenly items-center">
+		<div className="flex flex-col sm:flex-row justify-evenly items-center mb-8">
 			<div className="flex flex-col text-primary text-center items-center bg-white p-10 my-2 rounded-full w-40 h-40 ">
 				<MdPhone className="text-3xl" />
 				<span>(0343) - 531 646</span>
