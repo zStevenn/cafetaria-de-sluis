@@ -8,6 +8,7 @@ function Map(props) {
 			allowfullscreen="false"
 			aria-hidden="false"
 			tabindex="0"
+			title="Google Maps"
 		></iframe>
 	);
 }
