@@ -8,7 +8,7 @@ export function MenuItem(props) {
   return (
     <div className="flex flex-row justify-start py-1 whitespace-nowrap w-full sm:w-96">
       {/* Item name */}
-      <p className="w-3/4">{props.name}</p>
+      <p className="w-3/4 capitalize">{props.name}</p>
       {/* Price */}
       <p className="w-1/4 tracking-wide">&euro; {formattedPrice}</p>
     </div>
