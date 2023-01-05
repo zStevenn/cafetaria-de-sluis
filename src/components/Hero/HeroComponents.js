@@ -46,7 +46,7 @@ export function Category() {
 export function OrderOptions() {
 	return (
 		<div className="flex flex-col flex-nowrap bg-primary text-white justify-evenly py-4 px-8">
-			<Title text={"Bestelopties"} className="text-2xl text-white py-4" />
+			<Title text={"Bestelopties"} className="text-white py-4" />
 			<div className="flex flex-row flex-nowrap gap-4 justify-evenly items-center pb-4">
 				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<MdDeliveryDining className="text-5xl" />
