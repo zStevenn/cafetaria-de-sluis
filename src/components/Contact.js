@@ -1,6 +1,5 @@
 import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md";
 
-
 function FormInput(props) {
 	return (
 		<>
