@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
-import ArticleList from "../components/Article";
-import { Category, OrderOptions } from "../components/Hero/HeroComponents";
+import { Category, OrderOptions, ArticleList } from "../components/Hero/HeroComponents";
 // import Review from "../components/CustomerReview";
 
 export default function Home() {
