@@ -25,6 +25,22 @@ function ProductList(props) {
 		);
 	};
 
+	// Allows user to filter products on price
+	const handlePriceSortClick = () => {
+		setSortDirection(sortDirection === "asc" ? "desc" : "asc");
+		setProducts(
+			[...products].sort((a, b) => {
+				if (a.prijs < b.prijs) {
+					return sortDirection === "asc" ? -1 : 1;
+				}
+				if (a.prijs > b.prijs) {
+					return sortDirection === "asc" ? 1 : -1;
+				}
+				return 0;
+			})
+		);
+	};
+
 	// Allows user to filter by input
 	const handleFilterChange = (event) => {
 		setFilterText(event.target.value);
@@ -51,14 +67,19 @@ function ProductList(props) {
 	return (
 		<div className="flex flex-col">
 			<div className="mb-4">
-				<button onClick={handleSortClick}>Sorteer A-Z</button>
 				<input
-					className="ml-4 rounded-lg bg-white text-primary px-1 py-2"
+					className="rounded-lg bg-white text-primary px-1 py-2"
 					type="text"
 					value={filterText}
 					onChange={handleFilterChange}
 					placeholder="Zoek gerecht"
 				/>
+			</div>
+			<div className="mb-4">
+				<button onClick={handleSortClick}>Sorteer A-Z</button>
+				<button className="ml-6" onClick={handlePriceSortClick}>
+					Sorteer op prijs
+				</button>
 			</div>
 			<div className="mb-4">
 				<FilterButton value="">Alles</FilterButton>
