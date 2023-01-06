@@ -8,13 +8,13 @@ export default function Navbar() {
 
 	return (
 		// Navbar
-		<div className="bg-primary flex flex-col justify-center p-2 shadow-md">
+		<div className="bg-primary flex flex-col justify-center px-8 shadow-md">
 			{/* Title */}
 			<div className="text-3xl font-bold text-white text-center my-2 hover:scale-110 transition-all">
 				<Link to="/">Cafetaria de Sluis</Link>
 			</div>
 			{/* Menu Wrapper */}
-			<div className="flex flex-row py-2 justify-evenly md:justify-center">
+			<div className="flex flex-row py-2 justify-between md:justify-center">
 				{/* Menu */}
 				{width > 640 ? <DesktopNavigationMenu /> : <MobileNavigationMenu />}
 				{/* Order Button */}
