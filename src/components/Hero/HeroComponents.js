@@ -6,7 +6,7 @@ import ArticleImg01 from "../../assets/img/static/article01.jpg";
 import ArticleImg02 from "../../assets/img/static/article02.jpg";
 import ArticleImg03 from "../../assets/img/static/article03.jpg";
 import Wings from "../../assets/img/static/wings.jpg";
-import Placeholder from "../../assets/img/static/freshfoodfast.jpg";
+import Cheesecrack from "../../assets/img/static/cheesecrack.jpg";
 
 // Shortcut of highlighted monthly products
 export function MonthlySnack() {
@@ -14,16 +14,8 @@ export function MonthlySnack() {
 		<div className="flex flex-col bg-primary text-white px-8">
 			<Title text={"Snack(s) van de maand"} className="text-white py-4" />
 			<div className="flex flex-col sm:flex-row gap-4 justify-center pb-4">
-				<Card 
-				title={"Hotwings 5st"}
-				imgSrc={Wings}
-				imgTitle={"Hotwings 5st"}
-				/>
-				<Card 
-				title={"Snack"}
-				imgSrc={Placeholder}
-				imgTitle={"placeholder"}
-				/>
+				<Card title={"Hotwings 5st"} imgSrc={Wings} imgTitle={"Hotwings 5st"} />
+				<Card title={"Cheesecrack"} imgSrc={Cheesecrack} imgTitle={"Cheesecrack"} />
 			</div>
 		</div>
 	);
