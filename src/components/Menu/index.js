@@ -67,7 +67,7 @@ function ProductList(props) {
 	// Button component for preset filter
 	const FilterButton = ({ value, children }) => (
 		<button
-			className="px-1 py-2 mr-1.5 rounded-lg bg-white text-primary"
+			className="px-1 py-2 rounded-lg bg-white text-primary group-[.h-0]:invisible"
 			value={value}
 			onClick={handlePresetFilterClick}
 		>
@@ -99,7 +99,7 @@ function ProductList(props) {
 				)}
 			</div>
 			<div
-				className={`flex flex-col gap-4 transition-all duration-300 ${
+				className={`flex flex-col gap-4 group transition-all duration-300 ${
 					filterIsVisible ? "opacity-100 h-auto" : "opacity-0 h-0"
 				}`}
 			>
@@ -107,10 +107,10 @@ function ProductList(props) {
 				<FilterButton value="frites">Frites</FilterButton>
 				<FilterButton value="milkshake">Milkshakes</FilterButton>
 				<FilterButton value="broodje">Broodjes</FilterButton>
-				<button className="hover:scale-110 transition-all" onClick={handleSortClick}>
+				<button className="group-[.h-0]:invisible" onClick={handleSortClick}>
 					Sorteer A-Z
 				</button>
-				<button className="hover:scale-110 transition-all" onClick={handlePriceSortClick}>
+				<button className="group-[.h-0]:invisible" onClick={handlePriceSortClick}>
 					Sorteer op prijs
 				</button>
 			</div>
