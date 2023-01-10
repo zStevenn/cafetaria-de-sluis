@@ -1,0 +1,5 @@
+const faqData = [
+  { question: "What is React?", answer: "React is a JavaScript library for building user interfaces." },
+  { question: "What is a component in React?", answer: "In React, a component is a piece of code that represents a part of a user interface. It can include JSX, state, and props." },
+  { question: "What is JSX?", answer: "JSX is a syntax extension for JavaScript. It allows you to write HTML-like elements in your JavaScript code." }
+];
