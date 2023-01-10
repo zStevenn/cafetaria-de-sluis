@@ -1,4 +1,4 @@
-function FAQ({ question, answer }) {
+export function FAQ({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
   
   return (
