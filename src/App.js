@@ -9,6 +9,7 @@ import Vacatures from "./pages/Vacatures";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookiePolicy from "./pages/CookiePolicy";
+import FAQ from "./pages/FAQ";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 					<Route path="/vacatures" element={<Vacatures />} />
 					<Route path="/privacybeleid" element={<PrivacyPolicy />} />
 					<Route path="/cookiebeleid" element={<CookiePolicy />} />
+					<Route path="/FAQ" element={<FAQ />} />
 					{/* Vacatures nest example */}
 					{/* <Route path="vacatures">
 						<Route index element={<Vacatures />} />
