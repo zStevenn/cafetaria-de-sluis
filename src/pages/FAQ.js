@@ -1,6 +1,6 @@
 import { FAQ } from "../components/FAQ";
 import faqData from "../data/faq.json";
-import { Title, Subtitle, Paragraph } from "../components/Text";
+import { Title, Paragraph } from "../components/Text";
 
 export default function FAQpage() {
   return (
