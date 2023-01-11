@@ -7,9 +7,9 @@ export function FAQ({ question, answer }) {
 	return (
 		<div className="px-2 py-4 bg-white text-primary rounded-lg mb-4 divide-y divide-primary">
 			<button onClick={() => setIsOpen(!isOpen)}>
-				<h6 className="font-semibold text-lg text-start flex flex-row flex-nowrap">
+				<p className="font-semibold text-base text-start flex flex-row flex-nowrap">
 					{question} <MdKeyboardArrowDown className="text-3xl fill-primary" />
-				</h6>
+				</p>
 			</button>
 			{isOpen && <p className>{answer}</p>}
 		</div>
