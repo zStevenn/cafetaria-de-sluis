@@ -1,14 +1,52 @@
 [
-  { "question": "Wat zijn de openingstijden voor afhalen?", "answer": "Wij zijn geopend voor afhalen van 12:00 tot 20:00" },
-  { "question": "Kan ik eten afhalen buiten de openingstijden?", "answer": "Nee, wij zijn alleen open voor afhalen tijdens onze reguliere openingstijden van 12:00 tot 20:00" },
-  { "question": "Doen jullie bezorging?", "answer": "Ja, wij doen bezorging van 17:00 tot 20:00" },
-  { "question": "Is er een minimum bestelbedrag voor bezorging?", "answer": "Ja, er is een minimum bestelbedrag van €10,- voor bezorging." },
-  { "question": "Zijn er bezorgkosten?", "answer": "Ja, de bezorgkosten bedragen €2,95." },
-  { "question": "Welke zoekwoorden zijn gerelateerd aan mijn website?", "answer": "Onze website is geoptimaliseerd voor zoekwoorden zoals bezorgen, afhalen, cafetaria, driebergen, de sluis." },
-  { "question": "Hoe vaak update je de inhoud van je website?", "answer": "Wij updaten de inhoud van onze website op regelmatige basis. Normaal gesproken proberen we onze site tweewekelijks/maandelijks bij te werken" },
-  { "question": "Hoe handelt uw website gebroken links?", "answer": "Wij hebben een aantal tools geïmplementeerd om gebroken links op onze website te identificeren en te repareren" },
-  { "question": "Heeft uw website een sitemap?", "answer": "Ja, onze website heeft een sitemap die toegankelijk is op [sitemap url]" },
-  { "question": "Gebruikt uw website schema markup?", "answer": "Ja, we gebruiken schema markup op onze gehele website om de weergave van onze site in zoekresultaten te verbeteren" },
-  { "question": "Heeft uw website een aangepaste 404 pagina?", "answer": "Ja, onze website heeft een aangepaste 404 pagina waarnaar gebruikers worden geleid wanneer ze een gebroken link tegenkomen" },
-  { "question": "Is uw website mobiel vriendelijk ontworpen?", "answer": "Ja, onze website is ontworpen om mobiel vriendelijk en responsief te zijn" }
+	{
+		"question": "Wat zijn jullie openingstijden?",
+		"answer": "Wij zijn dinsdag t/m zaterdag geopend van 12:00 tot 20:00. Op zondag zijn wij geopend van 16:00 tot 20:00."
+	},
+	{
+		"question": "Kan ik eten afhalen buiten de openingstijden?",
+		"answer": "Nee, wij zijn alleen open voor afhalen tijdens onze reguliere openingstijden van 12:00 tot 20:00"
+	},
+	{ "question": "Doen jullie bezorging?", "answer": "Ja, wij bezorgen van 17:00 tot 20:00." },
+	{
+		"question": "Is er een minimum bestelbedrag voor bezorging?",
+		"answer": "Ja, er is een minimum bestelbedrag van €10,- voor bezorging."
+	},
+	{ "question": "Zijn er bezorgkosten?", "answer": "Ja, de bezorgkosten bedragen €2,95." },
+	{
+		"question": "Waarom moet ik bezorgkosten betalen?",
+		"answer": "Wij brengen een vaste bezorgkostenbedrag van 2,95 in rekening om de kosten van transport, logistiek en het houden van een eerlijke prijs voor de gerechten te dekken. We hopen dat onze klanten begrijpen dat deze kosten noodzakelijk zijn voor onze dienstverlening."
+	},
+  {
+    "question": "Waar kan ik online bestellen?",	
+    "answer": "Wij bieden online bestellingen voor bezorgen of afhalen aan via onze eigen website en Thuisbezorgd.nl."
+  },
+	{
+		"question": "Welke zoekwoorden zijn gerelateerd aan mijn website?",
+		"answer": "Onze website is geoptimaliseerd voor zoekwoorden zoals bezorgen, afhalen, cafetaria, driebergen, de sluis."
+	},
+	{
+		"question": "Hoe vaak update je de inhoud van je website?",
+		"answer": "Wij updaten de inhoud van onze website op regelmatige basis. Normaal gesproken proberen we onze site tweewekelijks/maandelijks bij te werken."
+	},
+	{
+		"question": "Hoe handelt uw website gebroken links?",
+		"answer": "Wij hebben een aantal tools geïmplementeerd om gebroken links op onze website te identificeren en te repareren."
+	},
+	{
+		"question": "Heeft uw website een sitemap?",
+		"answer": "Ja, onze website heeft een sitemap die toegankelijk is op [sitemap url]."
+	},
+	{
+		"question": "Gebruikt uw website schema markup?",
+		"answer": "Ja, we gebruiken schema markup op onze gehele website om de weergave van onze site in zoekresultaten te verbeteren."
+	},
+	{
+		"question": "Heeft uw website een aangepaste 404 pagina?",
+		"answer": "Ja, onze website heeft een aangepaste 404 pagina waarnaar gebruikers worden geleid wanneer ze een gebroken link tegenkomen."
+	},
+	{
+		"question": "Is uw website mobiel vriendelijk ontworpen?",
+		"answer": "Ja, onze website is ontworpen om mobiel vriendelijk en responsief te zijn."
+	}
 ]
