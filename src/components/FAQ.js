@@ -1,4 +1,5 @@
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { useState } from "react";
 
 export function FAQ({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
