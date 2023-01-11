@@ -75,13 +75,13 @@ export default function Footer() {
 							</Link>
 						</li>
 						<li className="hover:scale-110 transition-all">
-							<Link to="/vacatures" onClick={handleClick}>
-								<MdOutlineArrowRightAlt className="inline" /> Vacatures
+							<Link to="/nieuws" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> Nieuws
 							</Link>
 						</li>
 						<li className="hover:scale-110 transition-all">
-							<Link to="/nieuws" onClick={handleClick}>
-								<MdOutlineArrowRightAlt className="inline" /> Nieuws
+							<Link to="/FAQ" onClick={handleClick}>
+								<MdOutlineArrowRightAlt className="inline" /> FAQ
 							</Link>
 						</li>
 						<li className="hover:scale-110 transition-all">
