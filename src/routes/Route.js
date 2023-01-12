@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
+import Loading from "../components/Loading";
 
 const Menu = lazy(() => import("../pages/Menu"));
 const News = lazy(() => import("../pages/News"));
@@ -13,7 +14,7 @@ const FAQ = lazy(() => import("../pages/FAQ"));
 
 export default function DefaultRouter() {
 	return (
-		<Suspense fallback={<div>Loading...</div>}>
+		<Suspense fallback={<Loading />}>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/menu" element={<Menu />} />
