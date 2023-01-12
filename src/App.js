@@ -1,38 +1,13 @@
-import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Menu from "./pages/Menu";
-import Contact from "./pages/Contact";
-import News from "./pages/News";
-import Vacatures from "./pages/Vacatures";
-import NotFound from "./pages/NotFound";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import CookiePolicy from "./pages/CookiePolicy";
-import FAQ from "./pages/FAQ";
+import Route from "./routes/Route";
 
 function App() {
 	return (
 		<>
 			<div className="App">
 				<Navbar />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/menu" element={<Menu />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/nieuws" element={<News />} />
-					<Route path="/vacatures" element={<Vacatures />} />
-					<Route path="/privacybeleid" element={<PrivacyPolicy />} />
-					<Route path="/cookiebeleid" element={<CookiePolicy />} />
-					<Route path="/FAQ" element={<FAQ />} />
-					{/* Vacatures nest example */}
-					{/* <Route path="vacatures">
-						<Route index element={<Vacatures />} />
-						<Route path=":vacatureId" element={<Vacatures />} />
-						<Route path="*" element={<NotFound />} />
-					</Route> */}
-					<Route path="*" element={<NotFound />} />
-				</Routes>
+				<Route />
 				<Footer />
 			</div>
 		</>
