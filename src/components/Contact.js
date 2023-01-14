@@ -1,56 +1,45 @@
 import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md"
+import { useState } from "react"
+import InputField from "./InputField"
+import Label from "./Label"
 
-function FormInput(props) {
-	return (
-		<>
-			<label
-				className="block text-gray-700 text-sm font-bold mb-2 capitalize"
-				htmlFor={props.name}
-			>
-				{props.label}
-			</label>
-			<input
-				className="block w-full px-3 py-2 bg-white border border-slate-300 rounded-xl text-sm shadow-sm placeholder-slate-400
-      focus:outline-none focus:border-green-900 focus:ring-1 focus:ring-green-900
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-pink-500 invalid:text-pink-600
-      focus:invalid:border-pink-500 focus:invalid:ring-pink-500 placeholder:italic"
-				name={props.name}
-				type={props.type}
-				placeholder={props.placeholder}
-			/>
-		</>
-	)
+// Encode data to be sent to Netlify
+const encode = data => {
+	return Object.keys(data)
+		.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+		.join("&")
 }
 
-function FormTextarea(props) {
-	return (
-		<>
-			<label
-				className="block text-gray-700 text-sm font-bold mb-2 capitalize"
-				htmlFor={props.name}
-			>
-				{props.label}
-			</label>
-			<textarea
-				className="block w-full px-3 py-2 bg-white border border-slate-300 rounded-xl text-sm shadow-sm placeholder-slate-400
-      focus:outline-none focus:border-green-900 focus:ring-1 focus:ring-green-900
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-pink-500 invalid:text-pink-600
-      focus:invalid:border-pink-500 focus:invalid:ring-pink-500 placeholder:italic"
-				name={props.name}
-				rows="4"
-				placeholder={props.placeholder}
-			/>
-		</>
-	)
-}
-
+// Contact form component
 export function ContactForm(props) {
+	// Create state for form
+	const [formState, setFormState] = useState({
+		name: "",
+		email: "",
+		phone: "",
+		message: "",
+	})
+
+	// Handle form submission
+	const handleSubmit = e => {
+		fetch("/", {
+			method: "POST",
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: encode({ "form-name": "contact", ...this.formState }),
+		})
+			.then(() => alert("Success!"))
+			.catch(error => alert(error))
+
+		e.preventDefault()
+	}
+
+	// Handle form input changes
+	const handleChange = e =>
+		setFormState({ ...formState, [e.target.name]: e.target.value })
+
 	return (
 		<form
-			name="contact"
-			method="post"
+			onSubmit={handleSubmit}
 			className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}
 		>
 			<input type="hidden" name="form-name" value="contact" />
@@ -58,44 +47,51 @@ export function ContactForm(props) {
 				Contactformulier
 			</p>
 			<div className="mb-4">
-				<FormInput
-					label={"Naam"}
-					name={"name"}
-					type={"text"}
-					placeholder={"Voer je naam in"}
+				<Label label="Naam" name="name" />
+				<InputField
+					type="text"
+					name="name"
+					value={formState.name}
+					onChange={handleChange}
+					placeholder="Vul hier je naam in..."
 				/>
 			</div>
 			<div className="mb-4">
-				<FormInput
-					label={"Email"}
-					name={"email"}
-					type={"email"}
-					placeholder={"Voer je email in"}
+				<Label label="Email" name="email" />
+				<InputField
+					type="email"
+					name="email"
+					value={formState.email}
+					onChange={handleChange}
+					placeholder="Vul hier je email in..."
 				/>
 			</div>
 			<div className="mb-4">
-				<FormInput
-					label={"Telefoonnummer"}
-					name={"phone"}
-					type={"text"}
-					placeholder={"Voer je telefoonnummer in"}
+				<Label label="Telefoonnummer" name="phone" />
+				<InputField
+					type="text"
+					name="phone"
+					value={formState.phone}
+					onChange={handleChange}
+					placeholder="Vul hier je telefoonnummer in..."
 				/>
 			</div>
 			<div className="mb-6">
-				<FormTextarea
-					label={"Bericht"}
-					name={"message"}
-					placeholder={"Voer hier je bericht in"}
+				<Label label="Bericht" name="message" />
+				<InputField
+					type="textarea"
+					name="message"
+					value={formState.message}
+					onChange={handleChange}
+					placeholder="Vul hier je bericht in..."
 				/>
 			</div>
-			<div className="flex items-center justify-center">
-				<button
-					className="bg-purple-900/70 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-					type="submit"
-				>
-					Verstuur
-				</button>
-			</div>
+			<button
+				className="bg-purple-900/70 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+				type="submit"
+			>
+				Verstuur
+			</button>
 		</form>
 	)
 }
