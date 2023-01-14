@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Title } from "./Text"
+import { Paragraph, Title } from "../Text"
 import { MdOutlineArrowRightAlt } from "react-icons/md"
 import { useState } from "react"
 
@@ -109,16 +109,16 @@ const Adresgegevens = () => {
 	)
 }
 
-export default function Footer() {
+export default function MobileFooter() {
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900">
-			<div className="flex flex-col sm:flex-row justify-start sm:justify-evenly pl-4 py-4">
+			<div className="flex flex-col justify-start pl-4 py-4">
 				<Openingstijden />
 				<FooterLinks />
 				<Adresgegevens />
 			</div>
 			<div className="bg-primary text-center py-4">
-				<Title text={"© Cafetaria de Sluis 2022"} />
+				<Paragraph text={"© Cafetaria de Sluis 2022"} />
 			</div>
 		</footer>
 	)
