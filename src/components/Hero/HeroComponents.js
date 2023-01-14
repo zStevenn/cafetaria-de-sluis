@@ -11,9 +11,9 @@ import Cheesecrack from "../../assets/img/static/cheesecrack.jpg";
 // Shortcut of highlighted monthly products
 export function MonthlySnack() {
 	return (
-		<div className="flex flex-col bg-primary text-white px-8">
-			<Title text={"Snack(s) van de maand"} className="text-white py-4" />
-			<div className="flex flex-col sm:flex-row gap-4 justify-center pb-4">
+		<div className="flex flex-col bg-white px-8">
+			<Title text={"Snack(s) van de maand"} className="text-primary py-4" />
+			<div className="flex flex-row gap-4 justify-center pb-4">
 				<Card title={"Hotwings 5st"} imgSrc={Wings} imgTitle={"Hotwings 5st"} />
 				<Card title={"Cheesecrack"} imgSrc={Cheesecrack} imgTitle={"Cheesecrack"} />
 			</div>
@@ -50,7 +50,7 @@ function ArticleWithImage(props) {
 		<div className="flex flex-col md:flex-row my-4 items-center gap-4">
 			{/* Image */}
 			<img
-				className="rounded-xl object-cover w-40 h-40 md:flex-1 border-primary border shadow-sm shadow-white"
+				className="rounded-xl object-cover w-40 h-40 md:flex-1 border-primary border shadow-md shadow-primary"
 				src={props.imgSrc}
 				alt={props.imgTitle}
 			/>
