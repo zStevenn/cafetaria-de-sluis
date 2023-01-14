@@ -20,52 +20,18 @@ export function ContactForm(props) {
 		message: "",
 	})
 
-	// Create state for form submission
-	const [submitting, setSubmitting] = useState(false)
-	// Create state for form submission status
-	const [status, setStatus] = useState({
-		submitted: false,
-		message: null,
-	})
-
 	// Handle form submission
-	const handleSubmit = async e => {
-		// Prevent default form submission
-		e.preventDefault()
-		// Set submitting to true
-		setSubmitting(true)
-		// Send form data to Netlify
-		try {
-			const res = await fetch("/", {
-				method: "POST",
-				headers: { "Content-Type": "application/x-www-form-urlencoded" },
-				body: encode({ "form-name": "contact", ...formState }),
-			})
-			// Check if response is ok
-			const text = await res.text()
-			// If response is ok, set status to submitted
-			if (text === "OK") {
-				setStatus({
-					submitted: true,
-					message: "Thank you for the message, we will get back to you soon!",
-				})
-				setFormState({
-					name: "",
-					email: "",
-					phone: "",
-					message: "",
-				})
-				// If response is not ok, set status to failed
-			} else {
-				setStatus({ submitted: false, message: "Failed to submit" })
-			}
-			// Catch errors
-		} catch (error) {
-			setStatus({ submitted: false, message: error.message })
-		}
-		// Set submitting to false
-		setSubmitting(false)
-	}
+	const handleSubmit = e => {
+		fetch("/", {
+			method: "POST",
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: encode({ "form-name": "contact", ...formState })
+		})
+			.then(() => alert("Success!"))
+			.catch(error => alert(error));
+
+		e.preventDefault();
+	};
 
 	// Handle form input changes
 	const handleChange = e =>
@@ -76,7 +42,6 @@ export function ContactForm(props) {
 			onSubmit={handleSubmit}
 			className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}
 		>
-			<input type="hidden" name="form-name" value="contact" />
 			<p className="text-center text-lg font-bold text-black p-2 tracking-wider">
 				Contactformulier
 			</p>
@@ -120,15 +85,7 @@ export function ContactForm(props) {
 					placeholder="Vul hier je bericht in..."
 				/>
 			</div>
-			{status.message && (
-				<div
-					className={`${status.submitted ? "text-primary" : "text-red-500"}`}
-				>
-					{status.message}
-				</div>
-			)}
 			<button
-				disabled={submitting}
 				className="bg-purple-900/70 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
 				type="submit"
 			>
