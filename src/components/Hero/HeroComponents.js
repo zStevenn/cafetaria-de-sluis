@@ -47,17 +47,17 @@ export function OrderOptions() {
 // Article with image and text
 function ArticleWithImage(props) {
 	return (
-		<div className="flex flex-row my-4 justify-start lg:justify-center gap-4">
+		<div className="flex flex-col md:flex-row my-4 items-center gap-4">
 			{/* Image */}
 			<img
-				className="rounded-xl object-cover min-w-[8rem] min-h-[8rem] w-32 h-32 border-primary border shadow-sm shadow-white"
+				className="rounded-xl object-cover w-40 h-40 md:flex-1 border-primary border shadow-sm shadow-white"
 				src={props.imgSrc}
 				alt={props.imgTitle}
 			/>
 			{/* Text */}
-			<div className="flex flex-col justify-center text-primary ml-2 max-h-32">
+			<div className="flex flex-col md:flex-1 text-center md:text-start text-primary ml-2">
 				<p className="text-lg font-semibold mb-1">{props.title}</p>
-				<p className="text-base font-base text-clip overflow-hidden lg:max-w-lg">{props.text}</p>
+				<p className="text-base font-base lg:max-w-lg">{props.text}</p>
 			</div>
 		</div>
 	);
