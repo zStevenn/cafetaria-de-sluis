@@ -36,7 +36,7 @@ export function ContactForm(props) {
 		setSubmitting(true)
 		// Send form data to Netlify
 		try {
-			const res = await fetch("https://cafetariadesluis.netlify.com/contact", {
+			const res = await fetch("/", {
 				method: "POST",
 				headers: { "Content-Type": "application/x-www-form-urlencoded" },
 				body: encode({ "form-name": "contact", ...formState }),
