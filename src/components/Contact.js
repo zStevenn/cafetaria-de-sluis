@@ -7,7 +7,7 @@ function FormInput(props) {
 				className="block text-gray-700 text-sm font-bold mb-2 capitalize"
 				htmlFor={props.name}
 			>
-				{props.name}
+				{props.label}
 			</label>
 			<input
 				className="block w-full px-3 py-2 bg-white border border-slate-300 rounded-xl text-sm shadow-sm placeholder-slate-400
@@ -15,7 +15,7 @@ function FormInput(props) {
       disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
       invalid:border-pink-500 invalid:text-pink-600
       focus:invalid:border-pink-500 focus:invalid:ring-pink-500 placeholder:italic"
-				id={props.name}
+				name={props.name}
 				type={props.type}
 				placeholder={props.placeholder}
 			/>
@@ -30,7 +30,7 @@ function FormTextarea(props) {
 				className="block text-gray-700 text-sm font-bold mb-2 capitalize"
 				htmlFor={props.name}
 			>
-				{props.name}
+				{props.label}
 			</label>
 			<textarea
 				className="block w-full px-3 py-2 bg-white border border-slate-300 rounded-xl text-sm shadow-sm placeholder-slate-400
@@ -38,9 +38,8 @@ function FormTextarea(props) {
       disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
       invalid:border-pink-500 invalid:text-pink-600
       focus:invalid:border-pink-500 focus:invalid:ring-pink-500 placeholder:italic"
-				id={props.name}
+				name={props.name}
 				rows="4"
-				type={props.type}
 				placeholder={props.placeholder}
 			/>
 		</>
@@ -60,6 +59,7 @@ export function ContactForm(props) {
 			</p>
 			<div className="mb-4">
 				<FormInput
+					label={"Naam"}
 					name={"name"}
 					type={"text"}
 					placeholder={"Voer je naam in"}
@@ -67,6 +67,7 @@ export function ContactForm(props) {
 			</div>
 			<div className="mb-4">
 				<FormInput
+					label={"Email"}
 					name={"email"}
 					type={"email"}
 					placeholder={"Voer je email in"}
@@ -74,6 +75,7 @@ export function ContactForm(props) {
 			</div>
 			<div className="mb-4">
 				<FormInput
+					label={"Telefoonnummer"}
 					name={"phone"}
 					type={"text"}
 					placeholder={"Voer je telefoonnummer in"}
@@ -81,8 +83,8 @@ export function ContactForm(props) {
 			</div>
 			<div className="mb-6">
 				<FormTextarea
+					label={"Bericht"}
 					name={"message"}
-					type={"text"}
 					placeholder={"Voer hier je bericht in"}
 				/>
 			</div>
