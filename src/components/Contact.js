@@ -1,9 +1,12 @@
-import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md";
+import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md"
 
 function FormInput(props) {
 	return (
 		<>
-			<label className="block text-gray-700 text-sm font-bold mb-2 capitalize" htmlFor={props.name}>
+			<label
+				className="block text-gray-700 text-sm font-bold mb-2 capitalize"
+				htmlFor={props.name}
+			>
 				{props.name}
 			</label>
 			<input
@@ -17,13 +20,16 @@ function FormInput(props) {
 				placeholder={props.placeholder}
 			/>
 		</>
-	);
+	)
 }
 
 function FormTextarea(props) {
 	return (
 		<>
-			<label className="block text-gray-700 text-sm font-bold mb-2 capitalize" htmlFor={props.name}>
+			<label
+				className="block text-gray-700 text-sm font-bold mb-2 capitalize"
+				htmlFor={props.name}
+			>
 				{props.name}
 			</label>
 			<textarea
@@ -38,35 +44,58 @@ function FormTextarea(props) {
 				placeholder={props.placeholder}
 			/>
 		</>
-	);
+	)
 }
 
 export function ContactForm(props) {
 	return (
-		<form className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}>
-			<p className="text-center text-lg font-bold text-black p-2 tracking-wider">Contactformulier</p>
+		<form
+			name="contact"
+			method="post"
+			className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}
+		>
+			<input type="hidden" name="form-name" value="contact" />
+			<p className="text-center text-lg font-bold text-black p-2 tracking-wider">
+				Contactformulier
+			</p>
 			<div className="mb-4">
-				<FormInput name={"naam"} type={"text"} placeholder={"Voer je naam in"} />
+				<FormInput
+					name={"name"}
+					type={"text"}
+					placeholder={"Voer je naam in"}
+				/>
 			</div>
 			<div className="mb-4">
-				<FormInput name={"email"} type={"email"} placeholder={"Voer je email in"} />
+				<FormInput
+					name={"email"}
+					type={"email"}
+					placeholder={"Voer je email in"}
+				/>
 			</div>
 			<div className="mb-4">
-				<FormInput name={"telefoon"} type={"text"} placeholder={"Voer je telefoonnummer in"} />
+				<FormInput
+					name={"phone"}
+					type={"text"}
+					placeholder={"Voer je telefoonnummer in"}
+				/>
 			</div>
 			<div className="mb-6">
-				<FormTextarea name={"bericht"} type={"text"} placeholder={"Voer hier je bericht in"} />
+				<FormTextarea
+					name={"message"}
+					type={"text"}
+					placeholder={"Voer hier je bericht in"}
+				/>
 			</div>
 			<div className="flex items-center justify-center">
 				<button
 					className="bg-purple-900/70 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-					type="button"
+					type="submit"
 				>
 					Verstuur
 				</button>
 			</div>
 		</form>
-	);
+	)
 }
 
 export function ContactUs() {
@@ -85,5 +114,5 @@ export function ContactUs() {
 				<p>info@cafetariadesluis.nl</p>
 			</div>
 		</div>
-	);
+	)
 }
