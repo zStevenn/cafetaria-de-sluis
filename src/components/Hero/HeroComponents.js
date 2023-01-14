@@ -24,20 +24,20 @@ export function MonthlySnack() {
 // Banner showcasing order options: take away, delivery, eat in
 export function OrderOptions() {
 	return (
-		<div className="flex flex-col flex-nowrap bg-primary text-white justify-evenly py-4 px-8">
-			<Title text={"Bestelopties"} className="text-white py-4" />
-			<div className="flex flex-row flex-nowrap gap-4 justify-evenly items-center pb-4">
+		<div className="flex flex-col flex-nowrap bg-white text-primary justify-evenly py-4 px-8">
+			<Title text={"Bestelopties"} className="text-primary py-4" />
+			<div className="flex flex-col md:flex-row gap-4 justify-evenly items-center my-4">
 				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<MdDeliveryDining className="text-5xl" />
-					<h2 className="text-lg font-semibold text-white truncate">Bezorgen</h2>
+					<h2 className="text-lg font-semibold text-primary truncate">Bezorgen</h2>
 				</div>
 				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<MdDeliveryDining className="text-5xl" />
-					<h2 className="text-lg font-semibold text-white truncate">Afhalen</h2>
+					<h2 className="text-lg font-semibold text-primary truncate">Afhalen</h2>
 				</div>
 				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
 					<GiKnifeFork className="text-5xl" />
-					<h2 className="text-lg font-semibold text-white truncate">Hier eten</h2>
+					<h2 className="text-lg font-semibold text-primary truncate">Hier eten</h2>
 				</div>
 			</div>
 		</div>
