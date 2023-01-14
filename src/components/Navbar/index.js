@@ -8,7 +8,7 @@ export default function Navbar() {
 
 	return (
 		// Navbar
-		<div className="bg-primary flex flex-col justify-center px-8 shadow-md">
+		<div className="bg-primary flex flex-col justify-center px-8 shadow shadow-primary">
 			{/* Title */}
 			<div className="text-3xl font-bold text-white text-center my-2 hover:scale-110 transition-all">
 				<Link to="/">Cafetaria de Sluis</Link>
