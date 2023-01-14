@@ -4,7 +4,9 @@ import { MdOutlineArrowRightAlt } from "react-icons/md"
 import { useState } from "react"
 
 // Display openingstijden
-const Openingstijden = ({ isOpen, setIsOpen }) => {
+const Openingstijden = () => {
+	const [isOpen, setIsOpen] = useState(false)
+
 	const days = [
 		{ day: "Maandag", open: "Gesloten" },
 		{ day: "Dinsdag", open: "12:00 - 20:00" },
@@ -37,7 +39,9 @@ const Openingstijden = ({ isOpen, setIsOpen }) => {
 }
 
 // Display links to other pages
-const FooterLinks = ({ isOpen, setIsOpen }) => {
+const FooterLinks = () => {
+	const [isOpen, setIsOpen] = useState(false)
+
 	const internalLinks = [
 		{ text: "Menu", link: "/menu" },
 		{ text: "Contact", link: "/contact" },
@@ -82,7 +86,8 @@ const FooterLinks = ({ isOpen, setIsOpen }) => {
 }
 
 // Display adresgegevens
-const Adresgegevens = ({ isOpen, setIsOpen }) => {
+const Adresgegevens = () => {
+	const [isOpen, setIsOpen] = useState(false)
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
 			<Title
@@ -105,14 +110,12 @@ const Adresgegevens = ({ isOpen, setIsOpen }) => {
 }
 
 export default function Footer() {
-	const [isOpen, setIsOpen] = useState(false)
-
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900">
 			<div className="flex flex-col sm:flex-row justify-start sm:justify-evenly pl-4 py-4">
-				<Openingstijden isOpen={isOpen} setIsOpen={setIsOpen} />
-				<FooterLinks isOpen={isOpen} setIsOpen={setIsOpen} />
-				<Adresgegevens isOpen={isOpen} setIsOpen={setIsOpen} />
+				<Openingstijden />
+				<FooterLinks />
+				<Adresgegevens />
 			</div>
 			<div className="bg-primary text-center py-4">
 				<Title text={"© Cafetaria de Sluis 2022"} />
