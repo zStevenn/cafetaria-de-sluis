@@ -2,31 +2,61 @@
 <html lang="nl">
 	<head>
 		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YT2L12B5LC"></script>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-YT2L12B5LC"
+		></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
+			window.dataLayer = window.dataLayer || []
 			function gtag() {
-				dataLayer.push(arguments);
+				dataLayer.push(arguments)
 			}
-			gtag("js", new Date());
+			gtag("js", new Date())
 
-			gtag("config", "G-YT2L12B5LC");
+			gtag("config", "G-YT2L12B5LC")
 		</script>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
 		<meta name="description" content="Official website of Cafetaria de Sluis" />
-		<meta name="keywords" content="Cafetaria de Sluis, Driebergen-Rijsenburg, De Sluis, Snackbar, Cafetaria, Bestellen, Webshop, Menu, Patat, Frites, Snacks, Milkshakes, Bezorgen">
-		<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+		<meta
+			name="keywords"
+			content="Cafetaria de Sluis, Driebergen-Rijsenburg, De Sluis, Snackbar, Cafetaria, Bestellen, Webshop, Menu, Patat, Frites, Snacks, Milkshakes, Bezorgen"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="%PUBLIC_URL%/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="%PUBLIC_URL%/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="%PUBLIC_URL%/favicon-16x16.png"
+		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Cafetaria de Sluis</title>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<!-- A little help for the Netlify post-processing bots -->
+		<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+			<input type="text" name="name" />
+			<input type="email" name="email" />
+			<input type="text" name="phone" />
+			<textarea type="text" name="message"></textarea>
+		</form>
 		<div id="root"></div>
 	</body>
 </html>
