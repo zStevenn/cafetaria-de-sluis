@@ -81,6 +81,7 @@ const FooterLinks = ({ isOpen, setIsOpen }) => {
 	)
 }
 
+// Display adresgegevens
 const Adresgegevens = ({ isOpen, setIsOpen }) => {
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
