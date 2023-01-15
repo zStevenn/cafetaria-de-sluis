@@ -11,7 +11,10 @@ import { nl } from "date-fns/locale"
 
 const FooterTitle = ({ text, className, onClick, isOpen }) => {
 	return (
-		<div className="flex flex-row items-center w-full" onClick={onClick}>
+		<div
+			className={`flex flex-row items-center w-full ${isOpen ? "underline underline-offset-8" : ""}`}
+			onClick={onClick}
+		>
 			<Title text={text} className={className} />
 			{isOpen ? (
 				<MdClose className="ml-2 text-2xl" />
@@ -101,7 +104,10 @@ const FooterLinks = () => {
 						</a>
 					</li>
 					{internalLinks.map(link => (
-						<li key={link.text} className="hover:scale-110 transition-all py-0.5">
+						<li
+							key={link.text}
+							className="hover:scale-110 transition-all py-0.5"
+						>
 							<Link to={link.link} onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> {link.text}
 							</Link>
