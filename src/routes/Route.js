@@ -6,11 +6,12 @@ import Loading from "../components/Loading";
 const Menu = lazy(() => import("../pages/Menu"));
 const News = lazy(() => import("../pages/News"));
 const Contact = lazy(() => import("../pages/Contact"));
-const Vacatures = lazy(() => import("../pages/Vacatures"));
+// const Vacatures = lazy(() => import("../pages/Vacatures"));
 const NotFound = lazy(() => import("../pages/NotFound"));
 const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy"));
 const CookiePolicy = lazy(() => import("../pages/CookiePolicy"));
 const FAQ = lazy(() => import("../pages/FAQ"));
+const UnderConstruction = lazy(() => import("../pages/UnderConstruction"));
 
 export default function DefaultRouter() {
 	return (
@@ -20,7 +21,7 @@ export default function DefaultRouter() {
 				<Route path="/menu" element={<Menu />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/nieuws" element={<News />} />
-				<Route path="/vacatures" element={<Vacatures />} />
+				<Route path="/vacatures" element={<UnderConstruction />} />
 				<Route path="/privacybeleid" element={<PrivacyPolicy />} />
 				<Route path="/cookiebeleid" element={<CookiePolicy />} />
 				<Route path="/FAQ" element={<FAQ />} />
