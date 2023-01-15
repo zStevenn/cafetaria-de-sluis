@@ -2,12 +2,25 @@ import { Link } from "react-router-dom"
 import { Paragraph, Title } from "../Text"
 import {
 	MdOutlineArrowRightAlt,
-	MdOutlineArrowDownward,
-	MdOutlineArrowUpward,
+	MdKeyboardArrowDown,
+	MdClose,
 } from "react-icons/md"
 import { useState } from "react"
 import { format } from "date-fns"
 import { nl } from "date-fns/locale"
+
+const FooterTitle = ({ text, className, onClick, isOpen }) => {
+	return (
+		<div className="flex flex-row items-center w-full" onClick={onClick}>
+			<Title text={text} className={className} />
+			{isOpen ? (
+				<MdClose className="ml-2 text-2xl" />
+			) : (
+				<MdKeyboardArrowDown className="ml-2 text-2xl" />
+			)}
+		</div>
+	)
+}
 
 // Display openingstijden
 const Openingstijden = () => {
@@ -27,7 +40,8 @@ const Openingstijden = () => {
 
 	return (
 		<div className="flex flex-col justify-start items-start text-white w-60 sm:w-auto">
-			<Title
+			<FooterTitle
+				isOpen={isOpen}
 				text="Openingstijden"
 				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
@@ -69,7 +83,8 @@ const FooterLinks = () => {
 
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
-			<Title
+			<FooterTitle
+				isOpen={isOpen}
 				text={`Handige links`}
 				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
@@ -86,9 +101,7 @@ const FooterLinks = () => {
 						</a>
 					</li>
 					{internalLinks.map(link => (
-						<li 
-						key={link.text}
-						className="hover:scale-110 transition-all">
+						<li key={link.text} className="hover:scale-110 transition-all">
 							<Link to={link.link} onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> {link.text}
 							</Link>
@@ -105,7 +118,8 @@ const Adresgegevens = () => {
 	const [isOpen, setIsOpen] = useState(false)
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
-			<Title
+			<FooterTitle
+				isOpen={isOpen}
 				text="Adresgegevens"
 				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
