@@ -1,33 +1,46 @@
 import { Link } from "react-router-dom"
 import { Paragraph, Title } from "../Text"
-import { MdOutlineArrowRightAlt } from "react-icons/md"
+import {
+	MdOutlineArrowRightAlt,
+	MdOutlineArrowDownward,
+	MdOutlineArrowUpward,
+} from "react-icons/md"
 import { useState } from "react"
+import { format } from "date-fns"
+import { nl } from "date-fns/locale"
 
 // Display openingstijden
 const Openingstijden = () => {
-	const [isOpen, setIsOpen] = useState(false)
+	const [isOpen, setIsOpen] = useState(true)
 
 	const days = [
-		{ day: "Maandag", open: "Gesloten" },
-		{ day: "Dinsdag", open: "12:00 - 20:00" },
-		{ day: "Woensdag", open: "12:00 - 20:00" },
-		{ day: "Donderdag", open: "12:00 - 20:00" },
-		{ day: "Vrijdag", open: "12:00 - 20:00" },
-		{ day: "Zaterdag", open: "12:00 - 20:00" },
-		{ day: "Zondag", open: "16:00 - 20:00" },
+		{ day: "maandag", open: "Gesloten" },
+		{ day: "dinsdag", open: "12:00 - 20:00" },
+		{ day: "woensdag", open: "12:00 - 20:00" },
+		{ day: "donderdag", open: "12:00 - 20:00" },
+		{ day: "vrijdag", open: "12:00 - 20:00" },
+		{ day: "zaterdag", open: "12:00 - 20:00" },
+		{ day: "zondag", open: "16:00 - 20:00" },
 	]
+
+	const currentDay = format(new Date(), "EEEE", { locale: nl })
 
 	return (
 		<div className="flex flex-col justify-start items-start text-white w-60 sm:w-auto">
 			<Title
 				text="Openingstijden"
-				className="text-xl font-bold py-2 tracking-wider cursor-pointer"
+				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
 				<ul>
 					{days.map(day => (
-						<li className="flex flex-row hover:scale-110 transition-all">
+						<li
+							key={day.day}
+							className={`flex flex-row hover:scale-110 transition-all capitalize ${
+								day.day === currentDay ? "text-blue-500 font-semibold" : ""
+							}`}
+						>
 							<span className="w-28">{day.day}</span>
 							<span>{day.open}</span>
 						</li>
@@ -57,8 +70,8 @@ const FooterLinks = () => {
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
 			<Title
-				text="Informatie"
-				className="text-xl font-bold py-2 tracking-wider cursor-pointer"
+				text={`Handige links`}
+				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
@@ -73,7 +86,9 @@ const FooterLinks = () => {
 						</a>
 					</li>
 					{internalLinks.map(link => (
-						<li className="hover:scale-110 transition-all">
+						<li 
+						key={link.text}
+						className="hover:scale-110 transition-all">
 							<Link to={link.link} onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> {link.text}
 							</Link>
@@ -92,7 +107,7 @@ const Adresgegevens = () => {
 		<div className="flex flex-col justify-start items-start text-white">
 			<Title
 				text="Adresgegevens"
-				className="text-xl font-bold py-2 tracking-wider cursor-pointer"
+				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
