@@ -10,7 +10,7 @@ export default function Home() {
 			<div className="block px-8">
 			<h1 className="text-3xl font-semibold mb-4 text-center truncate">Locatie & Openingstijden</h1>
 			<div className="flex flex-col md:flex-row gap-8 justify-center text-white">
-				<div className="flex-1 bg-green-900 p-4 rounded-lg shadow shadow-green-900">
+				<div className="flex-1 bg-primary p-4 rounded-lg shadow shadow-primary">
 					<h3 className="text-xl text-center">Openingstijden</h3>
 					<ul className="mt-4">
 						<li className="my-1 flex items-center">
@@ -43,7 +43,7 @@ export default function Home() {
 						</li>
 					</ul>
 				</div>
-				<div className="flex-1 bg-green-800 p-4 rounded-lg shadow shadow-green-900">
+				<div className="flex-1 bg-primary p-4 rounded-lg shadow shadow-primary">
 					<div className="">Block</div>
 					</div>
 				</div>
