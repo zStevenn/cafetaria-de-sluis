@@ -1,33 +1,63 @@
 import { Link } from "react-router-dom"
 import { Paragraph, Title } from "../Text"
-import { MdOutlineArrowRightAlt } from "react-icons/md"
+import {
+	MdOutlineArrowRightAlt,
+	MdKeyboardArrowDown,
+	MdClose,
+} from "react-icons/md"
 import { useState } from "react"
+import { format } from "date-fns"
+import { nl } from "date-fns/locale"
+
+const FooterTitle = ({ text, className, onClick, isOpen }) => {
+	return (
+		<div
+			className={`flex flex-row items-center w-full ${isOpen ? "underline underline-offset-8" : ""}`}
+			onClick={onClick}
+		>
+			<Title text={text} className={className} />
+			{isOpen ? (
+				<MdClose className="ml-2 text-2xl" />
+			) : (
+				<MdKeyboardArrowDown className="ml-2 text-2xl" />
+			)}
+		</div>
+	)
+}
 
 // Display openingstijden
 const Openingstijden = () => {
-	const [isOpen, setIsOpen] = useState(false)
+	const [isOpen, setIsOpen] = useState(true)
 
 	const days = [
-		{ day: "Maandag", open: "Gesloten" },
-		{ day: "Dinsdag", open: "12:00 - 20:00" },
-		{ day: "Woensdag", open: "12:00 - 20:00" },
-		{ day: "Donderdag", open: "12:00 - 20:00" },
-		{ day: "Vrijdag", open: "12:00 - 20:00" },
-		{ day: "Zaterdag", open: "12:00 - 20:00" },
-		{ day: "Zondag", open: "16:00 - 20:00" },
+		{ day: "maandag", open: "Gesloten" },
+		{ day: "dinsdag", open: "12:00 - 20:00" },
+		{ day: "woensdag", open: "12:00 - 20:00" },
+		{ day: "donderdag", open: "12:00 - 20:00" },
+		{ day: "vrijdag", open: "12:00 - 20:00" },
+		{ day: "zaterdag", open: "12:00 - 20:00" },
+		{ day: "zondag", open: "16:00 - 20:00" },
 	]
+
+	const currentDay = format(new Date(), "EEEE", { locale: nl })
 
 	return (
 		<div className="flex flex-col justify-start items-start text-white w-60 sm:w-auto">
-			<Title
+			<FooterTitle
+				isOpen={isOpen}
 				text="Openingstijden"
-				className="text-xl font-bold py-2 tracking-wider cursor-pointer"
+				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
 				<ul>
 					{days.map(day => (
-						<li className="flex flex-row hover:scale-110 transition-all">
+						<li
+							key={day.day}
+							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 ${
+								day.day === currentDay ? "text-blue-500 font-semibold" : ""
+							}`}
+						>
 							<span className="w-28">{day.day}</span>
 							<span>{day.open}</span>
 						</li>
@@ -56,14 +86,15 @@ const FooterLinks = () => {
 
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
-			<Title
-				text="Informatie"
-				className="text-xl font-bold py-2 tracking-wider cursor-pointer"
+			<FooterTitle
+				isOpen={isOpen}
+				text={`Handige links`}
+				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
 				<ul>
-					<li className="hover:scale-110 transition-all">
+					<li className="hover:scale-110 transition-all py-0.5">
 						<a
 							href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
 							target="_blank"
@@ -73,7 +104,10 @@ const FooterLinks = () => {
 						</a>
 					</li>
 					{internalLinks.map(link => (
-						<li className="hover:scale-110 transition-all">
+						<li
+							key={link.text}
+							className="hover:scale-110 transition-all py-0.5"
+						>
 							<Link to={link.link} onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> {link.text}
 							</Link>
@@ -90,19 +124,20 @@ const Adresgegevens = () => {
 	const [isOpen, setIsOpen] = useState(false)
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
-			<Title
+			<FooterTitle
+				isOpen={isOpen}
 				text="Adresgegevens"
-				className="text-xl font-bold py-2 tracking-wider cursor-pointer"
+				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
 				<ol className="text-base">
-					<li>De Sluis 25, 3972 VC</li>
-					<li>Driebergen-Rijsenburg</li>
-					<li>Nederland</li>
-					<li>&nbsp;</li>
-					<li>(0343) - 531 646</li>
-					<li>info@cafetariadesluis.nl</li>
+					<li className="my-0.5">De Sluis 25, 3972 VC</li>
+					<li className="my-0.5">Driebergen-Rijsenburg</li>
+					<li className="my-0.5">Nederland</li>
+					<li className="my-0.5">&nbsp;</li>
+					<li className="my-0.5">(0343) - 531 646</li>
+					<li className="my-0.5">info@cafetariadesluis.nl</li>
 				</ol>
 			)}
 		</div>

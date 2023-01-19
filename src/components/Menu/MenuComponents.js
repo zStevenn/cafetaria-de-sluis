@@ -6,11 +6,11 @@ export function MenuItem(props) {
   const formattedPrice = Number(props.price).toFixed(2).replace(".", ",");
 
   return (
-    <div className="flex flex-row justify-start py-1 whitespace-nowrap w-full sm:w-96">
+    <div className="flex flex-row py-3 px-2 bg-white my-4 rounded-lg shadow shadow-white">
       {/* Item name */}
-      <p className="w-3/4 capitalize">{props.name}</p>
+      <p className="w-3/4 capitalize text-primary">{props.name}</p>
       {/* Price */}
-      <p className="w-1/4 tracking-wide">&euro; {formattedPrice}</p>
+      <p className="w-1/4 tracking-wide text-primary">&euro; {formattedPrice}</p>
     </div>
   );
 }

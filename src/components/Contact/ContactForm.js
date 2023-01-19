@@ -1,7 +1,7 @@
-import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md"
 import { useState } from "react"
-import InputField from "./InputField"
-import Label from "./Label"
+import InputField from "../InputField"
+import Label from "../Label"
+import Modal from "../Modal"
 
 // Encode data to be sent to Netlify
 const encode = data => {
@@ -11,7 +11,19 @@ const encode = data => {
 }
 
 // Contact form component
-export function ContactForm(props) {
+export default function ContactForm(props) {
+	// Create show modal status and message
+	const [showModal, setShowModal] = useState(false);
+	const [message, setMessage] = useState("Je bericht is successvol verstuurt. Dank je wel!");
+	
+	//Create an initial form state
+	const initialState = {
+		name: "",
+		email: "",
+		phone: "",
+		message: "",
+	}
+	
 	// Create state for form
 	const [formState, setFormState] = useState({
 		name: "",
@@ -19,25 +31,40 @@ export function ContactForm(props) {
 		phone: "",
 		message: "",
 	})
+	
+	// Handles modal dismiss
+	const handleDismiss = () => {
+  		setShowModal(false);
+	}
+
 
 	// Handle form submission
 	const handleSubmit = e => {
 		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
-			body: encode({ "form-name": "contact", ...formState })
+			body: encode({ "form-name": "contact", ...formState }),
 		})
-			.then(() => alert("Success!"))
-			.catch(error => alert(error));
+			.then(() => {
+  				setShowModal(true);
+				setMessage("Je bericht is successvol verstuurt. Dank je wel!");
+				setFormState(initialState);
+			})
+			.catch(error => {
+				setShowModal(true);
+  				setMessage(error);
+			});
 
-		e.preventDefault();
-	};
+
+		e.preventDefault()
+	}
 
 	// Handle form input changes
 	const handleChange = e =>
 		setFormState({ ...formState, [e.target.name]: e.target.value })
 
 	return (
+		<>
 		<form
 			onSubmit={handleSubmit}
 			className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}
@@ -92,24 +119,7 @@ export function ContactForm(props) {
 				Verstuur
 			</button>
 		</form>
-	)
-}
-
-export function ContactUs() {
-	return (
-		<div className="flex flex-col sm:flex-row gap-4 px-8 justify-evenly items-center mb-8">
-			<div className="flex flex-col text-primary text-center justify-center items-center bg-white p-10 my-2 rounded-lg w-full sm:w-1/3 h-full sm:h-48">
-				<MdPhone className="text-3xl mb-2" />
-				<p>(0343) - 531 646</p>
-			</div>
-			<div className="flex flex-col text-primary text-center justify-center items-center bg-white p-10 my-2 rounded-lg w-full sm:w-1/3 h-full sm:h-48">
-				<MdLocationOn className="text-3xl mb-2" />
-				<p>De Sluis 25, 3972 CW</p>
-			</div>
-			<div className="flex flex-col text-primary text-center justify-center items-center bg-white p-10 my-2 rounded-lg w-full sm:w-1/3 h-full sm:h-48">
-				<MdEmail className="text-3xl mb-2" />
-				<p>info@cafetariadesluis.nl</p>
-			</div>
-		</div>
+		<Modal message={message} handleDismiss={handleDismiss} showModal={showModal} />
+		</>
 	)
 }

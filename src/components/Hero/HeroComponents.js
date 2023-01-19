@@ -27,15 +27,15 @@ export function OrderOptions() {
 		<div className="flex flex-col flex-nowrap bg-white text-primary justify-evenly py-4 px-8">
 			<Title text={"Bestelopties"} className="text-primary py-4" />
 			<div className="flex flex-col md:flex-row gap-4 justify-evenly items-center my-4">
-				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
+				<div className="flex flex-col flex-nowrap items-center justify-center hover:scale-110 transition-all shadow shadow-primary rounded-lg p-4 w-40 h-40">
 					<MdDeliveryDining className="text-5xl" />
 					<h2 className="text-lg font-semibold text-primary truncate">Bezorgen</h2>
 				</div>
-				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
+				<div className="flex flex-col flex-nowrap items-center justify-center hover:scale-110 transition-all shadow shadow-primary rounded-lg p-4 w-40 h-40">
 					<MdDeliveryDining className="text-5xl" />
 					<h2 className="text-lg font-semibold text-primary truncate">Afhalen</h2>
 				</div>
-				<div className="flex flex-col flex-nowrap items-center hover:scale-110 transition-all">
+				<div className="flex flex-col flex-nowrap items-center justify-center hover:scale-110 transition-all shadow shadow-primary rounded-lg p-4 w-40 h-40">
 					<GiKnifeFork className="text-5xl" />
 					<h2 className="text-lg font-semibold text-primary truncate">Hier eten</h2>
 				</div>
