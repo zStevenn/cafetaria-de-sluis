@@ -51,7 +51,15 @@ export default function Home() {
 					</ul>
 				</div>
 				<div className="flex-1 bg-primary p-4 rounded-lg shadow shadow-primary">
-					<div className="">Block</div>
+					<iframe
+					src="https://maps.google.com/maps?q=de%20sluis%2025%20driebergen&t=&z=15&ie=UTF8&iwloc=&output=embed"
+					width="100%"
+					height="450px"
+					style={{ border: 0 }}
+					allowFullScreen=""
+					loading="lazy"
+					title="Cafetaria de Sluis"
+				></iframe>
 					</div>
 				</div>
 			</div>
