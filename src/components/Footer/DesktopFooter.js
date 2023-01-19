@@ -22,7 +22,10 @@ const Openingstijden = () => {
 			/>
 			<ul>
 				{days.map(day => (
-					<li className="flex flex-row hover:scale-110 transition-all">
+					<li
+						key={day.day}
+						className="flex flex-row hover:scale-110 transition-all"
+					>
 						<span className="w-28">{day.day}</span>
 						<span>{day.open}</span>
 					</li>
@@ -63,7 +66,7 @@ const FooterLinks = () => {
 					</a>
 				</li>
 				{internalLinks.map(link => (
-					<li className="hover:scale-110 transition-all">
+					<li key={link.text} className="hover:scale-110 transition-all">
 						<Link to={link.link} onClick={handleClick}>
 							<MdOutlineArrowRightAlt className="inline" /> {link.text}
 						</Link>
