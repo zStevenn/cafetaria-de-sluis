@@ -15,7 +15,7 @@ export default function Home() {
 			</div>
 			<ArticleList />
 			<div className="block px-8">
-			<h1 className="text-3xl font-semibold mb-4 text-center truncate">Locatie & Openingstijden</h1>
+			<h1 className="text-3xl text-primary font-semibold mb-4 text-center truncate">Locatie & Openingstijden</h1>
 			<div className="flex flex-col md:flex-row gap-8 justify-center text-white">
 				<div className="flex-1 bg-primary p-4 rounded-lg shadow shadow-primary">
 					<h3 className="text-xl text-center">Openingstijden</h3>
@@ -51,7 +51,15 @@ export default function Home() {
 					</ul>
 				</div>
 				<div className="flex-1 bg-primary p-4 rounded-lg shadow shadow-primary">
-					<div className="">Block</div>
+					<iframe
+					src="https://maps.google.com/maps?q=de%20sluis%2025%20driebergen&t=&z=15&ie=UTF8&iwloc=&output=embed"
+					width="100%"
+					height="450px"
+					style={{ border: 0 }}
+					allowFullScreen=""
+					loading="lazy"
+					title="Cafetaria de Sluis"
+				></iframe>
 					</div>
 				</div>
 			</div>
