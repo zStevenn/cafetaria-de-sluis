@@ -1,6 +1,7 @@
 import { useState } from "react"
 import InputField from "../InputField"
 import Label from "../Label"
+import Modal from "../Modal"
 
 // Encode data to be sent to Netlify
 const encode = data => {
@@ -11,6 +12,18 @@ const encode = data => {
 
 // Contact form component
 export default function ContactForm(props) {
+	// Create show modal status and message
+	const [showModal, setShowModal] = useState(false);
+	const [message, setMessage] = useState("Je bericht is successvol verstuurt. Dank je wel!");
+	
+	//Create an initial form state
+	const initialState = {
+		name: "",
+		email: "",
+		phone: "",
+		message: "",
+	}
+	
 	// Create state for form
 	const [formState, setFormState] = useState({
 		name: "",
@@ -18,6 +31,12 @@ export default function ContactForm(props) {
 		phone: "",
 		message: "",
 	})
+	
+	// Handles modal dismiss
+	const handleDismiss = () => {
+  		setShowModal(false);
+	}
+
 
 	// Handle form submission
 	const handleSubmit = e => {
@@ -26,8 +45,16 @@ export default function ContactForm(props) {
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
 			body: encode({ "form-name": "contact", ...formState }),
 		})
-			.then(() => alert("Success!"))
-			.catch(error => alert(error))
+			.then(() => {
+  				setShowModal(true);
+				setMessage("Je bericht is successvol verstuurt. Dank je wel!");
+				setFormState(initialState);
+			})
+			.catch(error => {
+				setShowModal(true);
+  				setMessage(error);
+			});
+
 
 		e.preventDefault()
 	}
@@ -37,6 +64,7 @@ export default function ContactForm(props) {
 		setFormState({ ...formState, [e.target.name]: e.target.value })
 
 	return (
+		<>
 		<form
 			onSubmit={handleSubmit}
 			className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}
@@ -91,5 +119,7 @@ export default function ContactForm(props) {
 				Verstuur
 			</button>
 		</form>
+		<Modal message={message} handleDismiss={handleDismiss} showModal={showModal} />
+		</>
 	)
 }
