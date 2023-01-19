@@ -23,13 +23,13 @@ export default function Contact() {
 			{/* Google Map */}
 			<div className="bg-white rounded-lg p-4">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.9730000000003!2d5.295999315673274!3d52.07000097978408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e8e1b0b8b2d7%3A0x8b2b2b2b2b2b2b2b!2sDe%20Sluis!5e0!3m2!1snl!2snl!4v1625581000000!5m2!1snl!2snl"
+					src="https://maps.google.com/maps?q=de%20sluis%2025%20driebergen&t=&z=15&ie=UTF8&iwloc=&output=embed"
 					width="100%"
 					height="400px"
 					style={{ border: 0 }}
 					allowFullScreen=""
 					loading="lazy"
-					title="Google Maps"
+					title="Cafetaria de Sluis"
 				></iframe>
 			</div>
 			{/* Company hours */}
