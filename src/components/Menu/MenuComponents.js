@@ -8,9 +8,9 @@ export function MenuItem(props) {
   return (
     <div className="flex flex-row py-3 px-2 bg-primary my-6 rounded-lg shadow shadow-primary">
       {/* Item name */}
-      <p className="w-3/4 capitalize text-primary">{props.name}</p>
+      <p className="w-3/4 capitalize text-white">{props.name}</p>
       {/* Price */}
-      <p className="w-1/4 tracking-wide text-primary">&euro; {formattedPrice}</p>
+      <p className="w-1/4 tracking-wide text-white">&euro; {formattedPrice}</p>
     </div>
   );
 }
