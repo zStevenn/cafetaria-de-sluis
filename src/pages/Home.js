@@ -68,7 +68,7 @@ export default function Home() {
 			<OrderOptions />
 			<MonthlySnack />
 			{/* <Review /> */}
-			</ContentWrapper
+			</ContentWrapper>
 		</>
 	)
 }
