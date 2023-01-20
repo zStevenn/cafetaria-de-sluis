@@ -1,11 +1,13 @@
-import Hero from "../components/Hero";
-import { MonthlySnack, OrderOptions, ArticleList } from "../components/Hero/HeroComponents";
-// import Review from "../components/CustomerReview";
+import Hero from "../components/Hero"
+import { MonthlySnack, OrderOptions, ArticleList } from "../components/Hero/HeroComponents"
+import ContentWrapper from "../components/ContentWrapper"
+// import Review from "../components/CustomerReview"
 
 export default function Home() {
 	return (
 		<>
 			<Hero />
+			<ContentWrapper>
 			<div className="px-8 py-4">
 				<h1 className="text-primary text-center text-lg font-semibold mb-4">In samenwerking met</h1>
 				<div className="flex gap-8 justify-center items-center">
@@ -66,6 +68,7 @@ export default function Home() {
 			<OrderOptions />
 			<MonthlySnack />
 			{/* <Review /> */}
+			</ContentWrapper
 		</>
-	);
+	)
 }
