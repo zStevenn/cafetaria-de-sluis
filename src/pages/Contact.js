@@ -1,9 +1,11 @@
 import { Title } from "../components/Text"
 import ContactForm from "../components/Contact/ContactForm"
 import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md"
+import ContentWrapper from "../components/ContentWrapper"
 
 export default function Contact() {
 	return (
+		<ContentWrapper>
 		<div className="bg-primary flex flex-col gap-8 px-8">
 			<Title text={"Contacteer ons!"} />
 			{/* Contact informatie */}
@@ -84,5 +86,6 @@ export default function Contact() {
 				</p>
 			</div>
 		</div>
+		</ContentWrapper>
 	)
 }
