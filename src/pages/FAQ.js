@@ -16,6 +16,6 @@ export default function FAQpage() {
 					<FAQ key={index} question={item.question} answer={item.answer} />
 				))}
 			</div>
-		</ContentWrapper
+		</ContentWrapper>
 	)
 }
