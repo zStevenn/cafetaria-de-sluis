@@ -67,7 +67,7 @@ function ProductList(props) {
 	// Button component for preset filter
 	const FilterButton = ({ value, children }) => (
 		<button
-			className="px-1 py-2 rounded-lg bg-white text-primary group-[.h-0]:invisible"
+			className="px-1 py-2 rounded-lg bg-primary text-white group-[.h-0]:invisible"
 			value={value}
 			onClick={handlePresetFilterClick}
 		>
@@ -81,10 +81,10 @@ function ProductList(props) {
 				<label className="relative block">
 					<span className="sr-only">Search</span>
 					<span className="absolute inset-y-0 left-0 flex items-center pl-2">
-						<MdOutlineSearch className="h-5 w-5 text-slate-400" />
+						<MdOutlineSearch className="h-5 w-5 text-slate-100" />
 					</span>
 					<input
-						className="placeholder:italic placeholder:text-slate-400 text-primary block bg-white w-full border border-slate-300 rounded-lg py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-primary focus:ring-primary focus:ring-1 sm:text-sm"
+						className="placeholder:italic placeholder:text-slate-100 text-white block bg-primary w-full border border-slate-300 rounded-lg py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-primary focus:ring-primary focus:ring-1 sm:text-sm"
 						placeholder="Zoek gerecht..."
 						type="text"
 						value={filterText}
@@ -128,9 +128,9 @@ function ProductList(props) {
 
 export function Menu() {
 	return (
-		<div className="flex flex-col justify-center sm:items-center px-8 sm:pl-0 bg-primary">
-			<Title text={"Menukaart"} className="my-4" />
-			<div className="flex flex-col py-4 text-white">
+		<div className="flex flex-col justify-center px-8 sm:pl-0 bg-white my-4">
+			<Title text={"Menukaart"} className="mb-4 text-primary" />
+			<div className="flex flex-col py-4 text-primary">
 				{/* Include productlist with filter */}
 				<ProductList products={products} />
 			</div>

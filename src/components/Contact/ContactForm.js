@@ -40,19 +40,30 @@ export default function ContactForm(props) {
 
 	// Handle form submission
 	const handleSubmit = e => {
+		  // Destructure the formState to get the form fields
+		  const { name, email, phone, message } = formState;
+
+		  // Check if all fields are filled in
+		  if (!name || !email || !phone || !message) {
+		    	// If any of the fields are empty, display an error message
+		    	setShowModal(true)
+			setMessage("Vul a.u.b. alle velden in. Dit helpt ons met het verwerken van uw bericht. Hartelijk bedankt!")
+		   	return;
+		  }
+		
 		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
 			body: encode({ "form-name": "contact", ...formState }),
 		})
 			.then(() => {
-  				setShowModal(true);
-				setMessage("Je bericht is successvol verstuurt. Dank je wel!");
-				setFormState(initialState);
+  				setShowModal(true)
+				setMessage("Je bericht is successvol verstuurt. Dank je wel!")
+				setFormState(initialState)
 			})
 			.catch(error => {
-				setShowModal(true);
-  				setMessage(error);
+				setShowModal(true)
+  				setMessage(error)
 			});
 
 
@@ -67,9 +78,9 @@ export default function ContactForm(props) {
 		<>
 		<form
 			onSubmit={handleSubmit}
-			className={`flex flex-col items-center bg-white shadow-md rounded-xl ${props.className}`}
+			className={`flex flex-col items-center text-white bg-primary rounded-xl ${props.className}`}
 		>
-			<p className="text-center text-lg font-bold text-black p-2 tracking-wider">
+			<p className="text-center text-lg font-bold text-white p-2 tracking-wider">
 				Contactformulier
 			</p>
 			<div className="mb-4">
