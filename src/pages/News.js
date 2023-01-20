@@ -5,8 +5,8 @@ import ContentWrapper from "../components/ContentWrapper"
 export default function News() {
 	return (
 		<ContentWrapper>
-			<Title text={"Nieuws"} className="py-4 bg-primary" />
-			<div className="bg-primary flex flex-col gap-4 px-8 pb-8">
+			<Title text={"Nieuws"} className="my-4 text-primary" />
+			<div className="bg-white flex flex-col gap-4 px-8 pb-8">
 				<NewsCard
 					title="Nieuwe website!"
 					date="4 Januari 2023"
