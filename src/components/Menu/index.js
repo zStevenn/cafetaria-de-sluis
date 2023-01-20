@@ -81,10 +81,10 @@ function ProductList(props) {
 				<label className="relative block">
 					<span className="sr-only">Search</span>
 					<span className="absolute inset-y-0 left-0 flex items-center pl-2">
-						<MdOutlineSearch className="h-5 w-5 text-slate-400" />
+						<MdOutlineSearch className="h-5 w-5 text-slate-100" />
 					</span>
 					<input
-						className="placeholder:italic placeholder:text-slate-400 text-white block bg-primary w-full border border-slate-300 rounded-lg py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-primary focus:ring-primary focus:ring-1 sm:text-sm"
+						className="placeholder:italic placeholder:text-slate-100 text-white block bg-primary w-full border border-slate-300 rounded-lg py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-primary focus:ring-primary focus:ring-1 sm:text-sm"
 						placeholder="Zoek gerecht..."
 						type="text"
 						value={filterText}
