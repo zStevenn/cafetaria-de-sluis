@@ -1,6 +1,6 @@
 function ContentWrapper({ children }) {
   return (
-    <div className="xl:max-w-screen-lg xl:mx-auto">
+    <div className="mx-auto max-w-screen-lg">
       {children}
     </div>
   )
