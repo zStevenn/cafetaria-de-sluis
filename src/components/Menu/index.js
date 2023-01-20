@@ -128,8 +128,8 @@ function ProductList(props) {
 
 export function Menu() {
 	return (
-		<div className="flex flex-col justify-center px-8 bg-white">
-			<Title text={"Menukaart"} className="my-4 text-primary" />
+		<div className="flex flex-col justify-center px-8 sm:pl-0 bg-white my-4">
+			<Title text={"Menukaart"} className="mb-4 text-primary" />
 			<div className="flex flex-col py-4 text-primary">
 				{/* Include productlist with filter */}
 				<ProductList products={products} />
