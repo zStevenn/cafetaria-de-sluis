@@ -1,11 +1,12 @@
-import { Title } from "../components/Text";
-import { NewsCard } from "../components/News";
+import { Title } from "../components/Text"
+import { NewsCard } from "../components/News"
+import ContentWrapper from "../components/ContentWrapper"
 
 export default function News() {
 	return (
-		<>
+		<ContentWrapper>
 			<Title text={"Nieuws"} className="py-4 bg-primary" />
-			<div className="bg-primary flex flex-col gap-4 px-8 min-h-screen">
+			<div className="bg-primary flex flex-col gap-4 px-8 pb-8">
 				<NewsCard
 					title="Nieuwe website!"
 					date="4 Januari 2023"
@@ -29,6 +30,6 @@ export default function News() {
 					waarderen uw mening altijd."
 				/>
 			</div>
-		</>
-	);
+		</ContentWrapper>
+	)
 }
