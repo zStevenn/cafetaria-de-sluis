@@ -6,7 +6,7 @@ import ContentWrapper from "../components/ContentWrapper"
 export default function Contact() {
 	return (
 		<ContentWrapper>
-		<div className="bg-white flex flex-col gap-8 px-8 pb-8">
+		<div className="bg-white flex flex-col gap-8 px-8 pb-8 mt-4">
 			<Title text={"Contacteer ons!"} className="text-primary" />
 			{/* Contact informatie */}
 			<div className="bg-primary text-white rounded-lg p-4">
