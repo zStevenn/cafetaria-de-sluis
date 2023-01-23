@@ -8,6 +8,7 @@ export default function Home() {
 		<>
 			<Hero />
 			<ContentWrapper>
+			<MonthlySnack />
 			<div className="px-8 py-4">
 				<h1 className="text-primary text-center text-lg font-semibold mb-4">In samenwerking met</h1>
 				<div className="flex gap-8 justify-center items-center">
@@ -66,7 +67,6 @@ export default function Home() {
 				</div>
 			</div>
 			<OrderOptions />
-			<MonthlySnack />
 			{/* <Review /> */}
 			</ContentWrapper>
 		</>
