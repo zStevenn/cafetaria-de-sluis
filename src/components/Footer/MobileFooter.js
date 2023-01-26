@@ -12,7 +12,7 @@ import { nl } from "date-fns/locale"
 const FooterTitle = ({ text, className, onClick, isOpen }) => {
 	return (
 		<div
-			className={`flex flex-row items-center w-full ${isOpen ? "underline underline-offset-8" : ""}`}
+			className="flex flex-row items-center w-full"
 			onClick={onClick}
 		>
 			<Title text={text} className={className} />
@@ -27,7 +27,7 @@ const FooterTitle = ({ text, className, onClick, isOpen }) => {
 
 // Display openingstijden
 const Openingstijden = () => {
-	const [isOpen, setIsOpen] = useState(true)
+	const [isOpen, setIsOpen] = useState(false)
 
 	const days = [
 		{ day: "maandag", open: "Gesloten" },
@@ -55,10 +55,10 @@ const Openingstijden = () => {
 						<li
 							key={day.day}
 							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 ${
-								day.day === currentDay ? "text-blue-500 font-semibold" : ""
+								day.day === currentDay ? "text-green-100 font-semibold" : ""
 							}`}
 						>
-							<span className="w-28">{day.day}</span>
+							<span className="mr-auto pr-2">{day.day}</span>
 							<span>{day.open}</span>
 						</li>
 					))}
@@ -147,7 +147,7 @@ const Adresgegevens = () => {
 export default function MobileFooter() {
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900">
-			<div className="flex flex-col justify-start pl-4 py-4">
+			<div className="flex flex-col justify-start p-4 divide-y-2 divide-slate-50">
 				<Openingstijden />
 				<FooterLinks />
 				<Adresgegevens />
