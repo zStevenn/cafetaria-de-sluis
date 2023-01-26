@@ -10,7 +10,7 @@ export function MenuItem(props) {
       {/* Item name */}
       <p className="col-span-2 capitalize text-white">{props.name}</p>
 	{/* Description */}
-	<p className="col-span-2 text-slate-300">-</p>
+	<p className="col-span-2 text-slate-300"></p>
       {/* Price */}
       <p className="row-span-2 tracking-wide text-white">&euro; {formattedPrice}</p>
     </div>
