@@ -55,10 +55,10 @@ const Openingstijden = () => {
 						<li
 							key={day.day}
 							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 ${
-								day.day === currentDay ? "text-blue-500 font-semibold" : ""
+								day.day === currentDay ? "text-green-100 font-semibold" : ""
 							}`}
 						>
-							<span className="w-28">{day.day}</span>
+							<span className="mr-auto pr-2">{day.day}</span>
 							<span>{day.open}</span>
 						</li>
 					))}
