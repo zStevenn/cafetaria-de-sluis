@@ -128,8 +128,9 @@ function ProductList(props) {
 
 export function Menu() {
 	return (
-		<div className="flex flex-col justify-center px-8 sm:pl-0 bg-white my-4">
-			<Title text={"Menukaart"} className="mb-4 text-primary" />
+		<div className="flex flex-col justify-center px-8 bg-white my-4">
+			<Title text={"Menukaart"} className="mb-2 text-primary" />
+			<p className="text-primary mb-4">Bekijk hier de gerechten die wij aanbieden. Ons brede assortiment bestaat uit vers gefrituurde snacks, warme broodjes, frites, hamburgers en nog veel meer. Of u nu op zoek bent naar een snelle lunch of een lekkere snack, wij hebben iets voor iedereen!</p>
 			<div className="flex flex-col py-4 text-primary">
 				{/* Include productlist with filter */}
 				<ProductList products={products} />
