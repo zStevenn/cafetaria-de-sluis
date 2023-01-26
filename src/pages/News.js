@@ -6,7 +6,7 @@ export default function News() {
 	return (
 		<ContentWrapper>
 			<Title text={"Nieuws"} className="my-4 text-primary" />
-			<div className="bg-white flex flex-col gap-4 px-8 pb-8">
+			<div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-4 px-8 pb-8">
 				<NewsCard
 					title="Nieuwe website!"
 					date="4 Januari 2023"
