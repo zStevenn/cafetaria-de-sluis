@@ -147,7 +147,7 @@ const Adresgegevens = () => {
 export default function MobileFooter() {
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900">
-			<div className="flex flex-col justify-start pl-4 py-4 divide-y-2 divide-slate-50 border-2 border-slate-50">
+			<div className="flex flex-col justify-start pl-4 py-4 divide-y-2 divide-slate-50">
 				<Openingstijden />
 				<FooterLinks />
 				<Adresgegevens />
