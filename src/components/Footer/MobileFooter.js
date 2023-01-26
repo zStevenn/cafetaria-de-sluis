@@ -42,7 +42,7 @@ const Openingstijden = () => {
 	const currentDay = format(new Date(), "EEEE", { locale: nl })
 
 	return (
-		<div className="flex flex-col justify-start items-start text-white w-60 sm:w-auto">
+		<div className="flex flex-col justify-start items-start text-white">
 			<FooterTitle
 				isOpen={isOpen}
 				text="Openingstijden"
