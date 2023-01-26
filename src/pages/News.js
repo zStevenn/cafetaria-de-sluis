@@ -6,6 +6,7 @@ export default function News() {
 	return (
 		<ContentWrapper>
 			<Title text={"Nieuws"} className="my-4 text-primary" />
+			<p className="text-primary mb-4">"Welkom op onze nieuwspagina waar u op de hoogte blijft van de laatste ontwikkelingen en gebeurtenissen binnen onze cafetaria. Hier vindt u recente nieuwsartikelen over onze nieuwe gerechten, aanbiedingen en meer. Blijf op de hoogte van alles wat er speelt in onze cafetaria en mis nooit meer een update!</p>
 			<div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-4 px-8 pb-8">
 				<NewsCard
 					title="Nieuwe website!"
