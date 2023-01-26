@@ -9,7 +9,7 @@ import { useState } from "react"
 import { format } from "date-fns"
 import { nl } from "date-fns/locale"
 
-const FooterTitle = ({ text, className, onClick }) => {
+const FooterTitle = ({ text, className, onClick, isOpen }) => {
 	return (
 		<div
 			className="flex flex-row items-center w-full"
