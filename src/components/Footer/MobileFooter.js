@@ -27,7 +27,7 @@ const FooterTitle = ({ text, className, onClick, isOpen }) => {
 
 // Display openingstijden
 const Openingstijden = () => {
-	const [isOpen, setIsOpen] = useState(true)
+	const [isOpen, setIsOpen] = useState(false)
 
 	const days = [
 		{ day: "maandag", open: "Gesloten" },
