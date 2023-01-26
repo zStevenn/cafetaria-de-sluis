@@ -42,7 +42,7 @@ const Openingstijden = () => {
 	const currentDay = format(new Date(), "EEEE", { locale: nl })
 
 	return (
-		<div className="flex flex-col justify-start items-start text-white w-60 sm:w-auto">
+		<div className="flex flex-col justify-start items-start text-white">
 			<FooterTitle
 				isOpen={isOpen}
 				text="Openingstijden"
@@ -147,7 +147,7 @@ const Adresgegevens = () => {
 export default function MobileFooter() {
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900">
-			<div className="flex flex-col justify-start p-4 divide-y-2 divide-slate-50">
+			<div className="flex flex-col gap-4 justify-start p-4 divide-y-2 divide-slate-50">
 				<Openingstijden />
 				<FooterLinks />
 				<Adresgegevens />

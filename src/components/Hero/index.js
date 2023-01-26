@@ -4,7 +4,7 @@ import { Paragraph, Title } from "../Text";
 
 export default function Hero() {
 	return (
-		<div className="flex flex-col md:flex-row justify-center items-center p-8 bg-primary shadow shadow-primary">
+		<div className="flex flex-col md:flex-row justify-center items-center p-8 mb-4 bg-primary shadow shadow-primary">
 			<HeroImage className="h-full md:w-full md:flex-1 lg:flex-none lg:h-96 lg:w-96" />
 			<div className="flex flex-col md:flex-1 lg:flex-none justify-center items-center">
 				<Title text={"Bestel nu via"} />
