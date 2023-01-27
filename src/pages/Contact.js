@@ -40,25 +40,25 @@ export default function Contact() {
 					Openingstijden
 				</p>
 				<p className="text-center text-lg p-2">
-					Maandag: 11:00 - 21:00
+					Maandag: Gesloten
 				</p>
 				<p className="text-center text-lg p-2">
-					Dinsdag: 11:00 - 21:00
+					Dinsdag: 12:00 - 20:00
 				</p>
 				<p className="text-center text-lg p-2">
-					Woensdag: 11:00 - 21:00
+					Woensdag: 12:00 - 20:00
 				</p>
 				<p className="text-center text-lg p-2">
-					Donderdag: 11:00 - 21:00
+					Donderdag: 12:00 - 20:00
 				</p>
 				<p className="text-center text-lg p-2">
-					Vrijdag: 11:00 - 21:00
+					Vrijdag: 12:00 - 20:00
 				</p>
 				<p className="text-center text-lg p-2">
-					Zaterdag: 11:00 - 21:00
+					Zaterdag: 12:00 - 20:00
 				</p>
 				<p className="text-center text-lg p-2">
-					Zondag: 11:00 - 21:00
+					Zondag: 16:00 - 20:00
 				</p>
 			</div>
 			{/* Other relevant information */}
