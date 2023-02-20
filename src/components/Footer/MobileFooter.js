@@ -54,7 +54,7 @@ const Openingstijden = () => {
 					{days.map(day => (
 						<li
 							key={day.day}
-							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 mb-2 ${
+							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 mb-1 ${
 								day.day === currentDay ? "text-green-100 font-semibold" : ""
 							}`}
 						>
@@ -94,7 +94,7 @@ const FooterLinks = () => {
 			/>
 			{isOpen && (
 				<ul>
-					<li className="hover:scale-110 transition-all py-0.5 mb-2">
+					<li className="hover:scale-110 transition-all py-0.5 mb-1">
 						<a
 							href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
 							target="_blank"
@@ -132,12 +132,12 @@ const Adresgegevens = () => {
 			/>
 			{isOpen && (
 				<ol className="text-base">
-					<li className="mb-2">De Sluis 25, 3972 VC</li>
-					<li className="mb-2">Driebergen-Rijsenburg</li>
-					<li className="mb-2">Nederland</li>
-					<li className="mb-2">&nbsp;</li>
-					<li className="mb-2">(0343) - 531 646</li>
-					<li className="mb-2">info@cafetariadesluis.nl</li>
+					<li className="mb-1">De Sluis 25, 3972 VC</li>
+					<li className="mb-1">Driebergen-Rijsenburg</li>
+					<li className="mb-1">Nederland</li>
+					<li className="mb-1">&nbsp;</li>
+					<li className="mb-1">(0343) - 531 646</li>
+					<li className="mb-1">info@cafetariadesluis.nl</li>
 				</ol>
 			)}
 		</div>
