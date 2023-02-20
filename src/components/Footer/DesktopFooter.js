@@ -24,7 +24,7 @@ const Openingstijden = () => {
 				{days.map(day => (
 					<li
 						key={day.day}
-						className="flex flex-row hover:scale-110 transition-all mb-4"
+						className="flex flex-row hover:scale-110 transition-all mb-1"
 					>
 						<span className="w-28">{day.day}</span>
 						<span>{day.open}</span>
@@ -56,7 +56,7 @@ const FooterLinks = () => {
 				className="text-xl font-bold py-2 tracking-wider"
 			/>
 			<ul>
-				<li className="hover:scale-110 transition-all mb-4">
+				<li className="hover:scale-110 transition-all mb-1">
 					<a
 						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
 						target="_blank"
@@ -86,12 +86,12 @@ export default function Footer() {
 				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Adresgegevens</p>
 					<ol className="text-base">
-						<li className="mb-4">De Sluis 25, 3972 VC</li>
-						<li className="mb-4">Driebergen-Rijsenburg</li>
-						<li className="mb-4">Nederland</li>
-						<li className="mb-4">&nbsp;</li>
-						<li className="mb-4">(0343) - 531 646</li>
-						<li className="mb-4">info@cafetariadesluis.nl</li>
+						<li className="mb-1">De Sluis 25, 3972 VC</li>
+						<li className="mb-1">Driebergen-Rijsenburg</li>
+						<li className="mb-1">Nederland</li>
+						<li className="mb-1">&nbsp;</li>
+						<li className="mb-1">(0343) - 531 646</li>
+						<li className="mb-1">info@cafetariadesluis.nl</li>
 					</ol>
 				</div>
 				{/* Footer openingstijden */}
