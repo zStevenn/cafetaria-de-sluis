@@ -81,7 +81,7 @@ export default function Footer() {
 	return (
 		<footer className="flex flex-col justify-start bg-gray-900">
 			{/* Footer link wrappers */}
-			<div className="flex flex-row justify-evenly pl-4 py-4">
+			<div className="flex flex-row justify-evenly pl-4 py-4 shadow-md shadow-gray-900">
 				{/* Footer adresgegevens */}
 				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Adresgegevens</p>
