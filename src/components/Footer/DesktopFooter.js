@@ -66,7 +66,7 @@ const FooterLinks = () => {
 					</a>
 				</li>
 				{internalLinks.map(link => (
-					<li key={link.text} className="hover:scale-110 transition-all mb-4">
+					<li key={link.text} className="hover:scale-110 transition-all mb-1">
 						<Link to={link.link} onClick={handleClick}>
 							<MdOutlineArrowRightAlt className="inline" /> {link.text}
 						</Link>
