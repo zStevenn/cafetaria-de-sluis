@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Loading from "../components/Loading";
 
-const Menu = lazy(() => import("../pages/Menu"));
+// const Menu = lazy(() => import("../pages/Menu"));
 const News = lazy(() => import("../pages/News"));
 const Contact = lazy(() => import("../pages/Contact"));
 // const Vacatures = lazy(() => import("../pages/Vacatures"));
@@ -18,7 +18,7 @@ export default function DefaultRouter() {
 		<Suspense fallback={<Loading />}>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/menu" element={<Menu />} />
+				<Route path="/menu" element={<UnderConstruction />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/nieuws" element={<News />} />
 				<Route path="/vacatures" element={<UnderConstruction />} />
