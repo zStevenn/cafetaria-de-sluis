@@ -79,9 +79,9 @@ const FooterLinks = () => {
 
 export default function Footer() {
 	return (
-		<footer className="flex flex-col justify-start bg-gray-900">
+		<footer className="grid bg-primary">
 			{/* Footer link wrappers */}
-			<div className="flex flex-row justify-evenly pl-4 py-4 shadow-md shadow-gray-900">
+			<div className="grid grid-cols-3 p-4 shadow-md shadow-gray-900">
 				{/* Footer adresgegevens */}
 				<div className="flex flex-col justify-start items-start text-white">
 					<p className="text-xl font-bold py-2 tracking-wider">Adresgegevens</p>
@@ -100,8 +100,8 @@ export default function Footer() {
 				<FooterLinks />
 			</div>
 			{/* Footer copyright banner */}
-			<div className="bg-primary text-center py-4">
-				<Paragraph text={"© Cafetaria de Sluis 2022"} />
+			<div className="bg-white px-4 py-2">
+				<Paragraph className="text-neutral-700" text={"© Cafetaria de Sluis 2022"} />
 			</div>
 		</footer>
 	)
