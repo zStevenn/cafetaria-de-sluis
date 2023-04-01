@@ -1,9 +1,5 @@
 function ContentWrapper({ children }) {
-  return (
-    <div className="mx-auto max-w-screen-lg">
-      {children}
-    </div>
-  )
+	return <div className="mx-auto container mt-4">{children}</div>
 }
 
 export default ContentWrapper
