@@ -1,9 +1,15 @@
-const InputField = ({ name, value, onChange, type = "text", placeholder = "Vul hier in..." }) => {
+const InputField = ({
+	name,
+	value,
+	onChange,
+	type = "text",
+	placeholder = "Vul hier in...",
+}) => {
 	return (
 		<>
 			{type === "textarea" ? (
 				<textarea
-					className="block w-full h-32 px-3 py-2 bg-white text-primary border border-slate-300 rounded-xl text-sm shadow-sm placeholder-slate-400
+					className="block px-3 py-2 w-full h-12 bg-white text-primary border border-slate-300 rounded-xl text-sm shadow-sm placeholder-slate-400
           focus:outline-none focus:border-green-900 focus:ring-1 focus:ring-green-900
           disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
           invalid:border-pink-500 invalid:text-pink-600
@@ -11,7 +17,7 @@ const InputField = ({ name, value, onChange, type = "text", placeholder = "Vul h
 					name={name}
 					value={value}
 					onChange={onChange}
-          placeholder={placeholder}
+					placeholder={placeholder}
 				/>
 			) : (
 				<input
@@ -24,7 +30,7 @@ const InputField = ({ name, value, onChange, type = "text", placeholder = "Vul h
 					name={name}
 					value={value}
 					onChange={onChange}
-          placeholder={placeholder}
+					placeholder={placeholder}
 				/>
 			)}
 		</>

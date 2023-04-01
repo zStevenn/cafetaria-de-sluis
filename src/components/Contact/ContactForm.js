@@ -78,7 +78,7 @@ export default function ContactForm(props) {
 		<>
 		<form
 			onSubmit={handleSubmit}
-			className={`flex flex-col items-center text-white bg-primary rounded-xl ${props.className}`}
+			className={`grid text-white bg-primary rounded-xl ${props.className}`}
 		>
 			<p className="text-center text-lg font-bold text-white p-2 tracking-wider">
 				Contactformulier
