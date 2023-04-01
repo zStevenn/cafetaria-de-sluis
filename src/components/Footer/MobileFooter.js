@@ -11,10 +11,7 @@ import { nl } from "date-fns/locale"
 
 const FooterTitle = ({ text, className, onClick, isOpen }) => {
 	return (
-		<div
-			className="flex flex-row items-center w-full"
-			onClick={onClick}
-		>
+		<div className="flex flex-row items-center w-full" onClick={onClick}>
 			<Title text={text} className={className} />
 			{isOpen ? (
 				<MdClose className="ml-2 text-2xl" />
@@ -54,7 +51,7 @@ const Openingstijden = () => {
 					{days.map(day => (
 						<li
 							key={day.day}
-							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 mb-1 ${
+							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 mb-1 last:pb-4 ${
 								day.day === currentDay ? "text-green-100 font-semibold" : ""
 							}`}
 						>
@@ -106,7 +103,7 @@ const FooterLinks = () => {
 					{internalLinks.map(link => (
 						<li
 							key={link.text}
-							className="hover:scale-110 transition-all py-0.5"
+							className="hover:scale-110 transition-all py-0.5 last:pb-4"
 						>
 							<Link to={link.link} onClick={handleClick}>
 								<MdOutlineArrowRightAlt className="inline" /> {link.text}
@@ -131,13 +128,17 @@ const Adresgegevens = () => {
 				onClick={() => setIsOpen(!isOpen)}
 			/>
 			{isOpen && (
-				<ol className="text-base">
+				<ol className="text-base last:pb-4">
 					<li className="mb-1">De Sluis 25, 3972 VC</li>
 					<li className="mb-1">Driebergen-Rijsenburg</li>
-					<li className="mb-1">Nederland</li>
-					<li className="mb-1">&nbsp;</li>
+					<li className="mb-5">Utrecht, Nederland</li>
 					<li className="mb-1">(0343) - 531 646</li>
-					<li className="mb-1">info@cafetariadesluis.nl</li>
+					<li className="mb-1">
+						Email:{" "}
+						<a className="underline" href="mailto:info@cafetariadesluis.nl">
+							info@cafetariadesluis.nl
+						</a>
+					</li>
 				</ol>
 			)}
 		</div>
@@ -153,7 +154,10 @@ export default function MobileFooter() {
 				<Adresgegevens />
 			</div>
 			<div className="bg-white px-4 py-2">
-				<Paragraph className="text-primary" text={"© Cafetaria de Sluis 2022"} />
+				<Paragraph
+					className="text-neutral-700"
+					text={"© Cafetaria de Sluis 2022"}
+				/>
 			</div>
 		</footer>
 	)
