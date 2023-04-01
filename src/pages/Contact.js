@@ -12,15 +12,20 @@ export default function Contact() {
 					className="text-primary md:col-span-2"
 				/>
 				{/* Contact informatie */}
-				<div className="bg-primary text-white rounded-lg p-4 md:col-span-2">
+				<div className="bg-primary text-white rounded-lg p-4 md:col-span-2 grid place-items-center gap-4">
 					<p>
-						<MdPhone className="mb-2 inline" /> (0343) - 531 646
+						<MdPhone className="inline mr-2" />
+						(0343) - 531 646
 					</p>
 					<p>
-						<MdLocationOn className="mb-2 inline" /> De Sluis 25, 3972 CW
+						<MdLocationOn className="inline mr-2" />
+						De Sluis 25, 3972 CW
 					</p>
 					<p>
-						<MdEmail className="mb-2 inline" /> info@cafetariadesluis.nl
+						<MdEmail className="inline mr-2" />
+						<a href="mailto:info@cafetariadesluis.nl">
+							info@cafetariadesluis.nl
+						</a>
 					</p>
 				</div>
 				{/* Contact formulier */}
@@ -31,7 +36,7 @@ export default function Contact() {
 						src="https://maps.google.com/maps?q=de%20sluis%2025%20driebergen&t=&z=15&ie=UTF8&iwloc=&output=embed"
 						width="100%"
 						height="400px"
-						className="border border-white"
+						className="border border-white md:h-full"
 						allowFullScreen=""
 						loading="lazy"
 						title="Cafetaria de Sluis"
