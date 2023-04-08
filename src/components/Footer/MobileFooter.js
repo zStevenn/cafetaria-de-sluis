@@ -156,7 +156,7 @@ export default function MobileFooter() {
 			<div className="bg-white px-8 py-2">
 				<Paragraph
 					className="text-neutral-700"
-					text={"© Cafetaria de Sluis 2022"}
+					text={"© Cafetaria de Sluis 2022 - 2023"}
 				/>
 			</div>
 		</footer>

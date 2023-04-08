@@ -101,7 +101,7 @@ export default function Footer() {
 			</div>
 			{/* Footer copyright banner */}
 			<div className="bg-white px-8 py-2">
-				<Paragraph className="text-neutral-700" text={"© Cafetaria de Sluis 2022"} />
+				<Paragraph className="text-neutral-700" text={"© Cafetaria de Sluis 2022 - 2023"} />
 			</div>
 		</footer>
 	)
