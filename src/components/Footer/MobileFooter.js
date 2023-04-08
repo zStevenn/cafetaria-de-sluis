@@ -1,31 +1,19 @@
 import { Link } from "react-router-dom"
 import { Paragraph, Title } from "../Text"
-import {
-	MdOutlineArrowRightAlt,
-	MdKeyboardArrowDown,
-	MdClose,
-} from "react-icons/md"
-import { useState } from "react"
+import { MdOutlineArrowRightAlt } from "react-icons/md"
 import { format } from "date-fns"
 import { nl } from "date-fns/locale"
 
 const FooterTitle = ({ text, className, onClick, isOpen }) => {
 	return (
-		<div className="flex flex-row items-center w-full" onClick={onClick}>
+		<div className="flex flex-row items-center w-full">
 			<Title text={text} className={className} />
-			{isOpen ? (
-				<MdClose className="ml-2 text-2xl" />
-			) : (
-				<MdKeyboardArrowDown className="ml-2 text-2xl" />
-			)}
 		</div>
 	)
 }
 
 // Display openingstijden
 const Openingstijden = () => {
-	const [isOpen, setIsOpen] = useState(false)
-
 	const days = [
 		{ day: "maandag", open: "Gesloten" },
 		{ day: "dinsdag", open: "12:00 - 20:00" },
@@ -41,34 +29,28 @@ const Openingstijden = () => {
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
 			<FooterTitle
-				isOpen={isOpen}
 				text="Openingstijden"
-				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
-				onClick={() => setIsOpen(!isOpen)}
+				className="text-xl font-bold py-3 tracking-wider"
 			/>
-			{isOpen && (
-				<ul>
-					{days.map(day => (
-						<li
-							key={day.day}
-							className={`flex flex-row hover:scale-110 transition-all capitalize py-0.5 mb-1 last:pb-4 ${
-								day.day === currentDay ? "text-green-100 font-semibold" : ""
-							}`}
-						>
-							<span className="mr-auto pr-2">{day.day}</span>
-							<span>{day.open}</span>
-						</li>
-					))}
-				</ul>
-			)}
+			<ul>
+				{days.map(day => (
+					<li
+						key={day.day}
+						className={`flex flex-row capitalize py-0.5 mb-1 last:pb-4 ${
+							day.day === currentDay ? "text-neutral-400 " : ""
+						}`}
+					>
+						<span className="mr-auto pr-2">{day.day}</span>
+						<span>{day.open}</span>
+					</li>
+				))}
+			</ul>
 		</div>
 	)
 }
 
 // Display links to other pages
 const FooterLinks = () => {
-	const [isOpen, setIsOpen] = useState(false)
-
 	const internalLinks = [
 		{ text: "Menu", link: "/menu" },
 		{ text: "Contact", link: "/contact" },
@@ -77,70 +59,57 @@ const FooterLinks = () => {
 		{ text: "Privacybeleid", link: "/privacybeleid" },
 	]
 
-	const handleClick = () => {
-		window.scrollTo({ top: 0, behavior: "smooth" })
-	}
-
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
 			<FooterTitle
-				isOpen={isOpen}
 				text={`Handige links`}
-				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
-				onClick={() => setIsOpen(!isOpen)}
+				className="text-xl font-bold py-3 tracking-wider"
 			/>
-			{isOpen && (
-				<ul>
-					<li className="hover:scale-110 transition-all py-0.5 mb-1">
-						<a
-							href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<MdOutlineArrowRightAlt className="inline" /> Bestellen
-						</a>
+			<ul>
+				<li className="hover:scale-110 transition-all py-0.5 mb-1">
+					<a
+						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<MdOutlineArrowRightAlt className="inline" /> Bestellen
+					</a>
+				</li>
+				{internalLinks.map(link => (
+					<li
+						key={link.text}
+						className="hover:scale-110 transition-all py-0.5 last:pb-4"
+					>
+						<Link to={link.link}>
+							<MdOutlineArrowRightAlt className="inline" /> {link.text}
+						</Link>
 					</li>
-					{internalLinks.map(link => (
-						<li
-							key={link.text}
-							className="hover:scale-110 transition-all py-0.5 last:pb-4"
-						>
-							<Link to={link.link} onClick={handleClick}>
-								<MdOutlineArrowRightAlt className="inline" /> {link.text}
-							</Link>
-						</li>
-					))}
-				</ul>
-			)}
+				))}
+			</ul>
 		</div>
 	)
 }
 
 // Display adresgegevens
 const Adresgegevens = () => {
-	const [isOpen, setIsOpen] = useState(false)
 	return (
 		<div className="flex flex-col justify-start items-start text-white">
 			<FooterTitle
-				isOpen={isOpen}
 				text="Adresgegevens"
-				className="text-xl font-bold py-3 tracking-wider cursor-pointer"
-				onClick={() => setIsOpen(!isOpen)}
+				className="text-xl font-bold py-3 tracking-wider"
 			/>
-			{isOpen && (
-				<ol className="text-base last:pb-4">
-					<li className="mb-1">De Sluis 25, 3972 VC</li>
-					<li className="mb-1">Driebergen-Rijsenburg</li>
-					<li className="mb-5">Utrecht, Nederland</li>
-					<li className="mb-1">(0343) - 531 646</li>
-					<li className="mb-1">
-						Email:{" "}
-						<a className="underline" href="mailto:info@cafetariadesluis.nl">
-							info@cafetariadesluis.nl
-						</a>
-					</li>
-				</ol>
-			)}
+			<ol className="text-base last:pb-4">
+				<li className="mb-1">De Sluis 25, 3972 VC</li>
+				<li className="mb-1">Driebergen-Rijsenburg</li>
+				<li className="mb-5">Utrecht, Nederland</li>
+				<li className="mb-1">(0343) - 531 646</li>
+				<li className="mb-1">
+					Email:{" "}
+					<a className="underline" href="mailto:info@cafetariadesluis.nl">
+						info@cafetariadesluis.nl
+					</a>
+				</li>
+			</ol>
 		</div>
 	)
 }
@@ -148,10 +117,10 @@ const Adresgegevens = () => {
 export default function MobileFooter() {
 	return (
 		<footer className="flex flex-col justify-start bg-primary">
-			<div className="flex flex-col gap-1 justify-start px-8 divide-y-2 divide-slate-50">
+			<div className="flex flex-col gap-1 justify-start px-8 py-4 divide-y-2 divide-slate-50">
+				<Adresgegevens />
 				<Openingstijden />
 				<FooterLinks />
-				<Adresgegevens />
 			</div>
 			<div className="bg-white px-8 py-2">
 				<Paragraph
