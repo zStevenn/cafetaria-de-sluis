@@ -10,7 +10,7 @@ export default function Navbar() {
 		// Navbar
 		<div className="bg-primary flex flex-col justify-center px-8 shadow shadow-primary">
 			{/* Title */}
-			<div className="text-3xl font-bold text-white text-center my-2 hover:scale-110 transition-all">
+			<div className="text-3xl font-bold text-white text-center my-2">
 				<Link to="/">Cafetaria de Sluis</Link>
 			</div>
 			{/* Menu Wrapper */}
