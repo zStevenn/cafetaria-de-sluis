@@ -1,15 +1,19 @@
-import { NavLink } from "react-router-dom";
-import { MdMenu, MdClose } from "react-icons/md";
-import { useState } from "react";
+import { NavLink } from "react-router-dom"
+import { MdMenu, MdClose } from "react-icons/md"
+import { useState } from "react"
+import { Link } from "react-router-dom"
 
 function DesktopNavigationLink({ to, children }) {
 	return (
 		<li className="flex">
-			<NavLink to={to} className="m-2 p-1 text-white hover:scale-125 hover:transition-all text-lg font-bold font-sans">
+			<NavLink
+				to={to}
+				className="m-2 p-1 text-white transition-all text-lg font-bold font-sans"
+			>
 				{children}
 			</NavLink>
 		</li>
-	);
+	)
 }
 
 export function DesktopNavigationMenu() {
@@ -21,7 +25,7 @@ export function DesktopNavigationMenu() {
 			<DesktopNavigationLink to="/nieuws">Nieuws</DesktopNavigationLink>
 			<DesktopNavigationLink to="/vacatures">Vacatures</DesktopNavigationLink>
 		</ul>
-	);
+	)
 }
 
 function MobileNavigationLink({ to, children }) {
@@ -29,33 +33,34 @@ function MobileNavigationLink({ to, children }) {
 		<NavLink to={to} className="m-2 p-1 text-white text-3xl font-bold">
 			{children}
 		</NavLink>
-	);
+	)
 }
 
 export function MobileNavigationMenu() {
-	const [menuOpen, setMenuOpen] = useState(false);
-	const [menuClass, setMenuClass] = useState("hidden");
+	const [menuOpen, setMenuOpen] = useState(false)
 
 	function toggleMenu() {
-		setMenuOpen(!menuOpen);
-		setMenuClass(
-			menuOpen
-				? "hidden"
-				: "fixed p-0 m-0 top-0 left-0 flex justify-center h-[100vh] w-[100vw] bg-primary z-10 text-white"
-		);
+		setMenuOpen(!menuOpen)
 	}
 
 	return (
 		<>
-			<>
-				<span onClick={toggleMenu}>
-					<MdMenu className="text-5xl text-white hover:scale-110 transition-all" />
-				</span>
-			</>
-			<div className={menuClass}>
+			<span onClick={toggleMenu}>
+				<MdMenu className="text-5xl text-white" />
+			</span>
+			<div
+				className={`fixed p-0 m-0 top-0 left-0 px-8 h-screen w-screen bg-primary z-10 text-white transition-all duration-500 ${
+					menuOpen
+						? "opacity-100 translate-none"
+						: "opacity-30 -translate-x-full"
+				}	}`}
+			>
+				<div className="text-3xl font-bold text-white text-center my-2">
+					<Link to="/">Cafetaria de Sluis</Link>
+				</div>
 				<ul className="flex flex-col justify-center">
 					<li onClick={toggleMenu} className="py-2">
-						<MdClose className="text-5xl text-white hover:scale-110 transition-all" />
+						<MdClose className="text-5xl text-white" />
 					</li>
 					<li onClick={toggleMenu} className="py-2">
 						<MobileNavigationLink to="/">Home</MobileNavigationLink>
@@ -70,10 +75,12 @@ export function MobileNavigationMenu() {
 						<MobileNavigationLink to="/nieuws">Nieuws</MobileNavigationLink>
 					</li>
 					<li onClick={toggleMenu} className="py-2">
-						<MobileNavigationLink to="/vacatures">Vacatures</MobileNavigationLink>
+						<MobileNavigationLink to="/vacatures">
+							Vacatures
+						</MobileNavigationLink>
 					</li>
 				</ul>
 			</div>
 		</>
-	);
+	)
 }
