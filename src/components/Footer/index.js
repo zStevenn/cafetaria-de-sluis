@@ -5,5 +5,5 @@ import useWindowDimensions from "../../hooks/useWindowDimensions"
 export default function Footer() {
 	const { width } = useWindowDimensions()
 
-	return <>{width > 640 ? <DesktopFooter /> : <MobileFooter />}</>
+	return <>{width > 768 ? <DesktopFooter /> : <MobileFooter />}</>
 }
