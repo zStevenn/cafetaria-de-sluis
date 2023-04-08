@@ -16,7 +16,7 @@ export default function Navbar() {
 			{/* Menu Wrapper */}
 			<div className="flex flex-row py-2 justify-between md:justify-center">
 				{/* Menu */}
-				{width > 640 ? <DesktopNavigationMenu /> : <MobileNavigationMenu />}
+				{width > 768 ? <DesktopNavigationMenu /> : <MobileNavigationMenu />}
 				{/* Order Button */}
 				<Button to="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Bestel Nu</Button>
 			</div>
