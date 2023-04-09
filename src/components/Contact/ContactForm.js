@@ -124,7 +124,7 @@ export default function ContactForm(props) {
 				/>
 			</div>
 			<button
-				className="bg-purple-900/70 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+				className="bg-purple-900/70 hover:bg-purple-900 text-neutral-100 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
 				type="submit"
 			>
 				Verstuur

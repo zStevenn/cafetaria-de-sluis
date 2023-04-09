@@ -11,7 +11,7 @@ import Cheesecrack from "../../assets/img/static/cheesecrack.jpg";
 // Shortcut of highlighted monthly products
 export function MonthlySnack() {
 	return (
-		<div className="flex flex-col bg-white px-8">
+		<div className="flex flex-col px-8">
 			<Title text={"Snack(s) van de maand"} className="text-primary py-4" />
 			<div className="flex flex-row gap-4 justify-center pb-4">
 				<Card title={"Hotwings 5st"} imgSrc={Wings} imgTitle={"Hotwings 5st"} />
@@ -24,7 +24,7 @@ export function MonthlySnack() {
 // Banner showcasing order options: take away, delivery, eat in
 export function OrderOptions() {
 	return (
-		<div className="flex flex-col flex-nowrap bg-white text-primary justify-evenly py-4 px-8">
+		<div className="flex flex-col flex-nowrap text-primary justify-evenly py-4 px-8">
 			<Title text={"Bestelopties"} className="text-primary py-4" />
 			<div className="flex flex-col md:flex-row gap-4 justify-evenly items-center my-4">
 				<div className="flex flex-col flex-nowrap items-center justify-center hover:scale-110 transition-all shadow shadow-primary rounded-lg p-4 w-40 h-40">
@@ -66,7 +66,7 @@ function ArticleWithImage(props) {
 // List of articles
 export function ArticleList() {
 	return (
-		<div className="flex flex-col px-8 bg-white text-primary my-4">
+		<div className="flex flex-col px-8 text-primary my-4">
 			<Title text={"Recente activiteiten"} className="my-4 text-primary" />
 			<ArticleWithImage
 				imgSrc={ArticleImg01}

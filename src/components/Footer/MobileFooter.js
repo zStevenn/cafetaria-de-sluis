@@ -4,7 +4,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md"
 import { format } from "date-fns"
 import { nl } from "date-fns/locale"
 
-const FooterTitle = ({ text, className, onClick, isOpen }) => {
+const FooterTitle = ({ text, className }) => {
 	return (
 		<div className="flex flex-row items-center w-full">
 			<Title text={text} className={className} />
@@ -27,7 +27,7 @@ const Openingstijden = () => {
 	const currentDay = format(new Date(), "EEEE", { locale: nl })
 
 	return (
-		<div className="flex flex-col justify-start items-start text-white">
+		<div className="flex flex-col justify-start items-start text-neutral-100">
 			<FooterTitle
 				text="Openingstijden"
 				className="text-xl font-bold py-3 tracking-wider"
@@ -37,7 +37,7 @@ const Openingstijden = () => {
 					<li
 						key={day.day}
 						className={`flex flex-row capitalize py-0.5 mb-1 last:pb-4 ${
-							day.day === currentDay ? "text-neutral-400 " : ""
+							day.day === currentDay ? "font-bold " : ""
 						}`}
 					>
 						<span className="mr-auto pr-2">{day.day}</span>
@@ -60,7 +60,7 @@ const FooterLinks = () => {
 	]
 
 	return (
-		<div className="flex flex-col justify-start items-start text-white">
+		<div className="flex flex-col justify-start items-start text-neutral-100">
 			<FooterTitle
 				text={`Handige links`}
 				className="text-xl font-bold py-3 tracking-wider"
@@ -93,7 +93,7 @@ const FooterLinks = () => {
 // Display adresgegevens
 const Adresgegevens = () => {
 	return (
-		<div className="flex flex-col justify-start items-start text-white">
+		<div className="flex flex-col justify-start items-start text-neutral-100">
 			<FooterTitle
 				text="Adresgegevens"
 				className="text-xl font-bold py-3 tracking-wider"
@@ -117,12 +117,12 @@ const Adresgegevens = () => {
 export default function MobileFooter() {
 	return (
 		<footer className="flex flex-col justify-start bg-primary">
-			<div className="flex flex-col gap-1 justify-start px-8 py-4 divide-y-2 divide-slate-50">
+			<div className="flex flex-col gap-1 justify-start px-8 py-4 divide-y-2 divide-neutral-100">
 				<Adresgegevens />
 				<Openingstijden />
 				<FooterLinks />
 			</div>
-			<div className="bg-white px-8 py-2">
+			<div className="bg-neutral-100 px-8 py-2">
 				<Paragraph
 					className="text-neutral-700"
 					text={"© Cafetaria de Sluis 2022 - 2023"}

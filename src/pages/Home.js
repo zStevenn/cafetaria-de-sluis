@@ -19,7 +19,7 @@ export default function Home() {
 			<ArticleList />
 			<div className="block px-8">
 			<h1 className="text-3xl text-primary font-semibold mb-4 text-center truncate">Locatie & Openingstijden</h1>
-			<div className="flex flex-col md:flex-row gap-8 justify-center text-white">
+			<div className="flex flex-col md:flex-row gap-8 justify-center text-neutral-100">
 				<div className="flex-1 bg-primary p-4 rounded-lg shadow shadow-primary">
 					<h3 className="text-xl text-center">Openingstijden</h3>
 					<ul className="mt-4">

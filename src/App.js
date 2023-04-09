@@ -5,7 +5,7 @@ import Route from "./routes/Route"
 function App() {
 	return (
 		<>
-			<div className="App">
+			<div className="App bg-neutral-100">
 				<Navbar />
 				<Route />
 				<Footer />

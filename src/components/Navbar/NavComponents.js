@@ -8,7 +8,7 @@ function DesktopNavigationLink({ to, children }) {
 		<li className="flex">
 			<NavLink
 				to={to}
-				className="m-2 p-1 text-white transition-all text-lg font-bold font-sans"
+				className="m-2 p-1 text-neutral-100 text-lg font-bold font-sans"
 			>
 				{children}
 			</NavLink>
@@ -30,7 +30,7 @@ export function DesktopNavigationMenu() {
 
 function MobileNavigationLink({ to, children }) {
 	return (
-		<NavLink to={to} className="m-2 p-1 text-white text-3xl font-bold">
+		<NavLink to={to} className="m-2 p-1 text-neutral-100 text-3xl font-bold">
 			{children}
 		</NavLink>
 	)
@@ -46,21 +46,21 @@ export function MobileNavigationMenu() {
 	return (
 		<>
 			<span onClick={toggleMenu}>
-				<MdMenu className="text-5xl text-white" />
+				<MdMenu className="text-5xl text-neutral-100" />
 			</span>
 			<div
-				className={`fixed p-0 m-0 top-0 left-0 px-8 h-screen w-screen bg-primary z-10 text-white transition-all duration-500 ${
+				className={`fixed p-0 m-0 top-0 left-0 px-8 h-screen w-screen bg-primary z-10 text-neutral-100 transition-all duration-500 ${
 					menuOpen
 						? "opacity-100 translate-none"
 						: "opacity-30 -translate-x-full"
 				}	}`}
 			>
-				<div className="text-3xl font-bold text-white text-center my-2">
+				<div className="text-3xl font-bold text-neutral-100 text-center my-2">
 					<Link to="/">Cafetaria de Sluis</Link>
 				</div>
 				<ul className="flex flex-col justify-center">
 					<li onClick={toggleMenu} className="py-2">
-						<MdClose className="text-5xl text-white" />
+						<MdClose className="text-5xl text-neutral-100" />
 					</li>
 					<li onClick={toggleMenu} className="py-2">
 						<MobileNavigationLink to="/">Home</MobileNavigationLink>

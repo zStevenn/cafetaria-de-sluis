@@ -1,16 +1,16 @@
-import { MobileNavigationMenu, DesktopNavigationMenu } from "./NavComponents";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
-import { ExternalSecondaryButton as Button } from "../Button";
-import { Link } from "react-router-dom";
+import { MobileNavigationMenu, DesktopNavigationMenu } from "./NavComponents"
+import useWindowDimensions from "../../hooks/useWindowDimensions"
+import { ExternalSecondaryButton as Button } from "../Button"
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
-	const { width } = useWindowDimensions();
+	const { width } = useWindowDimensions()
 
 	return (
 		// Navbar
-		<div className="bg-primary flex flex-col justify-center px-8 shadow shadow-primary">
+		<nav className="bg-primary flex flex-col justify-center px-8 shadow shadow-primary">
 			{/* Title */}
-			<div className="text-3xl font-bold text-white text-center my-2">
+			<div className="text-3xl font-bold text-neutral-100 text-center my-2">
 				<Link to="/">Cafetaria de Sluis</Link>
 			</div>
 			{/* Menu Wrapper */}
@@ -18,8 +18,10 @@ export default function Navbar() {
 				{/* Menu */}
 				{width > 768 ? <DesktopNavigationMenu /> : <MobileNavigationMenu />}
 				{/* Order Button */}
-				<Button to="https://www.e-food.nl/driebergen/cafeteria-de-sluis">Bestel Nu</Button>
+				<Button to="https://www.e-food.nl/driebergen/cafeteria-de-sluis">
+					Bestel Nu
+				</Button>
 			</div>
-		</div>
-	);
+		</nav>
+	)
 }

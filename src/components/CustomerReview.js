@@ -8,7 +8,7 @@ function ReviewCard(props) {
 		stars.push(<BsStarFill/>);
 	}
 	return (
-		<div className="flex flex-col flex-nowrap justify-center items-center bg-white rounded-xl px-6 py-3 m-2 md:px-10 md:py-5">
+		<div className="flex flex-col flex-nowrap justify-center items-center bg-neutral-100 rounded-xl px-6 py-3 m-2 md:px-10 md:py-5">
 			<div className="text-primary text-base font-semibold md:text-lg font-base md:font-lg truncate">{props.name}</div>
 			<div className="flex flex-row flex-nowrap p-2 text-yellow-500">{stars}</div>
 		</div>
@@ -20,10 +20,10 @@ export default function ReviewList() {
 		<div className="flex flex-col justify-center items-center bg-primary">
 			<Title text={"Reviews"} className="my-10" />
 			<div className="flex flex-row flex-nowrap justify-center items-center mb-10">
-				<ArrowLeft className="text-3xl fill-white" />
+				<ArrowLeft className="text-3xl fill-neutral-100" />
 				<ReviewCard name={"Steven Li"} rating={4} />
 				<ReviewCard name={"Ai Hua Sun"} rating={4} />
-				<ArrowRight className="text-3xl fill-white" />
+				<ArrowRight className="text-3xl fill-neutral-100" />
 			</div>
 		</div>
 	);

@@ -6,7 +6,7 @@ import ContentWrapper from "../components/ContentWrapper"
 export default function FAQpage() {
 	return (
 		<ContentWrapper>
-			<div className="bg-white min-h-screen flex flex-col px-8 mt-4">
+			<div className="min-h-screen flex flex-col px-8 mt-4">
 				<Title text="FAQ Pagina" className="mb-2 text-center text-primary" />
 				<Paragraph
 					className="mb-4 text-primary"

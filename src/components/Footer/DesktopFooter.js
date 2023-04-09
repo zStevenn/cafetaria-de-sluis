@@ -15,7 +15,7 @@ const Openingstijden = () => {
 	]
 
 	return (
-		<div className="flex flex-col justify-start items-start text-white w-auto">
+		<div className="flex flex-col justify-start items-start text-neutral-100 w-auto">
 			<Title
 				text="Openingstijden"
 				className="text-xl font-bold py-2 tracking-wider"
@@ -24,7 +24,7 @@ const Openingstijden = () => {
 				{days.map(day => (
 					<li
 						key={day.day}
-						className="flex flex-row hover:scale-110 transition-all mb-1"
+						className="flex flex-row mb-1"
 					>
 						<span className="w-28">{day.day}</span>
 						<span>{day.open}</span>
@@ -50,13 +50,13 @@ const FooterLinks = () => {
 	}
 
 	return (
-		<div className="flex flex-col justify-start items-start text-white">
+		<div className="flex flex-col justify-start items-start text-neutral-100">
 			<Title
 				text="Informatie"
 				className="text-xl font-bold py-2 tracking-wider"
 			/>
 			<ul>
-				<li className="hover:scale-110 transition-all mb-1">
+				<li className="mb-1">
 					<a
 						href="https://www.e-food.nl/driebergen/cafeteria-de-sluis"
 						target="_blank"
@@ -66,7 +66,7 @@ const FooterLinks = () => {
 					</a>
 				</li>
 				{internalLinks.map(link => (
-					<li key={link.text} className="hover:scale-110 transition-all mb-1">
+					<li key={link.text} className="mb-1">
 						<Link to={link.link} onClick={handleClick}>
 							<MdOutlineArrowRightAlt className="inline" /> {link.text}
 						</Link>
@@ -83,7 +83,7 @@ export default function Footer() {
 			{/* Footer link wrappers */}
 			<div className="grid grid-cols-3 px-8 py-4 shadow-md shadow-gray-900">
 				{/* Footer adresgegevens */}
-				<div className="flex flex-col justify-start items-start text-white">
+				<div className="flex flex-col justify-start items-start text-neutral-100">
 					<p className="text-xl font-bold py-2 tracking-wider">Adresgegevens</p>
 					<ol className="text-base">
 						<li className="mb-1">De Sluis 25, 3972 VC</li>
@@ -100,8 +100,8 @@ export default function Footer() {
 				<FooterLinks />
 			</div>
 			{/* Footer copyright banner */}
-			<div className="bg-white px-8 py-2">
-				<Paragraph className="text-neutral-700" text={"© Cafetaria de Sluis 2022 - 2023"} />
+			<div className="bg-neutral-100 px-8 py-2">
+				<Paragraph className="text-neutral-800" text={"© Cafetaria de Sluis 2022 - 2023"} />
 			</div>
 		</footer>
 	)
